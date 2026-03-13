@@ -65,8 +65,9 @@ const Subscription = ({
 				</div>
 				<div className="exchange-text">
 					<span>
-						<ReactSVG
+						<img
 							src={STATIC_ICONS['EXCHANGE_LOGO_LIGHT_THEME']}
+							alt="exchange logo"
 							className="cloud-icon"
 						/>
 					</span>

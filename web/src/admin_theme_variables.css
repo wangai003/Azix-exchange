@@ -1,20 +1,107 @@
 :root {
-	--admin_panel_title_background: #27339d;
-	--admin_panel_sidebar_background: #27339d;
-	--admin_panel_content_background: #202980;
+	/*======================================
+	Admin Panel - Black, White & Gold Theme
+	======================================*/
 
-	--admin_panel_header_section: #13198d;
+	/* Base Colors - Black */
+	--admin_panel_title_background: #141414;
+	--admin_panel_sidebar_background: #0a0a0a;
+	--admin_panel_content_background: #1a1a1a;
+	--admin_panel_header_section: #000000;
 
-	--admin_panel_table_thead: #040e6d;
-	--admin_panel_table_tbody: #101a78;
-	--admin_panel_table_tbody_hover: #0e1769;
-	--admin_panel_row_expand_icon: #101a78;
+	/* Table Colors - Dark */
+	--admin_panel_table_thead: #141414;
+	--admin_panel_table_tbody: #1a1a1a;
+	--admin_panel_table_tbody_hover: #252525;
+	--admin_panel_row_expand_icon: #1a1a1a;
 
+	/* Text Colors - White */
 	--admin_panel_main_font: #ffffff;
+	--admin_panel_secondary_font: #b0b0b0;
+	--admin_panel_accent_font: #d4af37;
 
-	--admin_panel_modal_background: #27339d;
-	--admin_panel_modal_border: #27339d;
-	--admin_panel_card_background: #27339d;
+	/* Modal Colors */
+	--admin_panel_modal_background: #1a1a1a;
+	--admin_panel_modal_border: #333333;
+	--admin_panel_card_background: #141414;
 
-	--admin_panel_input: #202980;
+	/* Input Colors */
+	--admin_panel_input: #0a0a0a;
+	--admin_panel_input_border: #333333;
+	--admin_panel_input_focus: #d4af37;
+
+	/* Button Colors - Gold */
+	--admin_panel_button_primary: #d4af37;
+	--admin_panel_button_secondary: #444444;
+	--admin_panel_button_hover: #e6c14d;
+
+	/* Status Colors */
+	--admin_panel_success: #888888;
+	--admin_panel_warning: #d4af37;
+	--admin_panel_error: #d4af37;
+	--admin_panel_info: #888888;
+
+	/* Border Colors */
+	--admin_panel_border: #2a2a2a;
+	--admin_panel_border_hover: #d4af37;
+}
+
+/* Ant Design Overrides - Admin */
+.ant-btn-primary {
+	background-color: #d4af37 !important;
+	border-color: #d4af37 !important;
+	color: #000000 !important;
+	font-weight: 600;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+	background-color: #e6c14d !important;
+	border-color: #e6c14d !important;
+	color: #000000 !important;
+}
+
+.ant-btn-primary:active {
+	background-color: #b8922a !important;
+	border-color: #b8922a !important;
+}
+
+.ant-btn {
+	border-color: #444444;
+	color: #ffffff;
+}
+
+.ant-btn:hover {
+	border-color: #d4af37;
+	color: #d4af37;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+	border-color: #d4af37 !important;
+	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
+}
+
+.ant-input:hover {
+	border-color: #d4af37 !important;
+}
+
+.ant-select-focused .ant-select-selector {
+	border-color: #d4af37 !important;
+	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
+}
+
+.ant-select-item-option-selected {
+	background-color: #d4af37 !important;
+	color: #000000 !important;
+}
+
+.ant-table-thead > tr > th {
+	background-color: #141414 !important;
+	color: #d4af37 !important;
+	border-bottom-color: #333333 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+	background: #252525 !important;
 }

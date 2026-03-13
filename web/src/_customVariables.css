@@ -1,82 +1,324 @@
 :root {
-	/*_________________________________*/
+	/*======================================
+	Black, White & Gold Theme
+	- Black background
+	- Gold buttons only
+	- White text (dark text on light backgrounds)
+	======================================*/
 
-	/*COLOR MANAGEMENT*/
-
-	/*_________________________________*/
-
-	--base_background: #ffffff;
+	/* Base Colors - Pure Black */
+	--base_background: #0a0a0a;
 	--base_top-bar-navigation: #000000;
-	--base_secondary-navigation-bar: #f2f2f3;
-	--base_wallet-sidebar-and-popup: #f3f3f3;
+	--base_secondary-navigation-bar: #141414;
+	--base_wallet-sidebar-and-popup: #1a1a1a;
 	--base_footer: #000000;
 
-	--labels_important-active-labels-text-graphics: #000000;
-	--labels_secondary-inactive-label-text-graphics: #808080;
-	--calculated_important-border: #000000b3;
-	--calculated_secondary-border: #00000054;
-	--calculated_footer_border: #ffffff26;
-	--calculated_super-pale_label-text-graphics: #00000026;
-	--labels_fields: #f0f1f1;
-	--labels_inactive-button: #535353;
+	/* Labels & Text - White Primary */
+	--labels_important-active-labels-text-graphics: #ffffff;
+	--labels_secondary-inactive-label-text-graphics: #b0b0b0;
+	--calculated_important-border: #333333;
+	--calculated_secondary-border: #2a2a2a;
+	--calculated_footer_border: #1a1a1a;
+	--calculated_super-pale_label-text-graphics: #ffffff0d;
+	--labels_fields: #1a1a1a;
+	--labels_inactive-button: #666666;
 
-	--trading_selling-related-elements: #ee4036;
-	--trading_buying-related-elements: #00a69c;
+	/* Trading Colors - Minimal */
+	--trading_selling-related-elements: #d4af37;
+	--trading_buying-related-elements: #a0a0a0;
 
-	--specials_buttons-links-and-highlights: #0066b4;
-	--specials_buttons-links-and-highlights-2: #1E70FF;
-	--specials_chat-messages: #98ccb2;
-	--specials_my-username-in-chat: #ffff00;
-	--specials_checks-okay-done: #008000;
-	--specials_pending-waiting-caution: #f6921e;
-	--specials_notifications-alerts-warnings: #ed1c24;
-	--specials_quick-trade-gradient: #00000000;
+	/* Special Colors - GOLD BUTTONS ONLY */
+	--specials_buttons-links-and-highlights: #d4af37;
+	--specials_buttons-links-and-highlights-2: #c9a227;
+	--specials_chat-messages: #888888;
+	--specials_my-username-in-chat: #d4af37;
+	--specials_checks-okay-done: #888888;
+	--specials_pending-waiting-caution: #d4af37;
+	--specials_notifications-alerts-warnings: #d4af37;
+	--specials_quick-trade-gradient: #d4af3700;
 
-	/*_________________________________*/
-
-	/*Calculated colors*/
-
-	/*_________________________________*/
-
-	--calculated_tag-background: #ffffffaa;
-	--calculated_background-overlay: #ffffffaa;
-	--calculated_stake-table_highlight: #ffffffaa;
-	--calculated_trade-block_highlight: #000000fa;
-	--calculated_market-card_gradient_background: #ffffff;
-	--calculated_trading_selling-subtracted-bg: #ee403688;
-	--calculated_trading_selling-added-bg: #ee403688;
-	--calculated_trading_selling-best-subtracted: #ee403688;
-	--calculated_trading_buying-subtracted-bg: #00a69c88;
-	--calculated_trading_buying-added-bg: #00a69c88;
-	--calculated_trading_buying-best-subtracted: #00a69c88;
-	--calculated_public-sale_buying-zeros: #ee403688;
-	--calculated_public-sale_selling-zeros: #00a69c88;
-	--calculated_trading_selling-sparkline-fill: #ee40364d;
-	--calculated_trading_buying-sparkline-fill: #00a69c4d;
-	--calculated_trading_selling-orderbook-bar: #ee40361f;
-	--calculated_trading_buying-orderbook-bar: #00a69c1f;
-	--calculated_trading_buying-related-text: #000000;
-	--calculated_trading_selling-related-text: #ffffff;
-	--calculated_base_modal-overlay: #ffffffbf;
-	--calculated_landing_background: #ffffff00;
-	--calculated_landing_markets_table: #fffffff0;
-	--calculated_specials_highlight-box: #0066b41a;
+	/*======================================
+	Calculated Colors
+	======================================*/
+	--calculated_tag-background: #ffffff0d;
+	--calculated_background-overlay: #000000e6;
+	--calculated_stake-table_highlight: #ffffff0d;
+	--calculated_trade-block_highlight: #1a1a1a;
+	--calculated_market-card_gradient_background: #141414;
+	--calculated_trading_selling-subtracted-bg: #d4af3726;
+	--calculated_trading_selling-added-bg: #d4af3740;
+	--calculated_trading_selling-best-subtracted: #d4af3714;
+	--calculated_trading_buying-subtracted-bg: #ffffff14;
+	--calculated_trading_buying-added-bg: #ffffff26;
+	--calculated_trading_buying-best-subtracted: #ffffff0d;
+	--calculated_public-sale_buying-zeros: #ffffff1a;
+	--calculated_public-sale_selling-zeros: #d4af3740;
+	--calculated_trading_selling-sparkline-fill: #d4af3733;
+	--calculated_trading_buying-sparkline-fill: #ffffff26;
+	--calculated_trading_selling-orderbook-bar: #d4af371a;
+	--calculated_trading_buying-orderbook-bar: #ffffff14;
+	--calculated_trading_buying-related-text: #ffffff;
+	--calculated_trading_selling-related-text: #000000;
+	--calculated_base_modal-overlay: #000000cc;
+	--calculated_landing_background: #0a0a0a;
+	--calculated_landing_markets_table: #141414f0;
+	--calculated_specials_highlight-box: #d4af3714;
 	--calculated_base_top-bar-navigation_text: #ffffff;
-	--calculated_base_top-bar-navigation_text-inactive: #ffffffb3;
-	--calculated_base_footer_text: #ffffff;
-	--calculated_trad-view_watermark: #0000001a;
-	--calculated_trad-view_axis: #00000080;
-	--calculated_trad-view_text: #000000cc;
-	--calculated_specials_notifications-alerts-inactive: #ed1c24bf;
-	--calculated_specials_notifications-alerts-pale: #ed1c241f;
-	--calculated_specials_notifications-alerts-text: #ffffff;
-	--calculated_specials_notifications-pending-text: #ffffff;
-	--calculated_specials_notifications-success-text: #ffffff;
-	--calculated_notification-pending-disabled: #f6921e4d;
-	--calculated_notifications-blue-disabled: #0066b44d;
+	--calculated_base_top-bar-navigation_text-inactive: #ffffff99;
+	--calculated_base_footer_text: #888888;
+	--calculated_trad-view_watermark: #ffffff0d;
+	--calculated_trad-view_axis: #555555;
+	--calculated_trad-view_text: #999999;
+	--calculated_specials_notifications-alerts-inactive: #d4af3780;
+	--calculated_specials_notifications-alerts-pale: #d4af3714;
+	--calculated_specials_notifications-alerts-text: #000000;
+	--calculated_specials_notifications-pending-text: #000000;
+	--calculated_specials_notifications-success-text: #000000;
+	--calculated_notification-pending-disabled: #d4af3733;
+	--calculated_notifications-blue-disabled: #d4af3733;
 
-	/*_________________________________*/
+	/* Border Colors */
+	--silver-border: #333333;
+	--silver-highlight: #444444;
 
-	/*_____Remaining_____*/
-	--dark-accordion-arrow-active: #ffffff;
+	/* Gold Accents */
+	--gold-accent-primary: #d4af37;
+	--gold-accent-secondary: #c9a227;
+	--gold-accent-tertiary: #b8922a;
+	--gold-accent-dark: #aa8800;
+
+	/*======================================
+	Dark text for light backgrounds
+	======================================*/
+	--text-on-light: #000000;
+	--text-on-gold: #000000;
+}
+
+/*======================================
+Ant Design Overrides - Gold Buttons
+======================================*/
+
+/* Primary Button - Gold */
+.ant-btn-primary {
+	background-color: #d4af37 !important;
+	border-color: #d4af37 !important;
+	color: #000000 !important;
+	font-weight: 600;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+	background-color: #e6c14d !important;
+	border-color: #e6c14d !important;
+	color: #000000 !important;
+}
+
+.ant-btn-primary:active {
+	background-color: #b8922a !important;
+	border-color: #b8922a !important;
+}
+
+/* Default Button - Minimal */
+.ant-btn {
+	border-color: #444444;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+.ant-btn:hover {
+	border-color: #d4af37;
+	color: #d4af37;
+}
+
+/* Links - Subtle gold */
+.ant-btn-link {
+	color: #d4af37 !important;
+}
+
+.ant-btn-link:hover {
+	color: #e6c14d !important;
+}
+
+/* Input Fields */
+.ant-input:focus,
+.ant-input-focused {
+	border-color: #d4af37 !important;
+	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
+}
+
+.ant-input:hover {
+	border-color: #d4af37 !important;
+}
+
+/* Select */
+.ant-select-focused .ant-select-selector {
+	border-color: #d4af37 !important;
+	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
+}
+
+.ant-select-item-option-selected {
+	background-color: #d4af37 !important;
+	color: #000000 !important;
+}
+
+/* Checkbox */
+.ant-checkbox-checked .ant-checkbox-inner {
+	background-color: #d4af37 !important;
+	border-color: #d4af37 !important;
+}
+
+.ant-checkbox:hover .ant-checkbox-inner {
+	border-color: #d4af37 !important;
+}
+
+/* Radio */
+.ant-radio-checked .ant-radio-inner {
+	border-color: #d4af37 !important;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+	background-color: #d4af37 !important;
+}
+
+/* Switch */
+.ant-switch-checked {
+	background-color: #d4af37 !important;
+}
+
+/* Tabs */
+.ant-tabs-ink-bar {
+	background: #d4af37 !important;
+}
+
+.ant-tabs-tab:hover {
+	color: #d4af37 !important;
+}
+
+.ant-tabs-tab-active {
+	color: #d4af37 !important;
+}
+
+/* Menu */
+.ant-menu-item-selected {
+	background-color: #d4af37 !important;
+	color: #000000 !important;
+}
+
+.ant-menu-item:hover {
+	color: #d4af37 !important;
+}
+
+/* Dropdown */
+.ant-dropdown-menu-item-selected {
+	background-color: #d4af37 !important;
+	color: #000000 !important;
+}
+
+/* Pagination */
+.ant-pagination-item-active {
+	border-color: #d4af37 !important;
+}
+
+.ant-pagination-item-active a {
+	color: #d4af37 !important;
+}
+
+.ant-pagination-item:hover {
+	border-color: #d4af37 !important;
+}
+
+/* Modal */
+.ant-modal-header {
+	border-bottom-color: #333333 !important;
+}
+
+.ant-modal-title {
+	color: #ffffff !important;
+}
+
+/* Table */
+.ant-table-thead > tr > th {
+	background-color: #141414 !important;
+	color: #d4af37 !important;
+	border-bottom-color: #333333 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+	background: #1a1a1a !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+	background: #d4af3714 !important;
+}
+
+/* Tooltip */
+.ant-tooltip-inner {
+	background-color: #d4af37 !important;
+	color: #000000 !important;
+}
+
+.ant-tooltip-arrow-content {
+	background-color: #d4af37 !important;
+}
+
+/* Popover */
+.ant-popover-inner {
+	background-color: #1a1a1a !important;
+}
+
+.ant-popover-title {
+	border-bottom-color: #333333 !important;
+	color: #ffffff !important;
+}
+
+/* Notification */
+.ant-notification-notice {
+	background-color: #1a1a1a !important;
+	border-left: 3px solid #d4af37 !important;
+}
+
+.ant-notification-notice-message {
+	color: #d4af37 !important;
+}
+
+/* Alert */
+.ant-alert-success {
+	background-color: #d4af3714 !important;
+	border-color: #d4af37 !important;
+	color: #ffffff !important;
+}
+
+.ant-alert-warning {
+	background-color: #d4af3714 !important;
+	border-color: #d4af37 !important;
+	color: #ffffff !important;
+}
+
+.ant-alert-error {
+	background-color: #d4af3714 !important;
+	border-color: #d4af37 !important;
+	color: #ffffff !important;
+}
+
+/* Form Labels - White */
+.ant-form-item-label > label {
+	color: #ffffff !important;
+}
+
+/* Placeholder */
+.ant-input::placeholder {
+	color: #666666 !important;
+}
+
+/* Disabled */
+.ant-btn[disabled] {
+	background-color: #2a2a2a !important;
+	border-color: #333333 !important;
+	color: #666666 !important;
+}
+
+.ant-btn-primary[disabled] {
+	background-color: #2a2a2a !important;
+	border-color: #333333 !important;
+	color: #666666 !important;
 }

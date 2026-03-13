@@ -121,9 +121,8 @@ export const generateAllIcons = (
 };
 
 export const addDefaultLogo = (defaultLogo, icons) => {
-	if (!icons[defaultIconsKey]['EXCHANGE_LOGO']) {
-		icons[defaultIconsKey]['EXCHANGE_LOGO'] = defaultLogo;
-	}
+	// Always set our custom logo as the default
+	icons[defaultIconsKey]['EXCHANGE_LOGO'] = '/assets/images/exchange-logo.png';
 	return icons;
 };
 

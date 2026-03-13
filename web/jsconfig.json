@@ -1,6 +1,11 @@
 {
 	"compilerOptions": {
-		"baseUrl": "src"
+		"baseUrl": "src",
+		"skipLibCheck": true,
+		"types": [],
+		"checkJs": false,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "react-jsx"
 	},
 	"include": ["src"]
 }

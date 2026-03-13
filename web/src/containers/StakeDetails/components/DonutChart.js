@@ -5,8 +5,8 @@ import classnames from 'classnames';
 import STRINGS from 'config/localizedStrings';
 
 const colors = {
-	mine: '#0066b4',
-	others: '#f6921e',
+	mine: '#d4af37',
+	others: '#888888',
 	noData: '#cccbcb',
 };
 

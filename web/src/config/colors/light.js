@@ -3,32 +3,32 @@ import flatten from 'flat';
 const options = { safe: true, delimiter: '_' };
 export const nestedColors = {
 	base: {
-		background: '#f8f8f8',
-		'top-bar-navigation': '#000000',
-		'secondary-navigation-bar': '#e9e9e9',
-		'wallet-sidebar-and-popup': '#f3f3f3',
-		footer: '#000000',
+		background: '#f5f5f5',
+		'top-bar-navigation': '#1a1a1a',
+		'secondary-navigation-bar': '#e8e8e8',
+		'wallet-sidebar-and-popup': '#ffffff',
+		footer: '#1a1a1a',
 	},
 
 	labels: {
-		'important-active-labels-text-graphics': '#000000',
-		'secondary-inactive-label-text-graphics': '#4d4d4d',
-		fields: '#dfdfdf',
-		'inactive-button': '#cccccc',
+		'important-active-labels-text-graphics': '#1a1a1a',
+		'secondary-inactive-label-text-graphics': '#666666',
+		fields: '#e0e0e0',
+		'inactive-button': '#999999',
 	},
 
 	trading: {
-		'selling-related-elements': '#ee4036',
-		'buying-related-elements': '#00a69c',
+		'selling-related-elements': '#b8922a',
+		'buying-related-elements': '#666666',
 	},
 
 	specials: {
-		'buttons-links-and-highlights': '#0066b4',
-		'chat-messages': '#3b5c4c',
-		'my-username-in-chat': '#80a000',
-		'checks-okay-done': '#008000',
-		'pending-waiting-caution': '#F6921E',
-		'notifications-alerts-warnings': '#ed1c24',
+		'buttons-links-and-highlights': '#d4af37',
+		'chat-messages': '#555555',
+		'my-username-in-chat': '#b8922a',
+		'checks-okay-done': '#666666',
+		'pending-waiting-caution': '#b8922a',
+		'notifications-alerts-warnings': '#b8922a',
 	},
 };
 

@@ -248,7 +248,7 @@ $svg--padding: $svg--size - $svg-small--size;
 	}
 	&.small-icon {
 		svg {
-			padding: $svg--padding / 2 0;
+			padding: calc($svg--padding / 2) 0;
 		}
 	}
 }

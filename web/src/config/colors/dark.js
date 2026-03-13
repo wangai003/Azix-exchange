@@ -3,32 +3,32 @@ import flatten from 'flat';
 const options = { safe: true, delimiter: '_' };
 const nestedColors = {
 	base: {
-		background: '#202020',
+		background: '#0a0a0a',
 		'top-bar-navigation': '#000000',
-		'secondary-navigation-bar': '#2B2B2B',
-		'wallet-sidebar-and-popup': '#333333',
+		'secondary-navigation-bar': '#141414',
+		'wallet-sidebar-and-popup': '#1a1a1a',
 		footer: '#000000',
 	},
 
 	labels: {
-		'important-active-labels-text-graphics': '#e1e2d8',
-		'secondary-inactive-label-text-graphics': '#beb3b3',
-		fields: '#191919',
-		'inactive-button': '#535353',
+		'important-active-labels-text-graphics': '#ffffff',
+		'secondary-inactive-label-text-graphics': '#b0b0b0',
+		fields: '#1a1a1a',
+		'inactive-button': '#666666',
 	},
 
 	trading: {
-		'selling-related-elements': '#ee4036',
-		'buying-related-elements': '#00a69c',
+		'selling-related-elements': '#d4af37',
+		'buying-related-elements': '#a0a0a0',
 	},
 
 	specials: {
-		'buttons-links-and-highlights': '#0066b4',
-		'chat-messages': '#98ccb2',
-		'my-username-in-chat': '#ffff00',
-		'checks-okay-done': '#008000',
-		'pending-waiting-caution': '#F6921E',
-		'notifications-alerts-warnings': '#ed1c24',
+		'buttons-links-and-highlights': '#d4af37',
+		'chat-messages': '#888888',
+		'my-username-in-chat': '#d4af37',
+		'checks-okay-done': '#888888',
+		'pending-waiting-caution': '#d4af37',
+		'notifications-alerts-warnings': '#d4af37',
 	},
 };
 

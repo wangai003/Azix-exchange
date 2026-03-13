@@ -147,8 +147,8 @@
 			padding: 0.25rem;
 
 			.ant-btn-primary {
-				background-color: #3a4fff !important;
-				border-color: #3a4fff;
+				background-color: #ffd700 !important;
+				border-color: #ffd700;
 			}
 
 			.ant-btn-round {
@@ -446,7 +446,7 @@
 		justify-content: center;
 
 		.ant-switch-handle::before {
-			background-color: #3a4fff;
+			background-color: #ffd700;
 		}
 
 		.switch-content {
@@ -462,7 +462,7 @@
 
 		.ant-switch-loading-icon,
 		.ant-switch::after {
-			background-color: #3a4fff;
+			background-color: #ffd700;
 		}
 
 		.label-inactive {
@@ -596,7 +596,7 @@
 					margin-top: 3rem;
 					text-align: center;
 					text-decoration: underline;
-					color: #3a4fff;
+					color: #ffd700;
 					cursor: pointer;
 					pointer-events: visible;
 					margin: 3rem 0rem 0rem 8rem;
@@ -731,7 +731,7 @@
 	.cloud-plan-button {
 		button {
 			width: 47%;
-			background-color: #3a4fff !important;
+			background-color: #ffd700 !important;
 			height: 44px;
 		}
 	}

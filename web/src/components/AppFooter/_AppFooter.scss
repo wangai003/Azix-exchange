@@ -74,7 +74,7 @@ $footer-logo-color: $trade-tabs-inactive-color;
 				}
 			}
 			.blue-link {
-				color: #00aeef !important;
+				color: $link !important;
 			}
 			.footer-content {
 				.footer-img-wrapper {
@@ -272,12 +272,12 @@ $footer-logo-color: $trade-tabs-inactive-color;
 						}
 					}
 					.blue-link {
-						color: #00aeef !important;
+						color: $link !important;
 					}
 				}
 			}
 			.blue-link {
-				color: #00aeef !important;
+				color: $link !important;
 			}
 		}
 		.footer-links-group {

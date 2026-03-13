@@ -5,7 +5,8 @@ const nestedIcons = {
 	EXCHANGE: {
 		LOADER: '/assets/light-spinner.gif',
 		BOARDING_IMAGE: '/assets/background.png',
-		LANDING_PAGE: '/assets/images/hollaex-background.png',
+		LANDING_PAGE: '/assets/images/exchange-logo.png',
+		LOGO: '/assets/images/exchange-logo.png',
 	},
 
 	SUMMARY: {

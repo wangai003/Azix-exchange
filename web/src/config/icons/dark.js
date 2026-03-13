@@ -6,11 +6,11 @@ const nestedIcons = {
 	FIATS,
 
 	EXCHANGE: {
-		LOGO: '',
+		LOGO: '/assets/images/exchange-logo.png',
 		FAV_ICON: '/favicon.ico',
 		LOADER: '/assets/dark-spinner.gif',
 		BOARDING_IMAGE: '/assets/dark-background.jpg',
-		LANDING_PAGE: '/assets/images/hollaex-background.png',
+		LANDING_PAGE: '/assets/images/exchange-logo.png',
 	},
 
 	QUICK_TRADE: {

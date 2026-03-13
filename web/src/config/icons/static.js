@@ -14,7 +14,7 @@ const icons = {
 	PLUGINS_BANK: '/assets/plugins/plugin-bank.png',
 	PLUGINS_VAULT: '/assets/plugins/plugin-vault.png',
 	DEFAULT_PLUGINS: '/assets/plugins/default-plugin.png',
-	HOLLAEX_INIT_LOGO: '/assets/images/hollaex-icon-01.svg',
+	HOLLAEX_INIT_LOGO: '/assets/images/exchange-logo.png',
 	CANDLES_LOGO: '/assets/images/Light-theme-candles.svg',
 	P2P_FEATURE: '/assets/images/p2p-feature-admin.svg',
 	SET_ADMIN_NETWORK_KEYS: '/assets/images/set-admin-network-keys.svg',
@@ -171,14 +171,11 @@ const icons = {
 	CLOUD_CRYPTO_BACKGROUND: '/assets/images/Mask_Group_69.png',
 	CLOUD_FIAT_BACKGROUND: '/assets/images/cloud_basic_graphic-01.png',
 	FIRE_BALL: '/assets/images/fireball-icon.svg',
-	EXCHANGE_LOGO_LIGHT_THEME:
-		'/assets/images/default-exchange-logo-light-theme.svg',
+	EXCHANGE_LOGO_LIGHT_THEME: '/assets/images/exchange-logo.png',
 	EXCHANGE_ICON: '/assets/images/hex-pattern-icon-black-06.svg',
 	MANUAL_PLUGIN_UPGRADE: '/assets/images/manual-plugin-upgrade.svg',
-	EXCHANGE_APP_STORE_BACKGROUND_SPLASH:
-		'/assets/images/hollaex-exchange-app-store-background-splash-02.png',
-	EXCHANGE_APP_STORE_BACKGROUND_SPLASH_2:
-		'/assets/images/hollaex-exchange-app-store-background-splash-03.png',
+	EXCHANGE_APP_STORE_BACKGROUND_SPLASH: '/assets/images/exchange-logo.png',
+	EXCHANGE_APP_STORE_BACKGROUND_SPLASH_2: '/assets/images/exchange-logo.png',
 	HOLLAEX_NETWORK_WHITE: '/assets/images/HollaEx network-icon-white-(s)-01.svg',
 	INSTALL_THIRD_PARTY_PLUGIN: '/assets/images/install-third-party-plugin.svg',
 	OPEN_HOLLAEX_DOC_APP_CREATION:

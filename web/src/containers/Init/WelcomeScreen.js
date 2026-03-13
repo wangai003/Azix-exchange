@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
 import { Link } from 'react-router';
-import { ReactSVG } from 'react-svg';
 
 import { STATIC_ICONS } from 'config/icons';
 
@@ -9,11 +8,7 @@ const WelcomeScreen = ({ onChangeStep }) => {
 	return (
 		<div className="welcome-screen">
 			<div className="content">
-				<ReactSVG
-					src={STATIC_ICONS.HOLLAEX_INIT_LOGO}
-					fallback={() => <span>logo</span>}
-					className="logo"
-				/>
+				<img src={STATIC_ICONS.HOLLAEX_INIT_LOGO} alt="logo" className="logo" />
 				<div className="body-content">
 					<div className="header">
 						First-time exchange operator detected Proceed with administrator

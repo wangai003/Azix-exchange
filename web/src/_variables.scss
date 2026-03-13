@@ -199,7 +199,7 @@ $font-size-mobile-txt: 13px;
 $font-size-mobile-innertxt: 13px;
 $font-size-small: 0.9rem;
 
-$form-width-max: $content-display-width / 2;
+$form-width-max: calc($content-display-width / 2);
 
 $en--font-family: 'Open Sans';
 $raleway--font-family: 'Raleway';
