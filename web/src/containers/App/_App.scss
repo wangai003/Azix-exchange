@@ -18,6 +18,7 @@ $inner_container-border: 1px solid $colors-super-pale-black;
 
 	&.layout-desktop {
 		.app_container-content {
+			gap: 1rem;
 			height: auto;
 			flex: 1;
 			// min-height: $max-content-height;
@@ -31,6 +32,7 @@ $inner_container-border: 1px solid $colors-super-pale-black;
 
 	&.layout-mobile {
 		.app_container-content {
+			gap: 1rem;
 			min-height: $max-content-height-mobile;
 			max-height: $max-content-height-mobile;
 			max-width: $max-content-width-mobile;
@@ -51,6 +53,7 @@ $inner_container-border: 1px solid $colors-super-pale-black;
 			}
 
 			.app_container-main {
+				border-radius: 1.25rem;
 				transition: 0.3s;
 				&.no_bottom_navigation {
 					height: 100%;
@@ -67,7 +70,9 @@ $inner_container-border: 1px solid $colors-super-pale-black;
 		}
 	}
 	.app_container-content {
+		gap: 1rem;
 		.app_container-main {
+			border-radius: 1.25rem;
 			width: 100%;
 			height: auto;
 			position: relative;
@@ -278,6 +283,7 @@ $inner_container-border: 1px solid $colors-super-pale-black;
 		}
 		// &.layout-desktop {
 		// 	.app_container-content {
+		gap: 1rem;
 		// 		min-height: $max-content-height-lg !important;
 		// 		max-height: $max-content-height-lg !important;
 		// 	}

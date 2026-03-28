@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Plataforma Crypto",
 	"LOGOUT_CONFIRM_TEXT": "Você está certo disso? Gostaria de sair da aplicação?",
 	"ADD_TRADING_PAIR": "Selecionar mercado",
@@ -23,7 +23,7 @@
 	"CONTACT_US_TEXT": "Contato",
 	"HELPFUL_RESOURCES_TEXT": "Ajuda",
 	"HELP_TELEGRAM_TEXT": "Verificar a documentação da API:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "Precisa de ajuda?",
 	"HELP_TEXT": "ajuda",
 	"SUCCESS_TEXT": "Sucesso",
@@ -38,8 +38,8 @@
 	"VIEW_INFO": "Ver página de informações",
 	"APPLY_HERE": "Enviar aqui",
 	"HOME": {
-		"SECTION_1_TITLE": "Bem vindo ao HollaEx Exchange Kit!",
-		"SECTION_1_TEXT_1": " Construa sua própria corretora escalonável de ativos digitais com o HollaEx Kit e faça parte do futuro das finanças.",
+		"SECTION_1_TITLE": "Bem vindo ao AZIX Digital Asset Platform!",
+		"SECTION_1_TEXT_1": " Construa sua própria corretora escalonável de ativos digitais com o AZIX Platform e faça parte do futuro das finanças.",
 		"SECTION_1_TEXT_2": "Nós nos dedicamos a levar avanços para a tecnologia financeira por meio de um acesso simples e acessível à tecnologia de trading.",
 		"SECTION_1_BUTTON_1": "Saiba mais",
 		"SECTION_3_TITLE": "Recursos",
@@ -48,7 +48,7 @@
 		"SECTION_3_CARD_2_TITLE": "INTEGRAÇÃO BANCÁRIA",
 		"SECTION_3_CARD_2_TEXT": "Plugins com módulos costumizáveis disponíveis para integração bancária. Conhecemos as finanças tradicionais e podemos ajudá-lo a tornar seu câmbio local",
 		"SECTION_3_CARD_3_TITLE": "SUPER SEGURO",
-		"SECTION_3_CARD_3_TEXT": " HollaEx usa as melhores práticas de segurança e os algoritmos mais seguros e confiáveis para manter seu capital protegido. Esta é a nossa maior prioridade e por isso tomamos um cuidado super especial com a questão da segurança.",
+		"SECTION_3_CARD_3_TEXT": " AZIX usa as melhores práticas de segurança e os algoritmos mais seguros e confiáveis para manter seu capital protegido. Esta é a nossa maior prioridade e por isso tomamos um cuidado super especial com a questão da segurança.",
 		"SECTION_3_CARD_4_TITLE": "RELATÓRIOS AVANÇADOS",
 		"SECTION_3_CARD_4_TEXT": " Painel do administrador com e-mail customizável e relatórios para notificar a equipe de suporte e o administrador sobre o status do sistema e das transações.",
 		"SECTION_3_CARD_5_TITLE": "ATENDIMENTO",
@@ -114,7 +114,7 @@
 			"SECTION_4_LINK_4": "Termos de uso",
 			"SECTION_5_TITLE": "RECURSOS",
 			"SECTION_5_LINK_1": "Whitepaper",
-			"SECTION_5_LINK_2": "Token HollaEx(XHT) ",
+			"SECTION_5_LINK_2": "Token AZIX(XHT) ",
 			"SECTION_5_LINK_3": "GitHub",
 			"SECTION_5_LINK_4": "FAQ",
 			"SECTION_6_TITLE": "MÍDIAS SOCIAIS",
@@ -1151,10 +1151,10 @@
 		"TRADER_ACCOUNT_XHT_TEXT": "Sua conta está no período de pré-venda de XHT. Isso significa que você pode comprar XHT no valor de $ 0,10 para cada XHT. Todos os depósitos serão convertidos em XHT assim que a transação for concluída.",
 		"TRADER_ACCOUNT_TITLE": "Conta - Período de pré-venda",
 		"HAP_ACCOUNT": "Conta HAP",
-		"HAP_ACCOUNT_TXT": "Sua conta é uma conta verificada do Programa de Afiliados HollaEx (HAP). Agora você pode ganhar um bônus de 10% para cada pessoa que você convidar, e que venha a comprar XHT.",
+		"HAP_ACCOUNT_TXT": "Sua conta é uma conta verificada do Programa de Afiliados AZIX (HAP). Agora você pode ganhar um bônus de 10% para cada pessoa que você convidar, e que venha a comprar XHT.",
 		"EMAIL_VERIFICATION": "Verificação de e-mail",
 		"DOCUMENTS": "Documentos",
-		"HAP_TEXT": "Programa de Afiliados HollaEx(HAP) {0}",
+		"HAP_TEXT": "Programa de Afiliados AZIX(HAP) {0}",
 		"LOCK_AN_EXCHANGE": "Bloquear uma Exchange {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Usuários Assinantes do Vault {0}",
 		"TRADE_OVER_XHT": "Faça trading acima de {0} com valor equivalente em USDT",
@@ -1190,7 +1190,7 @@
 		"XHT_TITLE": "MINHAS INDICAÇÕES",
 		"XHT_INFO_TEXT": "Ganhe comissões ao convidar seus amigos.",
 		"XHT_INFO_TEXT_1": "As comissões são pagas periodicamente em sua carteira",
-		"APPLICATION_TXT": "Para se tornar um distribuidor HollaEx Kit, preencha o formulário.",
+		"APPLICATION_TXT": "Para se tornar um distribuidor AZIX Platform, preencha o formulário.",
 		"TOTAL_REFERRAL": "Total comprado vindo de indicações:",
 		"PENDING_REFERRAL": "Comissões pendentes:",
 		"EARN_REFERRAL": "Comissões ganham:",
@@ -1753,7 +1753,7 @@
 		"BUY": "Comprar {0} {1}"
 	},
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Quer listar seus ativos digitais? Comece seu próprio mercado com seu HollaEx {0} {1}",
+		"HOLLAEX": "Quer listar seus ativos digitais? Comece seu próprio mercado com seu AZIX {0} {1}",
 		"WHITE_LABEL": "etiqueta branca",
 		"SOLUTION": "solução",
 		"VISIT_COIN_INFO_PAGE": "Visite a página de informações sobre moedas {0}",
@@ -1856,7 +1856,7 @@
 	"WITHDRAWALS_FORM_METHOD": "Método",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "Trocar e-mail do usuário",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "Insira o e-mail do usuário nesta troca",
-	"WITHDRAWALS_FORM_MAIL_INFO": "Insira o e-mail da conta HollaEx de um usuário que está nesta troca e transfira gratuitamente.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "Insira o e-mail da conta AZIX de um usuário que está nesta troca e transfira gratuitamente.",
 	"DUST": {
 		"TITLE": "espanador de carteira",
 		"LINK": "espanador de carteira",
@@ -2957,5 +2957,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Muitas solicitações",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Uau! Devagar, você está fazendo muita coisa de uma vez",
 		"NETWORK_ERROR_MESSAGE": "Erro de rede"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

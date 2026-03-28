@@ -129,7 +129,7 @@ const Duster = ({
 									!isCustom ? 'switch-label' : 'switch-label label-inactive'
 								}
 							>
-								HollaEx Token (XHT)
+								AZIX Token (AZX)
 							</span>
 							<Switch
 								checked={isCustom}

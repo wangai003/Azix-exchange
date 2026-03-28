@@ -36,6 +36,7 @@ import { DEFAULT_COIN_DATA } from 'config/constants';
 import BigNumber from 'bignumber.js';
 import { updateConstants } from '../General/action';
 import _toLower from 'lodash/toLower';
+import { sortCoinKeysForDisplay } from 'utils/brandSort';
 import './CeFi.scss';
 import '../Trades/index.css';
 const { Option } = Select;
@@ -542,7 +543,7 @@ const CeFi = ({ coins, features, kit }) => {
 								}}
 								getPopupContainer={(trigger) => trigger?.parentNode}
 							>
-								{Object.keys(coins).map((key) => (
+								{sortCoinKeysForDisplay(coins).map((key) => (
 									<Option value={key}>{coins[key].fullname}</Option>
 								))}
 							</Select>
@@ -595,7 +596,7 @@ const CeFi = ({ coins, features, kit }) => {
 									}}
 									getPopupContainer={(trigger) => trigger?.parentNode}
 								>
-									{Object.keys(coins).map((key) => (
+									{sortCoinKeysForDisplay(coins).map((key) => (
 										<Option value={key}>{coins[key].fullname}</Option>
 									))}
 								</Select>

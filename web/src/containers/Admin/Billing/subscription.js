@@ -57,9 +57,9 @@ const Subscription = ({
 						<h6>
 							{isCloud()
 								? isMonthly
-									? 'HollaEx Monthly Cloud Hosting:'
-									: 'HollaEx Yearly Cloud Hosting:'
-								: 'HollaEx Yearly DIY Hosting:'}
+									? 'AZIX Monthly Cloud Hosting:'
+									: 'AZIX Yearly Cloud Hosting:'
+								: 'AZIX Yearly DIY Hosting:'}
 						</h6>
 					</div>
 				</div>

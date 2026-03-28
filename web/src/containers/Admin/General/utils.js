@@ -116,12 +116,12 @@ export const getGeneralFields = (coins) => ({
 		referral_label: {
 			type: 'input',
 			label: 'Text label',
-			placeholder: 'Powered by HollaEx',
+			placeholder: 'Powered by AZIX',
 		},
 		referral_link: {
 			type: 'input',
 			label: 'Link',
-			placeholder: 'https://hollaex.com/',
+			placeholder: 'https://azix.world/',
 		},
 	},
 	section_9: {

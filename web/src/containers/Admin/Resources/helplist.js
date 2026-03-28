@@ -18,9 +18,9 @@ export const HelpList = {
 		},
 		{
 			title: 'FAQ',
-			subtitle: 'Visit the HollaEx Forums to get the fastest answers',
+			subtitle: 'Visit the AZIX Forums to get the fastest answers',
 			description:
-				'Get a detailed and fast response at the HollaEx forums. Find specific and in-depth guides on exchange setup and crypto wallets tech.',
+				'Get a detailed and fast response at the AZIX support hub. Find specific and in-depth guides on exchange setup and crypto wallets tech.',
 			link: 'https://www.hollaex.com/faq-and-help#hollaex-faq-section',
 			img: STATIC_ICONS.RESOURCE_FAQ,
 		},
@@ -33,10 +33,10 @@ export const HelpList = {
 			img: STATIC_ICONS.RESOURCE_VIDEOS,
 		},
 		{
-			title: 'HollaEx Exchange',
-			subtitle: 'See a live example of the HollaEx Kit in Action',
+			title: 'AZIX Exchange',
+			subtitle: 'See a live example of the AZIX Interface in Action',
 			description:
-				'Official HollaEx Exchange is the home the HollaEx Token and a live example of the HollaEx Kit in action',
+				'Official AZIX Exchange is the home the AZIX Token and a live example of the AZIX Interface in action',
 			link: 'https://pro.hollaex.com/trade/xht-usdt',
 			img: STATIC_ICONS.RESOURCE_PRO_EXCHANGE,
 		},

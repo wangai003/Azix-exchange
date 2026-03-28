@@ -1,8 +1,8 @@
 import merge from 'lodash.merge';
 
 const DEFAULT_MANIFEST = {
-	short_name: 'hollaex',
-	name: 'hollaex',
+	short_name: 'azix',
+	name: 'AZIX',
 	icons: [
 		{
 			src: 'favicon.ico',

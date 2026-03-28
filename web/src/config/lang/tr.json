@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Açık Kaynak Kodlu Kripto Para Borsası",
 	"LOGOUT_CONFIRM_TEXT": "Emin misiniz? Çıkış yapmak istiyor musunuz?",
 	"ADD_TRADING_PAIR": "Piyasa seçiniz",
@@ -27,7 +27,7 @@
 		"TEXT": "Herhangi bir konuda daha fazla bilgi almak amacıyla {0} için mail atmaktan çekinmeyiniz"
 	},
 	"HELP_TELEGRAM_TEXT": "Açık API dokümantasyonunu inceleyin:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "Yardıma ihtiyacınız mı var?",
 	"HELP_TEXT": "yardım",
 	"SUCCESS_TEXT": "Başarılı",
@@ -48,8 +48,8 @@
 		"MAIN_TEXT": "Kolayca kripto varlık alım satımı yapın. Sadece e-mail adresiniz ile kayıt olun ve majör kripto para varlıklarında 7/24 işlem yapın.",
 		"TRADE_CRYPTO": "İşlem yapmaya başlayın",
 		"VIEW_EXCHANGE": "Borsayı inceleyin",
-		"SECTION_1_TITLE": "HollaEx Borsa Kitine Hoşgeldiniz!",
-		"SECTION_1_TEXT_1": "HollaEx Kitiyle, kendi ölçeklenebilir digital varlık borsanızı inşa edin ve geleceğin finansının bir parçası olun.",
+		"SECTION_1_TITLE": "AZIX Borsa Kitine Hoşgeldiniz!",
+		"SECTION_1_TEXT_1": "AZIX Platformiyle, kendi ölçeklenebilir digital varlık borsanızı inşa edin ve geleceğin finansının bir parçası olun.",
 		"SECTION_1_TEXT_2": "Biz, finansal teknolojiyi, erişilebilir ve ekonomik bir yol ile trading teknolojisine entegre etmek için çabalıyoruz.",
 		"SECTION_1_BUTTON_1": "Daha fazla bilgi",
 		"SECTION_3_TITLE": "Özellikler",
@@ -58,7 +58,7 @@
 		"SECTION_3_CARD_2_TITLE": "BANKA ENTEGRASYONU",
 		"SECTION_3_CARD_2_TEXT": "Banka entegrasyonu için özelleştirilebilir modüllü plugin'ler. Biz, geleneksek finansı biliyoruz ve borsanızı yerelleştirmeniz için size yardım edebiliriz.",
 		"SECTION_3_CARD_3_TITLE": "YÜKSEK GÜVENLİK",
-		"SECTION_3_CARD_3_TEXT": "HollaEx, fonlarınızın korunmasını sağlamak için, en iyi güvenlik uygulamalarını, en güvenli ve verimli algoritmaları kullanır. Bu, bizim en büyük önceliğimizdir ve bu konuda çok özel bir çaba gösterdik.",
+		"SECTION_3_CARD_3_TEXT": "AZIX, fonlarınızın korunmasını sağlamak için, en iyi güvenlik uygulamalarını, en güvenli ve verimli algoritmaları kullanır. Bu, bizim en büyük önceliğimizdir ve bu konuda çok özel bir çaba gösterdik.",
 		"SECTION_3_CARD_4_TITLE": "GELİŞMİŞ RAPORLAMA",
 		"SECTION_3_CARD_4_TEXT": "Yönetim paneli, sistemin durumu ve işlemler hakkında, destek birimini ve yöneticiyi, otomatik olarak, özelleştirilebilir mail ve raporlar ile uyarır.",
 		"SECTION_3_CARD_5_TITLE": "DESTEK",
@@ -1374,7 +1374,7 @@
 		"CURRENT_TXT": "Mevcut",
 		"EMAIL_VERIFICATION": "E-Posta Onayı",
 		"DOCUMENTS": "Belgeler",
-		"HAP_TEXT": "HollaEx Affiliate Programı (HAP) {0}",
+		"HAP_TEXT": "AZIX Affiliate Programı (AZIX Partner Program) {0}",
 		"LOCK_AN_EXCHANGE": "Bir borsayı kilitle {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Kasa Abonesi Kullanıcılar {0}",
 		"TRADE_OVER_XHT": "{0} USDT değerinden daha fazla işlem yapın.",
@@ -1714,7 +1714,7 @@
 	"ZERO_ASSET_2": "saptanmış. Yapmak",
 	"ZERO_ASSET_3": "aşağıda para yatırın.",
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Dijital varlıklarınızı listelemek mi istiyorsunuz? HollaEx'inizle kendi pazarınızı kurun {0} {1}",
+		"HOLLAEX": "Dijital varlıklarınızı listelemek mi istiyorsunuz? AZIX'inizle kendi pazarınızı kurun {0} {1}",
 		"WHITE_LABEL": "Beyaz etiket",
 		"SOLUTION": "çözüm",
 		"VISIT_COIN_INFO_PAGE": "Madeni para bilgileri sayfasını ziyaret edin {0}",
@@ -1777,7 +1777,7 @@
 	"WITHDRAWALS_FORM_METHOD": "Yöntem",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "Kullanıcı e-postasını değiştir",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "Bu exchange'deki kullanıcının e-posta adresini girin",
-	"WITHDRAWALS_FORM_MAIL_INFO": "Bir kullanıcının bu borsadaki HollaEx hesabı e-postasını girin ve ücretsiz olarak aktarın.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "Bir kullanıcının bu borsadaki AZIX hesabı e-postasını girin ve ücretsiz olarak aktarın.",
 	"RISKY_TRADE_DISCLAIMER": {
 		"MSG_1": "Bu varlık yüksek bir risk taşıyabileceğinden lütfen {0} ({1}) ile işlem yapmak isteyip istemediğinizi kontrol edin.",
 		"MSG_2": "aşırı oynaklık",
@@ -2858,5 +2858,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Çok fazla istek",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Vay canına! Yavaşla, aynı anda çok fazla şey yapıyorsun",
 		"NETWORK_ERROR_MESSAGE": "Ağ Hatası"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

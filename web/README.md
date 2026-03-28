@@ -16,7 +16,7 @@ You need to have nodejs and npm installed
 
 ### Run in your local machine
 
-2. HollaEx uses sass for styling. You need to generate css files before running the project. `node run build-css` builds all css files from sass styles in `/src` folder.
+2. HollaEx uses sass for styling. You need to generate css files before running the project. `npm run build-css` builds all css files from sass styles in `/src` folder.
 3. `npm start` it will also listen to changes in sass files and autogenerates css files in there.
 
 ## Production

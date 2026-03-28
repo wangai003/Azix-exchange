@@ -353,7 +353,7 @@ class Login extends Component {
 						imageWrapperClassName="auth_logo-wrapper"
 						subtitle={STRINGS.formatString(
 							STRINGS['LOGIN.LOGIN_TO'],
-							constants.api_name || ''
+							constants.api_name || 'AZIX'
 						)}
 						actionProps={{
 							stringId: 'LOGIN.CANT_LOGIN',

@@ -37,3 +37,19 @@ $terms_label--padding: 0.25rem;
 		height: calc(100% - 4rem) !important;
 	}
 }
+
+.signup_success-wrapper {
+	background: linear-gradient(
+		180deg,
+		rgba(212, 175, 55, 0.08),
+		rgba(15, 107, 62, 0.05)
+	);
+	border-radius: 1.25rem;
+	padding: 2rem;
+}
+.signup-warning {
+	background: rgba(192, 57, 43, 0.08);
+	border: 1px solid rgba(192, 57, 43, 0.25);
+	border-radius: 1rem;
+	padding: 1rem 1.25rem;
+}

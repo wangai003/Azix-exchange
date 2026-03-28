@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Open Crypto Exchange",
 	"LOGOUT_CONFIRM_TEXT": "本当にログアウトしますか？",
 	"ADD_TRADING_PAIR": "通貨ペア追加",
@@ -27,7 +27,7 @@
 		"TEXT": "詳細や問題については、メールでお気軽に {0} ください。"
 	},
 	"HELP_TELEGRAM_TEXT": "オープンAPIドキュメント：",
-	"HELP_TELEGRAM_LINK": "https://apidocs.HollaEx.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "ヘルプが必要ですか？",
 	"HELP_TEXT": "ヘルプ",
 	"SUCCESS_TEXT": "成功",
@@ -42,8 +42,8 @@
 	"VIEW_INFO": "インフォメーション",
 	"APPLY_HERE": "Apply Here",
 	"HOME": {
-		"SECTION_1_TITLE": "HollaEx Exchange Kitへようこそ！",
-		"SECTION_1_TEXT_1": "Build your own scalable digital asset exchange with HollaEx Kit and be part of the future of finance.",
+		"SECTION_1_TITLE": "AZIX Digital Asset Platformへようこそ！",
+		"SECTION_1_TEXT_1": "Build your own scalable digital asset exchange with AZIX Platform and be part of the future of finance.",
 		"SECTION_1_TEXT_2": "We strive to bring the financial technology forward through affordable and simple access to trading technology.",
 		"SECTION_1_BUTTON_1": "Learn more",
 		"SECTION_3_TITLE": "Features",
@@ -52,7 +52,7 @@
 		"SECTION_3_CARD_2_TITLE": "BANK INTEGRATION",
 		"SECTION_3_CARD_2_TEXT": "Plugins with customizable modules available for bank integration. We know the traditional finance and can help you to make your exchange local",
 		"SECTION_3_CARD_3_TITLE": "STRONG SECURITY",
-		"SECTION_3_CARD_3_TEXT": "HollaEx uses the best security practices and the most secure and reliable algorithms for keeping the funds secure. It is our top priority and we took a very special extra care of it.",
+		"SECTION_3_CARD_3_TEXT": "AZIX uses the best security practices and the most secure and reliable algorithms for keeping the funds secure. It is our top priority and we took a very special extra care of it.",
 		"SECTION_3_CARD_4_TITLE": "ADVANCED REPORTING",
 		"SECTION_3_CARD_4_TEXT": "Admin panel with customizable email and reports for notifying support and administrator about the status of the system and transactions.",
 		"SECTION_3_CARD_5_TITLE": "SUPPORT",
@@ -116,7 +116,7 @@
 			"SECTION_4_LINK_4": "利用規約",
 			"SECTION_5_TITLE": "RESOURCES",
 			"SECTION_5_LINK_1": "ホワイトペーパー",
-			"SECTION_5_LINK_2": "HollaEx Token (XHT) ",
+			"SECTION_5_LINK_2": "AKOFA Coin (AKOFA) ",
 			"SECTION_5_LINK_3": "GitHub",
 			"SECTION_5_LINK_4": "FAQ",
 			"SECTION_6_TITLE": "SOCIAL",
@@ -483,7 +483,7 @@
 				"TEXT": "重要：お客様の本人確認書類と同じく氏名を入力してください。法人のお客様はお問い合わせください。",
 				"TITLE_PERSONAL_INFORMATION": "個人情報",
 				"TITLE_PHONE": "連絡先",
-				"PHONE_VERIFICATION_TXT": "有効な連絡先情報を提供することで、お客様のアカウントで行われる不正な取引を防止し、HollaExが問題を解決するのに役に立ちます。",
+				"PHONE_VERIFICATION_TXT": "有効な連絡先情報を提供することで、お客様のアカウントで行われる不正な取引を防止し、AZIXが問題を解決するのに役に立ちます。",
 				"PHONE_VERIFICATION_TXT_1": "携帯電話番号を認証することで、お客様の入出金履歴がリアルタイムで提供されます。",
 				"PHONE_VERIFICATION_TXT_2": "選択事項：LAN電話番号を共有して追加認証ができます。"
 			}
@@ -1163,7 +1163,7 @@
 		"LEVEL_2_TXT": "毎月3,000USDT以上の取引または、5,000XHT以上の残高を維持し、より低い取引手数料をお楽しみください。",
 		"LEVEL_3_TXT": "本人確認の認証を完了するとレベル3に到達できます。取引手数料の割引および入出金限度額の増加！プロトレーダーになる準備ができました。",
 		"LEVEL_4_TXT": "毎月10,000USDT以上の取引または、10,000XHT以上の残高を維持し、より低い取引手数料をお楽しみください。",
-		"LEVEL_5_TXT": "おめでとうございます！レベル５は取引所の管理者、Vaultユーザー、またはHollaExアフィリエイトプログラム(HAP)専用の特別なレベルです。高い入出金限度額と、無料のメイカ―手数料をお楽しみください。",
+		"LEVEL_5_TXT": "おめでとうございます！レベル５は取引所の管理者、Vaultユーザー、またはAZIXアフィリエイトプログラム(HAP)専用の特別なレベルです。高い入出金限度額と、無料のメイカ―手数料をお楽しみください。",
 		"LEVEL_6_TXT": "毎月300,000USDT以上の取引または、100,000XHT以上の残高を維持し、より低い取引手数料と増加された入出金限度額をお楽しみください。",
 		"LEVEL_7_TXT": "毎月500,000USDT以上の取引または、300,000XHT以上の残高を維持し、より低い取引手数料と増加された入出金限度額をお楽しみください。",
 		"LEVEL_8_TXT": "毎月600,000USDT以上の取引または、400,000XHT以上の残高を維持し、より低い取引手数料をお楽しみください。",
@@ -1173,10 +1173,10 @@
 		"TRADER_ACCOUNT_XHT_TEXT": "お客様のアカウントはXHTの先行販売期間にあります。つまり、XHTごとに0.10ドルでXHTを入手できます。 取引が決済されると、すべての預金はXHTに変換されます。",
 		"TRADER_ACCOUNT_TITLE": "アカウント - 先行販売期間",
 		"HAP_ACCOUNT": "HAPアカウント",
-		"HAP_ACCOUNT_TXT": "お客様のアカウントは認証済みのHollaEx登録プログラム(HAP)アカウントです。XHTの購入を希望する全員を招待して10％のボーナスを獲得できます。",
+		"HAP_ACCOUNT_TXT": "お客様のアカウントは認証済みのAZIX登録プログラム(HAP)アカウントです。XHTの購入を希望する全員を招待して10％のボーナスを獲得できます。",
 		"EMAIL_VERIFICATION": "メール認証",
 		"DOCUMENTS": "ドキュメント",
-		"HAP_TEXT": "HollaEx登録プログラム(HAP) {0}",
+		"HAP_TEXT": "AZIX登録プログラム(HAP) {0}",
 		"LOCK_AN_EXCHANGE": "取引所ロック {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Vault登録利用者 {0}",
 		"TRADE_OVER_XHT": "{0} USDT以上の取引",
@@ -1189,10 +1189,10 @@
 		"BUY_FIRST_XHT": "XHTを初購入すると、5XHTのボーナスを受け取れます。",
 		"COMPLETE_ACC_VERIFICATION": "アカウントの認証を完了して、20XHTのボーナスを受け取れます。",
 		"INVITE_USER": "招待した友達の取引から発生する報酬を受け取れます。",
-		"JOIN_HAP": "HAPに参加して、販売するHollaExキットごとに10％の報酬を受け取れます。",
+		"JOIN_HAP": "HAPに参加して、販売するAZIXキットごとに10％の報酬を受け取れます。",
 		"EARN_RUNNING_EXCHANGE": "自分の取引所を実行してパッシブ・インカムを受け取れます。",
 		"XHT_WAVE_AUCTION": "XHTウェーブオークションデータ",
-		"XHT_WAVE_DESC_1": "HollaExトークン(XHT)の配布は、ウェーブオークションを通じて行われます。",
+		"XHT_WAVE_DESC_1": "AZIXトークン(XHT)の配布は、ウェーブオークションを通じて行われます。",
 		"XHT_WAVE_DESC_2": "ウェーブオークションは、ランダムな量のXHTをランダムな時間に最高入札者に販売されます。",
 		"XHT_WAVE_DESC_3": "以下から、ウェーブオークションの履歴データを確認できます。",
 		"WAVE_AUCTION_PHASE": "ウェーブオークションフェーズ {0}",
@@ -1324,7 +1324,7 @@
 	"EXPIRED_BUTTON_TXT": "取引所を活性化する",
 	"TRADE_POSTS": {
 		"ANNOUNCEMENT": "お知らせ",
-		"ANNOUNCEMNT_TXT_3": "HollaExとウェーブオークションの公開は2020年1月1日に再スケジュールされます。ウォレットの入出金は現在もご利用できます。",
+		"ANNOUNCEMNT_TXT_3": "AZIXとウェーブオークションの公開は2020年1月1日に再スケジュールされます。ウォレットの入出金は現在もご利用できます。",
 		"ANNOUNCEMNT_TXT_4": "明けましておめでとうございます。 私たちは2020年からローンチされる最も開放的な取引プラットフォームのオープンで様々な活動をお願い致します。",
 		"ANNOUNCEMNT_TXT_1": "友達に取引所を紹介して、HAPプログラムと共にXHTを獲得しましょう。 {0}。",
 		"DEFAULT_ANNOUNCEMENT": "このセクションには、取引所の公示が表示されます！",
@@ -1800,7 +1800,7 @@
 	},
 	"AMOUNT_IN": "金額",
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "デジタル資産をリストしたいですか? HollaEx で独自のマーケットを始めましょう {0} {1}",
+		"HOLLAEX": "デジタル資産をリストしたいですか? AZIX で独自のマーケットを始めましょう {0} {1}",
 		"WHITE_LABEL": "白いラベル",
 		"SOLUTION": "解決",
 		"VISIT_COIN_INFO_PAGE": "コイン情報ページ {0} にアクセスしてください",
@@ -1887,7 +1887,7 @@
 	"WITHDRAWALS_FORM_METHOD": "方法",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "ユーザーの電子メールを交換する",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "この交換にユーザーの電子メールを入力してください",
-	"WITHDRAWALS_FORM_MAIL_INFO": "この取引所にあるユーザーの HollaEx アカウントのメールアドレスを入力すると、無料で転送できます。",
+	"WITHDRAWALS_FORM_MAIL_INFO": "この取引所にあるユーザーの AZIX アカウントのメールアドレスを入力すると、無料で転送できます。",
 	"DUST": {
 		"TITLE": "ウォレットダスター",
 		"LINK": "ウォレットダスター",
@@ -2988,5 +2988,7 @@
 		"TOO_MANY_REQUEST_ERROR": "リクエストが多すぎます",
 		"TOO_MANY_REQUEST_ERROR_DESC": "わあ！ゆっくりしてください、一度にやりすぎです",
 		"NETWORK_ERROR_MESSAGE": "ネットワークエラー"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

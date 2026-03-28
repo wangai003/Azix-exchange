@@ -1,6 +1,6 @@
 {
-	"APP_TITLE": "HollaEx",
-	"APP_SUB_TITLE": "Open Crypto Exchange",
+	"APP_TITLE": "AZIX",
+	"APP_SUB_TITLE": "Digital Asset Platform",
 	"LOGOUT_CONFIRM_TEXT": "You're about to sign out. Are you sure?",
 	"SIGN_OUT_TEXT": "Sign Out",
 	"ADD_TRADING_PAIR": "Select a market",
@@ -34,7 +34,7 @@
 		"TEXT": "Feel free to {0} for more information and any issues by sending us an email"
 	},
 	"HELP_TELEGRAM_TEXT": "Check out open API documentation:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"ADDITIONAL_HELP": "Additional help:",
 	"NEED_HELP_TEXT": "Need help?",
 	"HELP_TEXT": "help",
@@ -60,33 +60,35 @@
 	"VIEW_PRICES": "View Prices",
 	"VIEW_MY_WALLET": "View my Wallet",
 	"HOME": {
-		"MAIN_TITLE": "Cryptocurrency Trading, Simplified.",
-		"MAIN_TEXT": "Buy Bitcoin, Ethereum & other cryptocurrencies easily.",
-		"TRADE_CRYPTO": "START TRADING",
+		"MAIN_TITLE": "African Digital Assets. Premium Access.",
+		"MAIN_TEXT": "Explore AZIX with a metallic-black experience, gold-led navigation, green confidence cues, and visibility for AKOFA alongside African market displays like KES, NGN, and ZAR.",
+		"TRADE_CRYPTO": "EXPLORE AZIX",
 		"VIEW_EXCHANGE": "View exchange",
 		"EMAIL_TEXT": "Your Email",
-		"GOT_QUESTION_TEXT": "Got a Question?",
-		"GOT_ANSWER_TEXT": "We’ve got the answer.",
-		"QUESTION_1": "What products are provided?",
-		"ANSWER_1": "Crypto trading tools, wallet coin storage, market price tracking and much more.",
-		"QUESTION_2": "How do I buy crypto?",
-		"ANSWER_2": "Simply input the coin's name to buy and the amount.",
-		"QUESTION_3": "What are cryptocurrencies?",
-		"ANSWER_3": "Cryptos are a type of currency that can be traded and even used for spending, or investing.",
-		"CREATE_ACCOUNT_DESC": "Your Global Crypto Journey Starts Here!",
-		"MINI_QUICKTRADE": "Convert over 200 cryptocurrencies easily",
-		"MINI_QUICKTRADE_DESC": "Try it below. Straightforward global crypto conversions.",
+		"GOT_QUESTION_TEXT": "Questions about AZIX?",
+		"GOT_ANSWER_TEXT": "Here is what you need to know.",
+		"QUESTION_1": "What does AZIX offer?",
+		"ANSWER_1": "A modern digital asset experience with wallets, market access, tokenized opportunities, and intuitive trading tools.",
+		"QUESTION_2": "Which currencies and assets are highlighted on AZIX?",
+		"ANSWER_2": "AZIX highlights AKOFA in supported asset lists and gives stronger visibility to African-facing displays such as KES, NGN, and ZAR where available.",
+		"QUESTION_3": "What is AKOFA Coin?",
+		"ANSWER_3": "AKOFA is presented in the AZIX interface as an additional supported digital asset for branding and market discovery.",
+		"CREATE_ACCOUNT_DESC": "Your AZIX journey starts here.",
+		"MINI_QUICKTRADE": "Explore supported currencies and crypto assets with ease",
+		"MINI_QUICKTRADE_DESC": "A simpler AZIX interface for digital assets with stronger African market visibility.",
 		"MORE": "More",
-		"WHY_US": "Why Us?",
-		"CARD_DESC": "Built for accessibility, speed, and global reach — here’s why you should trade crypto with us.",
-		"ACCOUNT_FUNDING_TITLE": "Easy Account Funding",
-		"ACCOUNT_FUNDING_DESC": "Deposit in seconds & start investing in the fastest growing asset class.",
-		"TRADE_TITLE": "Trade Without Borders",
-		"TRADE_DESC": "Access the world’s top crypto market right from your browser or phone 24/7.",
-		"API_TITLE": "Open API for Builders",
-		"API_DESC": "Connect, automate trading, and grow with our developer-friendly API.",
-		"LIVE_TRADE_TITLE": "Clear, Live Pricing",
-		"LIVE_TRADE_DESC": "Get transparent, up-to-the-second pricing across all major trading pairs."
+		"WHY_US": "Why AZIX?",
+		"CARD_DESC": "Built with a premium AZIX interface featuring metallic black surfaces, gold highlights, and confident green actions.",
+		"ACCOUNT_FUNDING_TITLE": "Flexible Asset Access",
+		"ACCOUNT_FUNDING_DESC": "Navigate supported assets, funding options, and African currency displays through a cleaner AZIX experience.",
+		"TRADE_TITLE": "Borderless Market Interface",
+		"TRADE_DESC": "Monitor markets, AKOFA-first listings, and African-facing opportunities through a refined AZIX dashboard.",
+		"API_TITLE": "Platform-Ready Infrastructure",
+		"API_DESC": "A modular interface built to support digital asset products, integrations, and future expansion.",
+		"LIVE_TRADE_TITLE": "Clear Market Visibility",
+		"LIVE_TRADE_DESC": "Track prices, assets, and market movement in a polished AZIX experience inspired by azix.world and modern private-market platforms.",
+		"TITLE": "Borderless private markets, tokenized assets, and modern digital finance.",
+		"SUB_TITLE": "Trade, access, and manage real-world and digital opportunities through AZIX."
 	},
 	"FOOTER": {
 		"FOOTER_LANGUAGE_TEXT": "LANGUAGE",
@@ -209,7 +211,10 @@
 			"INFORMATION_PENDING_2": "This may take 10-30 minutes. We will send an email once your {0} is confirmed on the blockchain."
 		}
 	},
-	"REFERRAL_SUCCESS": { "TITLE": "Request Sent", "BUTTON_TEXT": "Okay" },
+	"REFERRAL_SUCCESS": {
+		"TITLE": "Request Sent",
+		"BUTTON_TEXT": "Okay"
+	},
 	"OTP_FORM": {
 		"OTP_FORM_TITLE": "Enter your authentication code to continue",
 		"OTP_FORM_INFO": "Enter your 6-digit code to continue",
@@ -434,7 +439,10 @@
 				"FULL_NAME_PLACEHOLDER": "Type your full name as it appears on your identity document",
 				"GENDER_LABEL": "Gender",
 				"GENDER_PLACEHOLDER": "Type what gender your are",
-				"GENDER_OPTIONS": { "MAN": "Male", "WOMAN": "Female" },
+				"GENDER_OPTIONS": {
+					"MAN": "Male",
+					"WOMAN": "Female"
+				},
 				"NATIONALITY_LABEL": "Nationality",
 				"NATIONALITY_PLACEHOLDER": "Type what nationality is on your identity document",
 				"DOB_LABEL": "Date of birth",
@@ -774,7 +782,9 @@
 			"TITLE": "Login History",
 			"IP_ADDRESS": "IP Address",
 			"TIME": "Date/Time",
-			"CONTENT": { "TITLE": "Logins History" }
+			"CONTENT": {
+				"TITLE": "Logins History"
+			}
 		},
 		"FREEZE": {
 			"TITLE": "Freeze Account",
@@ -875,7 +885,10 @@
 		"DEFI_STAKING": "Defi Staking",
 		"CEFI_STAKING": "Cefi Staking",
 		"REWARDS": {
-			"0": { "CARD": "Earn rewards (no bonuses)", "TEXT": "regular rewards." },
+			"0": {
+				"CARD": "Earn rewards (no bonuses)",
+				"TEXT": "regular rewards."
+			},
 			"1": {
 				"CARD": "Earn rewards + bonuses",
 				"TEXT": "bonus rewards on your earnings"
@@ -884,8 +897,14 @@
 				"CARD": "Highest rewards, highest bonuses",
 				"TEXT": "the highest bonus rewards on your earnings"
 			},
-			"3": { "CARD": "", "TEXT": "" },
-			"4": { "CARD": "", "TEXT": "" }
+			"3": {
+				"CARD": "",
+				"TEXT": ""
+			},
+			"4": {
+				"CARD": "",
+				"TEXT": ""
+			}
 		}
 	},
 	"UNSTAKE": {
@@ -1057,13 +1076,31 @@
 	},
 	"CURRENCY": "Currency",
 	"TYPE": "Type",
-	"TYPES_VALUES": { "market": "market", "limit": "limit" },
-	"TYPES": { "MARKET": "market", "LIMIT": "limit" },
+	"TYPES_VALUES": {
+		"market": "market",
+		"limit": "limit"
+	},
+	"TYPES": {
+		"MARKET": "market",
+		"LIMIT": "limit"
+	},
 	"SIDE": "Side",
-	"SIDES_VALUES": { "buy": "buy", "sell": "sell" },
-	"SIDES_VERBS": { "buy": "bought", "sell": "sold" },
-	"SIDES": { "BUY": "buy", "SELL": "sell" },
-	"DEFAULT_TOGGLE_OPTIONS": { "ON": "on", "OFF": "off" },
+	"SIDES_VALUES": {
+		"buy": "buy",
+		"sell": "sell"
+	},
+	"SIDES_VERBS": {
+		"buy": "bought",
+		"sell": "sold"
+	},
+	"SIDES": {
+		"BUY": "buy",
+		"SELL": "sell"
+	},
+	"DEFAULT_TOGGLE_OPTIONS": {
+		"ON": "on",
+		"OFF": "off"
+	},
 	"SIZE": "Size",
 	"PRICE": "Price",
 	"AVERAGE": "Average",
@@ -1478,7 +1515,7 @@
 		"CURRENT_TXT": "Current",
 		"EMAIL_VERIFICATION": "Email Verification",
 		"DOCUMENTS": "Documents",
-		"HAP_TEXT": "HollaEx Affiliate Program (HAP) {0}",
+		"HAP_TEXT": "AZIX Affiliate Program (AZIX Partner Program) {0}",
 		"LOCK_AN_EXCHANGE": "Lock an Exchange {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Vault Subscription users {0}",
 		"TRADE_OVER_XHT": "Trade over {0} USDT worth",
@@ -1605,7 +1642,9 @@
 	"EXPIRED_INFO_1": "Your trial has ended.",
 	"EXPIRED_INFO_2": "Collateralize your exchange to activate it again.",
 	"EXPIRED_BUTTON_TXT": "ACTIVATE EXCHANGE",
-	"TRADE_POSTS": { "LEARN_MORE": "Learn more" },
+	"TRADE_POSTS": {
+		"LEARN_MORE": "Learn more"
+	},
 	"OPEN_WALLET": "Open wallet",
 	"CUMULATIVE_AMOUNT_SYMBOL": "Total",
 	"POST_ONLY": "Post only",
@@ -1666,7 +1705,7 @@
 		"BUY": "Buy {0} {1}"
 	},
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Want to list your digital assets? Start your own market with your HollaEx {0} {1}",
+		"HOLLAEX": "Want to list your digital assets? Start your own market with your AZIX {0} {1}",
 		"WHITE_LABEL": "white-label",
 		"SOLUTION": "solution",
 		"VISIT_COIN_INFO_PAGE": "Visit coin info page {0}",
@@ -1680,7 +1719,10 @@
 	"FEE_REDUCTION": "Fee reduction",
 	"FEE_REDUCTION_DESCRIPTION": "*your account has a fee discount applied to it. The reduction is applied to the trading fees based on your account.",
 	"CHANGE_PASSWORD_FAILED": "changing password failed",
-	"MARKET_OPTIONS": { "LIST": "List", "CARD": "Card" },
+	"MARKET_OPTIONS": {
+		"LIST": "List",
+		"CARD": "Card"
+	},
 	"ALL": "All",
 	"ASSET_TXT": "Asset",
 	"ONE_DAY": "1 day",
@@ -1760,7 +1802,9 @@
 	"NO_VERIFIED_BANK": "No Verified Bank Account Found",
 	"NO_VERIFIED_BANK_DESC": "You don't have a verified bank account for {0}. Please contact support for further help.",
 	"WITHDRAW_NOTE": "Please note: You can only withdraw to an account in your name.",
-	"USER_PAYMENT": { "TITLE": "Payments" },
+	"USER_PAYMENT": {
+		"TITLE": "Payments"
+	},
 	"QUOTE_CONFIRMATION_MSG_TEXT_1": "Please check your order and confirm it below.",
 	"QUOTE_CONFIRMATION_MSG_TEXT_2": "Amount to receive are estimates and aren't inclusive of the trading fee",
 	"QUOTE_CONFIRMATION_EXPIRY_MSG": "Price quote will expire in {0} {1}",
@@ -3000,5 +3044,7 @@
 		"LOGIN_TO_SHARED_ACCOUNT": "Login to Shared Account",
 		"LOGIN_DESCRIPTION": "You are about to login to the shared account of {0}.",
 		"LOGIN_WARNING": "Remember, you are accessing someone else's account. Please act responsibly."
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

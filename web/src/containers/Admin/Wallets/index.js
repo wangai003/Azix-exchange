@@ -11,6 +11,7 @@ import {
 } from 'utils/currency';
 import { Coin } from 'components';
 import { BASE_CURRENCY, DEFAULT_COIN_DATA } from 'config/constants';
+import { sortCoinKeysForDisplay } from 'utils/brandSort';
 import './index.scss';
 class Wallets extends Component {
 	state = {
@@ -97,7 +98,7 @@ class Wallets extends Component {
 	render() {
 		const { balance, loading, error, wsPriceData } = this.state;
 		const { coins } = this.props;
-		const sortedCoins = Object.keys(coins).sort();
+		const sortedCoins = sortCoinKeysForDisplay(coins);
 
 		const data = [];
 		const columns = [

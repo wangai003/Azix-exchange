@@ -810,3 +810,73 @@
 		bottom: 2.8rem;
 	}
 }
+
+.app_container {
+	background: linear-gradient(180deg, #0b0d10 0%, #11161a 100%);
+}
+.ant-layout .ant-layout-content {
+	background-color: var(--admin_panel_title_background);
+	margin-left: 280px;
+}
+.ant-layout .ant-layout-sider,
+.ant-layout .ant-layout-content,
+.ant-layout {
+	min-height: calc(100vh - 38px) !important;
+}
+.ant-layout-sider {
+	position: fixed !important;
+	left: 0;
+	top: 38px;
+	bottom: 0;
+	z-index: 20;
+	box-shadow: 18px 0 48px rgba(0, 0, 0, 0.28);
+}
+.ant-layout-sider .ant-layout-sider-children,
+.ant-layout-sider .ant-layout-sider-children .ant-menu {
+	background: linear-gradient(
+			180deg,
+			rgba(212, 175, 55, 0.06),
+			rgba(15, 107, 62, 0.04)
+		),
+		var(--admin_panel_sidebar_background);
+}
+.menu-wrapper {
+	border-right: 1px solid rgba(212, 175, 55, 0.16);
+}
+.sidebar-exchange-menu,
+.sidebar-menu {
+	padding: 0.95rem 1.5rem;
+	padding-left: 3.2rem;
+	border-radius: 0.9rem;
+	margin: 0.25rem 0.8rem;
+}
+.active-exchange-menu,
+.active-side-menu {
+	background: linear-gradient(
+		90deg,
+		rgba(212, 175, 55, 0.18),
+		rgba(15, 107, 62, 0.08)
+	);
+}
+.active-exchange-menu::before,
+.active-side-menu::before {
+	border-left: 3px solid #d4af37;
+	border-right: 0;
+}
+.active-side-menu::after,
+.active-exchange-menu::after {
+	display: none;
+}
+.admin-top-bar {
+	background: #090b0d;
+	border-bottom: 1px solid rgba(212, 175, 55, 0.14);
+}
+@media (max-width: 991px) {
+	.ant-layout .ant-layout-content {
+		margin-left: 0;
+	}
+	.ant-layout-sider {
+		position: relative !important;
+		top: 0;
+	}
+}

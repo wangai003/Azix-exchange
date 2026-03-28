@@ -620,7 +620,7 @@ const PaymentAccountPopup = ({
 							<div className="plugintxt">
 								Plugins will require that you get in touch with
 							</div>
-							<div className="plugintxt txtanchor">support@hollaex.com</div>
+							<div className="plugintxt txtanchor">support@azix.world</div>
 						</>
 					)}
 					{errorMsg ? <div className="error-text">{errorMsg}</div> : null}
@@ -669,7 +669,7 @@ const PaymentAccountPopup = ({
 					</div>
 					<div className="mb-5">
 						Plugins require that you get in touch with{' '}
-						<span className="txtanchor">support@hollaex.com</span>
+						<span className="txtanchor">support@azix.world</span>
 					</div>
 					<div className="button-wrapper">
 						<Button

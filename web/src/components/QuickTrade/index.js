@@ -10,6 +10,7 @@ import moment from 'moment';
 import classnames from 'classnames';
 import math from 'mathjs';
 import debounce from 'lodash.debounce';
+import { sortCoinKeysForDisplay } from 'utils/brandSort';
 
 import STRINGS from 'config/localizedStrings';
 import InputGroup from './InputGroup';
@@ -657,7 +658,7 @@ const QuickTrade = ({
 			const pairBase = activeQuickTradePair
 				? activeQuickTradePair?.split('-')[1]
 				: pair.split('-')[1];
-			const assetValues = Object.keys(coins)
+			const assetValues = sortCoinKeysForDisplay(coins)
 				.map((val) => coins[val].code)
 				.toLocaleString();
 			const chartValue = allChartsData[pairBase];

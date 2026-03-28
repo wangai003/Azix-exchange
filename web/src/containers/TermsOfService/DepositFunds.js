@@ -24,10 +24,7 @@ const DepositFunds = (props) => {
 					<div className="ml-2 font-weight-bold">
 						{STRINGS.formatString(
 							STRINGS['TERMS_OF_SERVICES.READ_FAG'],
-							<BlueLink
-								href="https://hollaex.com/docs/faq.html"
-								text={'https://hollaex.com/docs/faq.html'}
-							/>
+							<BlueLink href="https://azix.world" text={'https://azix.world'} />
 						)}
 					</div>
 				</div>
@@ -36,10 +33,7 @@ const DepositFunds = (props) => {
 					<div className="ml-2 font-weight-bold">
 						{STRINGS.formatString(
 							STRINGS['TERMS_OF_SERVICES.READ_DOCUMENTATION'],
-							<BlueLink
-								href="https://hollaex.com/docs/whitepaper.html"
-								text={'https://hollaex.com/docs/whitepaper.html'}
-							/>
+							<BlueLink href="https://azix.world" text={'https://azix.world'} />
 						)}
 					</div>
 				</div>
@@ -49,7 +43,7 @@ const DepositFunds = (props) => {
 						{STRINGS.formatString(
 							STRINGS['TERMS_OF_SERVICES.DOWNLOAD_BUY_XHT'],
 							<BlueLink
-								href="https://hollaex.com/docs/guideline.pdf"
+								href="https://azix.world"
 								text={STRINGS['TERMS_OF_SERVICES.HOW_TO_BUY']}
 							/>
 						)}
@@ -61,8 +55,8 @@ const DepositFunds = (props) => {
 						{STRINGS.formatString(
 							STRINGS['TERMS_OF_SERVICES.CONTACT_US'],
 							<BlueLink
-								href="mailto:support@hollaex.com"
-								text={'support@hollaex.com'}
+								href="mailto:support@azix.world"
+								text={'support@azix.world'}
 							/>
 						)}
 					</div>

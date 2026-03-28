@@ -30,8 +30,8 @@ export const getAllPluginsData = (availablePlugins = []) => {
 						payments, user balances and more in a secure manner
 					</div>
 					<div>
-						<a className="blue-link" href="https://hollaex.com/" target="blank">
-							https://hollaex.com/
+						<a className="blue-link" href="https://azix.world/" target="blank">
+							https://azix.world/
 						</a>
 					</div>
 				</div>

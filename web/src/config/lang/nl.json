@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Open Crypto-uitwisseling",
 	"LOGOUT_CONFIRM_TEXT": "Weet u zeker dat u wilt uitloggen?",
 	"ADD_TRADING_PAIR": "Selecteer een markt",
@@ -28,7 +28,7 @@
 		"TEXT": "Aarzel niet om {0} voor meer informatie en eventuele problemen door ons een e-mail te sturen"
 	},
 	"HELP_TELEGRAM_TEXT": "Bekijk de open API-documentatie:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "Hulp nodig?",
 	"HELP_TEXT": "hulp",
 	"SUCCESS_TEXT": "Succes",
@@ -1402,7 +1402,7 @@
 		"CURRENT_TXT": "Huidig",
 		"EMAIL_VERIFICATION": "email verificatie",
 		"DOCUMENTS": "Documenten",
-		"HAP_TEXT": "HollaEx-partnerprogramma (HAP) {0}",
+		"HAP_TEXT": "AZIX-partnerprogramma (HAP) {0}",
 		"LOCK_AN_EXCHANGE": "Vergrendel een uitwisseling {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Gebruikers van Vault-abonnementen {0}",
 		"TRADE_OVER_XHT": "Handel met een waarde van meer dan {0} USDT",
@@ -1592,7 +1592,7 @@
 		"BUY": "Koop {0} {1}"
 	},
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Wilt u uw digitale activa vermelden? Start uw eigen markt met uw HollaEx {0} {1}",
+		"HOLLAEX": "Wilt u uw digitale activa vermelden? Start uw eigen markt met uw AZIX {0} {1}",
 		"WHITE_LABEL": "wit label",
 		"SOLUTION": "oplossing",
 		"VISIT_COIN_INFO_PAGE": "Bezoek muntinformatiepagina {0}",
@@ -1696,7 +1696,7 @@
 	"WITHDRAWALS_FORM_METHOD": "Methode",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "E-mailadres van gebruiker uitwisselen",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "Voer het e-mailadres van de gebruiker in op deze uitwisseling",
-	"WITHDRAWALS_FORM_MAIL_INFO": "Voer het e-mailadres van het HollaEx-account van een gebruiker in dat zich op deze centrale bevindt en verplaats gratis.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "Voer het e-mailadres van het AZIX-account van een gebruiker in dat zich op deze centrale bevindt en verplaats gratis.",
 	"DUST": {
 		"TITLE": "Portemonnee stoffer",
 		"LINK": "Portemonnee stoffer",
@@ -2797,5 +2797,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Te veel verzoeken",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Wauw! Doe het rustig aan, je doet teveel tegelijk.",
 		"NETWORK_ERROR_MESSAGE": "Netwerkfout"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

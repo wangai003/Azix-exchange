@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Apri lo scambio di criptovalute",
 	"LOGOUT_CONFIRM_TEXT": "Sei sicuro di voler uscire?",
 	"ADD_TRADING_PAIR": "Seleziona un mercato",
@@ -28,7 +28,7 @@
 		"TEXT": "Non esitare a {0} per ulteriori informazioni ed eventuali problemi inviandoci un'e-mail"
 	},
 	"HELP_TELEGRAM_TEXT": "Consulta la documentazione dell'API aperta:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "Ho bisogno di aiuto?",
 	"HELP_TEXT": "aiuto",
 	"SUCCESS_TEXT": "Successo",
@@ -1402,7 +1402,7 @@
 		"CURRENT_TXT": "Attuale",
 		"EMAIL_VERIFICATION": "verifica email",
 		"DOCUMENTS": "Documenti",
-		"HAP_TEXT": "Programma di affiliazione HollaEx (HAP) {0}",
+		"HAP_TEXT": "Programma di affiliazione AZIX (HAP) {0}",
 		"LOCK_AN_EXCHANGE": "Blocca uno scambio {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Utenti con abbonamento a Vault {0}",
 		"TRADE_OVER_XHT": "Fai trading per un valore di oltre {0} USDT",
@@ -1592,7 +1592,7 @@
 		"BUY": "Acquista {0} {1}"
 	},
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Vuoi elencare le tue risorse digitali? Avvia il tuo mercato con il tuo HollaEx {0} {1}",
+		"HOLLAEX": "Vuoi elencare le tue risorse digitali? Avvia il tuo mercato con il tuo AZIX {0} {1}",
 		"WHITE_LABEL": "etichetta bianca",
 		"SOLUTION": "soluzione",
 		"VISIT_COIN_INFO_PAGE": "Visita la pagina delle informazioni sulle monete {0}",
@@ -1696,7 +1696,7 @@
 	"WITHDRAWALS_FORM_METHOD": "Metodo",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "Scambia l'e-mail dell'utente",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "Inserisci l'e-mail dell'utente su questo scambio",
-	"WITHDRAWALS_FORM_MAIL_INFO": "Inserisci l'e-mail dell'account HollaEx di un utente che si trova su questo scambio e trasferisci gratuitamente.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "Inserisci l'e-mail dell'account AZIX di un utente che si trova su questo scambio e trasferisci gratuitamente.",
 	"DUST": {
 		"TITLE": "Spolverino per portafoglio",
 		"LINK": "Spolverino per portafoglio",
@@ -2797,5 +2797,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Troppe richieste",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Wow! Rallenta, stai facendo troppe cose contemporaneamente",
 		"NETWORK_ERROR_MESSAGE": "Errore di rete"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

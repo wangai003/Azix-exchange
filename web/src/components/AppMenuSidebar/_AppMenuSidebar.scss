@@ -1,6 +1,6 @@
 .app-menu-bar-side {
-	min-width: 18rem;
-	max-width: 18rem;
+	min-width: 19rem;
+	max-width: 19rem;
 }
 .direction_rtl {
 	.apply_rtl {
@@ -14,10 +14,18 @@
 
 .app-side-bar {
 	.app-menu-bar-side {
-		background-color: $app-sidebar-background;
+		background: linear-gradient(
+				180deg,
+				rgba(212, 175, 55, 0.08),
+				rgba(15, 107, 62, 0.04)
+			),
+			$app-sidebar-background;
 		border-right: 1px solid $colors-border;
-
-		padding: 20px 16px 0 15px;
+		box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.02);
+		padding: 24px 16px 18px 15px;
+		position: sticky;
+		top: 0;
+		height: 100vh;
 		.app-menu-bar-icon {
 			width: 20px;
 			svg {
@@ -29,20 +37,22 @@
 	}
 	.app-menu-bar-side_list {
 		transition: 0.3s;
-		height: 45px;
-		padding: 18px 17px;
+		min-height: 52px;
+		padding: 14px 16px;
 		cursor: pointer;
 		color: $colors-black !important;
 
 		.side-bar-txt {
 			height: 24px;
 			margin: 0 0 0 14px;
-			font-size: 1.2rem;
+			font-size: 1.05rem;
+			font-weight: 600;
 		}
 	}
 	.list_active,
 	.app-menu-bar-side_list:hover {
-		border-radius: 4px;
+		border-radius: 1rem;
+		box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
 		background-color: $colors-border-hover;
 		.side-bar-txt {
 			color: $base_top-bar-navigation_text !important;
@@ -52,7 +62,11 @@
 		}
 	}
 	.list_active {
-		background-color: $colors-border !important;
+		background: linear-gradient(
+			90deg,
+			rgba(212, 175, 55, 0.18),
+			rgba(15, 107, 62, 0.08)
+		) !important;
 	}
 }
 

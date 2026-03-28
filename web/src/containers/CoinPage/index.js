@@ -23,6 +23,7 @@ import withConfig from 'components/ConfigProvider/withConfig';
 import { addToFavourites, removeFromFavourites } from 'actions/appActions';
 import Details from 'containers/QuickTrade/components/Details';
 import { formatCurrency } from 'utils';
+import { sortCoinKeysForDisplay } from 'utils/brandSort';
 import { STATIC_ICONS } from 'config/icons';
 
 const TYPES = {
@@ -83,7 +84,7 @@ const CoinPage = ({
 	}, [data, chartData]);
 
 	const getChartDetails = async () => {
-		const assetValues = Object.keys(coins)
+		const assetValues = sortCoinKeysForDisplay(coins)
 			?.map((val) => coins[val]?.code)
 			?.toLocaleString();
 		try {

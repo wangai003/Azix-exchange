@@ -252,7 +252,7 @@ class Signup extends Component {
 						imageWrapperClassName="auth_logo-wrapper"
 						subtitle={STRINGS.formatString(
 							STRINGS['SIGN_UP.SIGNUP_TO'],
-							constants.api_name || ''
+							constants.api_name || 'AZIX'
 						)}
 						actionProps={{
 							text: STRINGS['HELP_TEXT'],

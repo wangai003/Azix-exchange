@@ -11,6 +11,7 @@ import {
 
 import QRScanner from 'containers/Withdraw/QRScanner';
 import STRINGS from 'config/localizedStrings';
+import { sortCoinEntriesForDisplay } from 'utils/brandSort';
 import { Coin, Dialog, EditWrapper } from 'components';
 import {
 	networkList,
@@ -212,7 +213,7 @@ const GenerateAddress = ({
 									}))
 								}
 							>
-								{Object.entries(coins).map(
+								{sortCoinEntriesForDisplay(coins).map(
 									([_, { symbol, fullname, icon_id, type }]) =>
 										type !== 'fiat' && (
 											<Option

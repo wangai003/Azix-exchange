@@ -3,32 +3,32 @@ import flatten from 'flat';
 const options = { safe: true, delimiter: '_' };
 const nestedColors = {
 	base: {
-		background: '#0a0a0a',
-		'top-bar-navigation': '#000000',
-		'secondary-navigation-bar': '#141414',
-		'wallet-sidebar-and-popup': '#1a1a1a',
+		background: '#0b0d10',
+		'top-bar-navigation': '#090b0d',
+		'secondary-navigation-bar': '#12161a',
+		'wallet-sidebar-and-popup': '#171c21',
 		footer: '#000000',
 	},
 
 	labels: {
-		'important-active-labels-text-graphics': '#ffffff',
-		'secondary-inactive-label-text-graphics': '#b0b0b0',
+		'important-active-labels-text-graphics': '#f5f5f5',
+		'secondary-inactive-label-text-graphics': '#c2a84a',
 		fields: '#1a1a1a',
 		'inactive-button': '#666666',
 	},
 
 	trading: {
 		'selling-related-elements': '#d4af37',
-		'buying-related-elements': '#a0a0a0',
+		'buying-related-elements': '#0f6b3e',
 	},
 
 	specials: {
 		'buttons-links-and-highlights': '#d4af37',
-		'chat-messages': '#888888',
-		'my-username-in-chat': '#d4af37',
-		'checks-okay-done': '#888888',
+		'chat-messages': '#c2a84a',
+		'my-username-in-chat': '#0f6b3e',
+		'checks-okay-done': '#0f6b3e',
 		'pending-waiting-caution': '#d4af37',
-		'notifications-alerts-warnings': '#d4af37',
+		'notifications-alerts-warnings': '#c0392b',
 	},
 };
 

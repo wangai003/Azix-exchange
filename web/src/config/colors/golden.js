@@ -1,20 +1,20 @@
 import flatten from 'flat';
 
 const options = { safe: true, delimiter: '_' };
-export const nestedColors = {
+const nestedColors = {
 	base: {
-		background: '#f6f1e1',
-		'top-bar-navigation': '#18150d',
-		'secondary-navigation-bar': '#efe6ce',
-		'wallet-sidebar-and-popup': '#fffaf0',
-		footer: '#18150d',
+		background: '#120f06',
+		'top-bar-navigation': '#100d05',
+		'secondary-navigation-bar': '#1b1609',
+		'wallet-sidebar-and-popup': '#1e1709',
+		footer: '#100d05',
 	},
 
 	labels: {
-		'important-active-labels-text-graphics': '#18150d',
-		'secondary-inactive-label-text-graphics': '#0f6b3e',
-		fields: '#f2ebda',
-		'inactive-button': '#c8a43a',
+		'important-active-labels-text-graphics': '#f7f2e2',
+		'secondary-inactive-label-text-graphics': '#d4af37',
+		fields: '#221b0d',
+		'inactive-button': '#8b6d22',
 	},
 
 	trading: {
@@ -23,8 +23,8 @@ export const nestedColors = {
 	},
 
 	specials: {
-		'buttons-links-and-highlights': '#d4af37',
-		'chat-messages': '#7f6b2c',
+		'buttons-links-and-highlights': '#f0c95a',
+		'chat-messages': '#d4af37',
 		'my-username-in-chat': '#0f6b3e',
 		'checks-okay-done': '#0f6b3e',
 		'pending-waiting-caution': '#d4af37',

@@ -1,322 +1,257 @@
 :root {
 	/*======================================
-	Black, White & Gold Theme
-	- Black background
-	- Gold buttons only
-	- White text (dark text on light backgrounds)
+	AZIX Theme
+	- Metallic black surfaces
+	- Gold primary actions
+	- Green success accents
+	- Premium readable contrast
 	======================================*/
 
-	/* Base Colors - Pure Black */
-	--base_background: #0a0a0a;
-	--base_top-bar-navigation: #000000;
-	--base_secondary-navigation-bar: #141414;
-	--base_wallet-sidebar-and-popup: #1a1a1a;
-	--base_footer: #000000;
+	/* Base Colors */
+	--base_background: #0b0d10;
+	--base_top-bar-navigation: #090b0d;
+	--base_secondary-navigation-bar: #12161a;
+	--base_wallet-sidebar-and-popup: #171c21;
+	--base_footer: #090b0d;
 
-	/* Labels & Text - White Primary */
-	--labels_important-active-labels-text-graphics: #ffffff;
-	--labels_secondary-inactive-label-text-graphics: #b0b0b0;
-	--calculated_important-border: #333333;
-	--calculated_secondary-border: #2a2a2a;
-	--calculated_footer_border: #1a1a1a;
-	--calculated_super-pale_label-text-graphics: #ffffff0d;
-	--labels_fields: #1a1a1a;
-	--labels_inactive-button: #666666;
+	/* Labels & Text */
+	--labels_important-active-labels-text-graphics: #f5f5f3;
+	--labels_secondary-inactive-label-text-graphics: #d4af37;
+	--calculated_important-border: #0f6b3e;
+	--calculated_secondary-border: #2b3138;
+	--calculated_footer_border: #1b2025;
+	--calculated_super-pale_label-text-graphics: #f5f5f50d;
+	--labels_fields: #171c21;
+	--labels_inactive-button: #6d5b1f;
 
-	/* Trading Colors - Minimal */
+	/* Trading Colors */
 	--trading_selling-related-elements: #d4af37;
-	--trading_buying-related-elements: #a0a0a0;
+	--trading_buying-related-elements: #0f6b3e;
 
-	/* Special Colors - GOLD BUTTONS ONLY */
+	/* Special Colors */
 	--specials_buttons-links-and-highlights: #d4af37;
-	--specials_buttons-links-and-highlights-2: #c9a227;
-	--specials_chat-messages: #888888;
-	--specials_my-username-in-chat: #d4af37;
-	--specials_checks-okay-done: #888888;
+	--specials_buttons-links-and-highlights-2: #e7c65d;
+	--specials_chat-messages: #c8ad4f;
+	--specials_my-username-in-chat: #0f6b3e;
+	--specials_checks-okay-done: #0f6b3e;
 	--specials_pending-waiting-caution: #d4af37;
-	--specials_notifications-alerts-warnings: #d4af37;
+	--specials_notifications-alerts-warnings: #c0392b;
 	--specials_quick-trade-gradient: #d4af3700;
 
-	/*======================================
-	Calculated Colors
-	======================================*/
-	--calculated_tag-background: #ffffff0d;
+	/* Calculated Colors */
+	--calculated_tag-background: #d4af3714;
 	--calculated_background-overlay: #000000e6;
-	--calculated_stake-table_highlight: #ffffff0d;
-	--calculated_trade-block_highlight: #1a1a1a;
-	--calculated_market-card_gradient_background: #141414;
+	--calculated_stake-table_highlight: #0f6b3e14;
+	--calculated_trade-block_highlight: #171c21;
+	--calculated_market-card_gradient_background: linear-gradient(
+		180deg,
+		#161b20 0%,
+		#0f1216 100%
+	);
 	--calculated_trading_selling-subtracted-bg: #d4af3726;
 	--calculated_trading_selling-added-bg: #d4af3740;
 	--calculated_trading_selling-best-subtracted: #d4af3714;
-	--calculated_trading_buying-subtracted-bg: #ffffff14;
-	--calculated_trading_buying-added-bg: #ffffff26;
-	--calculated_trading_buying-best-subtracted: #ffffff0d;
-	--calculated_public-sale_buying-zeros: #ffffff1a;
+	--calculated_trading_buying-subtracted-bg: #0f6b3e14;
+	--calculated_trading_buying-added-bg: #0f6b3e29;
+	--calculated_trading_buying-best-subtracted: #0f6b3e14;
+	--calculated_public-sale_buying-zeros: #0f6b3e1a;
 	--calculated_public-sale_selling-zeros: #d4af3740;
 	--calculated_trading_selling-sparkline-fill: #d4af3733;
-	--calculated_trading_buying-sparkline-fill: #ffffff26;
+	--calculated_trading_buying-sparkline-fill: #0f6b3e33;
 	--calculated_trading_selling-orderbook-bar: #d4af371a;
-	--calculated_trading_buying-orderbook-bar: #ffffff14;
-	--calculated_trading_buying-related-text: #ffffff;
-	--calculated_trading_selling-related-text: #000000;
-	--calculated_base_modal-overlay: #000000cc;
-	--calculated_landing_background: #0a0a0a;
-	--calculated_landing_markets_table: #141414f0;
+	--calculated_trading_buying-orderbook-bar: #0f6b3e1a;
+	--calculated_trading_buying-related-text: #92e1b5;
+	--calculated_trading_selling-related-text: #f3d984;
+	--calculated_base_modal-overlay: #020405cc;
+	--calculated_landing_background: radial-gradient(
+			circle at top right,
+			rgba(212, 175, 55, 0.12),
+			transparent 28%
+		),
+		linear-gradient(180deg, #0b0d10 0%, #11161a 45%, #0c0f13 100%);
+	--calculated_landing_markets_table: #151a1ff0;
 	--calculated_specials_highlight-box: #d4af3714;
-	--calculated_base_top-bar-navigation_text: #ffffff;
-	--calculated_base_top-bar-navigation_text-inactive: #ffffff99;
-	--calculated_base_footer_text: #888888;
-	--calculated_trad-view_watermark: #ffffff0d;
-	--calculated_trad-view_axis: #555555;
-	--calculated_trad-view_text: #999999;
-	--calculated_specials_notifications-alerts-inactive: #d4af3780;
-	--calculated_specials_notifications-alerts-pale: #d4af3714;
-	--calculated_specials_notifications-alerts-text: #000000;
-	--calculated_specials_notifications-pending-text: #000000;
-	--calculated_specials_notifications-success-text: #000000;
+	--calculated_base_top-bar-navigation_text: #f5f5f3;
+	--calculated_base_top-bar-navigation_text-inactive: #d4af3799;
+	--calculated_base_footer_text: #c8ad4f;
+	--calculated_trad-view_watermark: #f5f5f50d;
+	--calculated_trad-view_axis: #555d66;
+	--calculated_trad-view_text: #9ea4aa;
+	--calculated_specials_notifications-alerts-inactive: #c0392b80;
+	--calculated_specials_notifications-alerts-pale: #c0392b14;
+	--calculated_specials_notifications-alerts-text: #ffd7d2;
+	--calculated_specials_notifications-pending-text: #2a220b;
+	--calculated_specials_notifications-success-text: #dff7ea;
 	--calculated_notification-pending-disabled: #d4af3733;
 	--calculated_notifications-blue-disabled: #d4af3733;
 
 	/* Border Colors */
-	--silver-border: #333333;
-	--silver-highlight: #444444;
+	--silver-border: #313841;
+	--silver-highlight: #414952;
 
 	/* Gold Accents */
 	--gold-accent-primary: #d4af37;
 	--gold-accent-secondary: #c9a227;
 	--gold-accent-tertiary: #b8922a;
-	--gold-accent-dark: #aa8800;
+	--gold-accent-dark: #8b6b12;
 
-	/*======================================
-	Dark text for light backgrounds
-	======================================*/
+	/* Green Accents */
+	--green-accent-primary: #0f6b3e;
+	--green-accent-secondary: #16864f;
+	--green-accent-light: #7fe0ae;
+
 	--text-on-light: #000000;
 	--text-on-gold: #000000;
+	--text-on-green: #ffffff;
 }
 
-/*======================================
-Ant Design Overrides - Gold Buttons
-======================================*/
-
-/* Primary Button - Gold */
 .ant-btn-primary {
 	background-color: #d4af37 !important;
 	border-color: #d4af37 !important;
 	color: #000000 !important;
 	font-weight: 600;
 }
-
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
 	background-color: #e6c14d !important;
 	border-color: #e6c14d !important;
 	color: #000000 !important;
 }
-
 .ant-btn-primary:active {
 	background-color: #b8922a !important;
 	border-color: #b8922a !important;
 }
-
-/* Default Button - Minimal */
 .ant-btn {
-	border-color: #444444;
-	color: #ffffff;
+	border-color: #414952;
+	color: #f5f5f5;
 	background-color: transparent;
 }
-
 .ant-btn:hover {
 	border-color: #d4af37;
 	color: #d4af37;
 }
-
-/* Links - Subtle gold */
 .ant-btn-link {
 	color: #d4af37 !important;
 }
-
 .ant-btn-link:hover {
 	color: #e6c14d !important;
 }
-
-/* Input Fields */
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-select-selector {
+	background-color: #151a1f !important;
+	color: #f5f5f5 !important;
+	border-color: #2b3138 !important;
+}
 .ant-input:focus,
-.ant-input-focused {
-	border-color: #d4af37 !important;
-	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
-}
-
-.ant-input:hover {
-	border-color: #d4af37 !important;
-}
-
-/* Select */
+.ant-input-focused,
 .ant-select-focused .ant-select-selector {
 	border-color: #d4af37 !important;
 	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
 }
-
+.ant-input:hover,
+.ant-select:hover .ant-select-selector {
+	border-color: #d4af37 !important;
+}
 .ant-select-item-option-selected {
 	background-color: #d4af37 !important;
 	color: #000000 !important;
 }
-
-/* Checkbox */
-.ant-checkbox-checked .ant-checkbox-inner {
-	background-color: #d4af37 !important;
-	border-color: #d4af37 !important;
-}
-
-.ant-checkbox:hover .ant-checkbox-inner {
-	border-color: #d4af37 !important;
-}
-
-/* Radio */
-.ant-radio-checked .ant-radio-inner {
-	border-color: #d4af37 !important;
-}
-
-.ant-radio-checked .ant-radio-inner:after {
-	background-color: #d4af37 !important;
-}
-
-/* Switch */
+.ant-checkbox-checked .ant-checkbox-inner,
 .ant-switch-checked {
-	background-color: #d4af37 !important;
+	background-color: #0f6b3e !important;
+	border-color: #0f6b3e !important;
 }
-
-/* Tabs */
+.ant-radio-checked .ant-radio-inner {
+	border-color: #0f6b3e !important;
+}
+.ant-radio-checked .ant-radio-inner:after {
+	background-color: #0f6b3e !important;
+}
 .ant-tabs-ink-bar {
 	background: #d4af37 !important;
 }
-
-.ant-tabs-tab:hover {
-	color: #d4af37 !important;
-}
-
+.ant-tabs-tab:hover,
 .ant-tabs-tab-active {
 	color: #d4af37 !important;
 }
-
-/* Menu */
-.ant-menu-item-selected {
-	background-color: #d4af37 !important;
-	color: #000000 !important;
-}
-
-.ant-menu-item:hover {
-	color: #d4af37 !important;
-}
-
-/* Dropdown */
+.ant-menu-item-selected,
 .ant-dropdown-menu-item-selected {
 	background-color: #d4af37 !important;
 	color: #000000 !important;
 }
-
-/* Pagination */
-.ant-pagination-item-active {
-	border-color: #d4af37 !important;
+.ant-table {
+	background-color: #14191e !important;
+	color: #f5f5f5 !important;
 }
-
-.ant-pagination-item-active a {
-	color: #d4af37 !important;
-}
-
-.ant-pagination-item:hover {
-	border-color: #d4af37 !important;
-}
-
-/* Modal */
-.ant-modal-header {
-	border-bottom-color: #333333 !important;
-}
-
-.ant-modal-title {
-	color: #ffffff !important;
-}
-
-/* Table */
 .ant-table-thead > tr > th {
-	background-color: #141414 !important;
+	background-color: #14191e !important;
 	color: #d4af37 !important;
-	border-bottom-color: #333333 !important;
+	border-bottom-color: #2c343d !important;
 }
-
+.ant-table-tbody > tr > td {
+	background-color: #14191e !important;
+	color: #f5f5f5 !important;
+	border-bottom-color: #20262c !important;
+}
 .ant-table-tbody > tr:hover > td {
-	background: #1a1a1a !important;
+	background: #1b2128 !important;
 }
-
 .ant-table-tbody > tr.ant-table-row-selected > td {
 	background: #d4af3714 !important;
 }
-
-/* Tooltip */
-.ant-tooltip-inner {
-	background-color: #d4af37 !important;
-	color: #000000 !important;
+.ant-modal-content,
+.ant-modal-header,
+.ant-modal-footer,
+.ant-popover-inner,
+.ant-dropdown-menu,
+.ant-select-dropdown,
+.ant-picker-panel-container {
+	background-color: #171c21 !important;
+	color: #f5f5f5 !important;
 }
-
-.ant-tooltip-arrow-content {
-	background-color: #d4af37 !important;
+.ant-modal-title,
+.ant-popover-title,
+.ant-form-item-label > label {
+	color: #f5f5f5 !important;
 }
-
-/* Popover */
-.ant-popover-inner {
-	background-color: #1a1a1a !important;
-}
-
+.ant-modal-header,
 .ant-popover-title {
 	border-bottom-color: #333333 !important;
-	color: #ffffff !important;
 }
-
-/* Notification */
 .ant-notification-notice {
-	background-color: #1a1a1a !important;
+	background-color: #1a1f24 !important;
 	border-left: 3px solid #d4af37 !important;
 }
-
 .ant-notification-notice-message {
 	color: #d4af37 !important;
 }
-
-/* Alert */
 .ant-alert-success {
-	background-color: #d4af3714 !important;
-	border-color: #d4af37 !important;
-	color: #ffffff !important;
+	background-color: #0f6b3e14 !important;
+	border-color: #0f6b3e !important;
+	color: #f5f5f5 !important;
 }
-
 .ant-alert-warning {
 	background-color: #d4af3714 !important;
 	border-color: #d4af37 !important;
-	color: #ffffff !important;
+	color: #f5f5f5 !important;
 }
-
 .ant-alert-error {
-	background-color: #d4af3714 !important;
-	border-color: #d4af37 !important;
-	color: #ffffff !important;
+	background-color: #c0392b14 !important;
+	border-color: #c0392b !important;
+	color: #f5f5f5 !important;
 }
-
-/* Form Labels - White */
-.ant-form-item-label > label {
-	color: #ffffff !important;
+.ant-tooltip-inner,
+.ant-tooltip-arrow-content {
+	background-color: #d4af37 !important;
+	color: #000000 !important;
 }
-
-/* Placeholder */
-.ant-input::placeholder {
-	color: #666666 !important;
+.ant-input::placeholder,
+input::placeholder,
+textarea::placeholder {
+	color: #7d7d7d !important;
 }
-
-/* Disabled */
-.ant-btn[disabled] {
-	background-color: #2a2a2a !important;
-	border-color: #333333 !important;
-	color: #666666 !important;
-}
-
+.ant-btn[disabled],
 .ant-btn-primary[disabled] {
 	background-color: #2a2a2a !important;
 	border-color: #333333 !important;

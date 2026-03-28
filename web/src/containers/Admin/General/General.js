@@ -2172,7 +2172,7 @@ class GeneralContent extends Component {
 							<div className="d-flex align-items-center" id="tech-access-key">
 								<span className="sub-title mr-2">Tech Access Key</span>
 								<Tooltip
-									title={`Creates an access key for HollaEx®'s technical team to run remote diagnostics tests for exchange troubleshooting. Enable only when instructed to do so`}
+									title={`Creates an access key for AZIX's technical team to run remote diagnostics tests for exchange troubleshooting. Enable only when instructed to do so`}
 									overlayClassName="tech-access-tooltip"
 									placement="right"
 								>
@@ -2181,8 +2181,8 @@ class GeneralContent extends Component {
 							</div>
 							<div className="description d-flex flex-column">
 								<span>
-									Only enabled this when explicitly instructed by the HollaEx®
-									tech team.
+									Only enabled this when explicitly instructed by the AZIX tech
+									team.
 								</span>
 								{!isDisplayKey ? (
 									<span

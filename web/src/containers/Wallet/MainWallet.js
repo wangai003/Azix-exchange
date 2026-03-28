@@ -31,6 +31,7 @@ import ProfitLossSection from './ProfitLossSection';
 import { STATIC_ICONS } from 'config/icons';
 import { isStakingAvailable, STAKING_INDEX_COIN } from 'config/contracts';
 import { assetsSelector, searchAssets } from './utils';
+import { sortCoinKeysForDisplay } from 'utils/brandSort';
 import { setPricesAndAsset } from 'actions/assetActions';
 import { setActiveBalanceHistory } from 'actions/walletActions';
 
@@ -188,7 +189,7 @@ class Wallet extends Component {
 
 	getMobileSlider = (coins, wsPriceData) => {
 		const result = {};
-		Object.keys(coins).map((key) => {
+		sortCoinKeysForDisplay(coins).map((key) => {
 			const temp = coins[key];
 			return (result[key] = { ...temp, wsPrice: wsPriceData[key] });
 		});

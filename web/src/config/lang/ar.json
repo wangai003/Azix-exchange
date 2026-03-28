@@ -23,7 +23,7 @@
 	"CONTACT_US_TEXT": "إتصل معنا",
 	"HELPFUL_RESOURCES_TEXT": "مصادر مفيدة",
 	"HELP_TELEGRAM_TEXT": "تحقق من وثائق API المفتوحة:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NO_ACTIVE_ORDERS": "No orders detected. Place your orders on the Pro or Quick trade page",
 	"NEED_HELP_TEXT": "تحتاج لمساعدة؟",
 	"HELP_TEXT": "مساعدة",
@@ -155,7 +155,7 @@
 			"OPTION_BUG": "تقرير خلل برمجي",
 			"OPTION_PERSONAL_INFO": "تغيير المعلومات الشخصية",
 			"OPTION_BANK_TRANSFER": "تحويل بنكي",
-			"OPTION_REQUEST": "طلب دعوة لبورصة HollaEx"
+			"OPTION_REQUEST": "طلب دعوة لبورصة AZIX"
 		},
 		"SUBJECT_LABEL": "موضوع",
 		"SUBJECT_PLACEHOLDER": "اكتب موضوع مشكلتك",
@@ -1785,7 +1785,7 @@
 	"ZERO_ASSET_3": "إيداع أدناه.",
 	"ORDER_MODE": "وضع الطلب",
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "هل تريد إدراج أصولك الرقمية؟ ابدأ سوقك الخاص باستخدام HollaEx {0} {1}",
+		"HOLLAEX": "هل تريد إدراج أصولك الرقمية؟ ابدأ سوقك الخاص باستخدام AZIX {0} {1}",
 		"WHITE_LABEL": "البطاقة البيضاء",
 		"SOLUTION": "حل",
 		"VISIT_COIN_INFO_PAGE": "قم بزيارة صفحة معلومات العملة {0}",
@@ -1891,7 +1891,7 @@
 	"WITHDRAWALS_FORM_METHOD": "طريقة",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "تبادل البريد الإلكتروني للمستخدم",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "أدخل البريد الإلكتروني للمستخدم في هذا التبادل",
-	"WITHDRAWALS_FORM_MAIL_INFO": "أدخل البريد الإلكتروني لحساب HollaEx الخاص بالمستخدم والموجود في هذا التبادل وقم بنقله مجانًا.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "أدخل البريد الإلكتروني لحساب AZIX الخاص بالمستخدم والموجود في هذا التبادل وقم بنقله مجانًا.",
 	"RISKY_TRADE_DISCLAIMER": {
 		"MSG_1": "يرجى التحقق من أنك تريد بالفعل التداول بـ {0} ({1}) حيث أن هذا الأصل قد يحمل مخاطر عالية",
 		"MSG_2": "التقلب الشديد",
@@ -2967,5 +2967,7 @@
 		"TOO_MANY_REQUEST_ERROR": "طلبات كثيرة جدًا",
 		"TOO_MANY_REQUEST_ERROR_DESC": "واو! تمهل، أنت تفعل الكثير في آن واحد.",
 		"NETWORK_ERROR_MESSAGE": "خطأ في الشبكة"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

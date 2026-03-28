@@ -7,12 +7,12 @@ const nestedIcons = {
 
 	EXCHANGE: {
 		LOGO:
-			"data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%2096'%3E%0A%3Crect%20width='320'%20height='96'%20rx='18'%20fill='%230b0b0b'/%3E%0A%3Ctext%20x='26'%20y='58'%20font-size='42'%20font-family='Arial,%20Helvetica,%20sans-serif'%20font-weight='700'%20letter-spacing='6'%20fill='%23d4af37'%3EAZIX%3C/text%3E%0A%3Crect%20x='24'%20y='68'%20width='128'%20height='6'%20rx='3'%20fill='%230f6b3e'/%3E%0A%3C/svg%3E",
+			"data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%2096'%3E%0A%3Crect%20width='320'%20height='96'%20rx='18'%20fill='%231a1406'/%3E%0A%3Ctext%20x='26'%20y='58'%20font-size='42'%20font-family='Arial,%20Helvetica,%20sans-serif'%20font-weight='700'%20letter-spacing='6'%20fill='%23f2d16b'%3EAZIX%3C/text%3E%0A%3Crect%20x='24'%20y='68'%20width='128'%20height='6'%20rx='3'%20fill='%230f6b3e'/%3E%0A%3C/svg%3E",
 		FAV_ICON: '/favicon.ico',
 		LOADER: '/assets/dark-spinner.gif',
 		BOARDING_IMAGE: '/assets/dark-background.jpg',
 		LANDING_PAGE:
-			"data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%2096'%3E%0A%3Crect%20width='320'%20height='96'%20rx='18'%20fill='%230b0b0b'/%3E%0A%3Ctext%20x='26'%20y='58'%20font-size='42'%20font-family='Arial,%20Helvetica,%20sans-serif'%20font-weight='700'%20letter-spacing='6'%20fill='%23d4af37'%3EAZIX%3C/text%3E%0A%3Crect%20x='24'%20y='68'%20width='128'%20height='6'%20rx='3'%20fill='%230f6b3e'/%3E%0A%3C/svg%3E",
+			"data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20320%2096'%3E%0A%3Crect%20width='320'%20height='96'%20rx='18'%20fill='%231a1406'/%3E%0A%3Ctext%20x='26'%20y='58'%20font-size='42'%20font-family='Arial,%20Helvetica,%20sans-serif'%20font-weight='700'%20letter-spacing='6'%20fill='%23f2d16b'%3EAZIX%3C/text%3E%0A%3Crect%20x='24'%20y='68'%20width='128'%20height='6'%20rx='3'%20fill='%230f6b3e'/%3E%0A%3C/svg%3E",
 	},
 
 	QUICK_TRADE: {

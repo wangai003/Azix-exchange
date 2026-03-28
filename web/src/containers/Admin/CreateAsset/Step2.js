@@ -141,7 +141,7 @@ const Step2 = ({
 	return (
 		<Fragment>
 			<div className="first-title">
-				{activeTab === '0' ? 'HollaEx assets' : 'Assets'}
+				{activeTab === '0' ? 'AZIX assets' : 'Assets'}
 			</div>
 			<div className="title">Select an asset</div>
 			<Input

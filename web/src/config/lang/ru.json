@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Открыть криптобиржу",
 	"LOGOUT_CONFIRM_TEXT": "Вы действительно хотите выйти?",
 	"ADD_TRADING_PAIR": "Выберите рынок",
@@ -28,7 +28,7 @@
 		"TEXT": "Не стесняйтесь {0} для получения дополнительной информации и любых проблем, отправив нам электронное письмо"
 	},
 	"HELP_TELEGRAM_TEXT": "Ознакомьтесь с открытой документацией по API:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "Нужна помощь?",
 	"HELP_TEXT": "помощь",
 	"SUCCESS_TEXT": "Успех",
@@ -1402,7 +1402,7 @@
 		"CURRENT_TXT": "Текущий",
 		"EMAIL_VERIFICATION": "Подтверждение по элетронной почте",
 		"DOCUMENTS": "Документы",
-		"HAP_TEXT": "Партнерская программа HollaEx (HAP) {0}",
+		"HAP_TEXT": "Партнерская программа AZIX (HAP) {0}",
 		"LOCK_AN_EXCHANGE": "Заблокировать биржу {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Пользователи подписки на Сейф {0}",
 		"TRADE_OVER_XHT": "Торгуйте на сумму более {0} USDT",
@@ -1592,7 +1592,7 @@
 		"BUY": "Купить {0} {1}"
 	},
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Хотите перечислить свои цифровые активы? Начните свой собственный рынок с HollaEx {0} {1}",
+		"HOLLAEX": "Хотите перечислить свои цифровые активы? Начните свой собственный рынок с AZIX {0} {1}",
 		"WHITE_LABEL": "белая этикетка",
 		"SOLUTION": "решение",
 		"VISIT_COIN_INFO_PAGE": "Посетите страницу информации о монете {0}",
@@ -1696,7 +1696,7 @@
 	"WITHDRAWALS_FORM_METHOD": "Метод",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "Обмен электронной почтой пользователя",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "Введите адрес электронной почты пользователя на этой бирже",
-	"WITHDRAWALS_FORM_MAIL_INFO": "Введите адрес электронной почты учетной записи пользователя HollaEx, который находится на этой бирже, и переведите его бесплатно.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "Введите адрес электронной почты учетной записи пользователя AZIX, который находится на этой бирже, и переведите его бесплатно.",
 	"DUST": {
 		"TITLE": "Кошелек тряпка",
 		"LINK": "Кошелек тряпка",
@@ -2797,5 +2797,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Слишком много запросов",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Ого! Помедленнее, ты делаешь слишком много одновременно.",
 		"NETWORK_ERROR_MESSAGE": "Ошибка сети"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

@@ -21,6 +21,7 @@ import { STATIC_ICONS } from 'config/icons';
 import { assetsSelector } from 'containers/Wallet/utils';
 import { renderLabel, renderNetworkWithLabel } from 'containers/Withdraw/utils';
 import STRINGS from 'config/localizedStrings';
+import { sortCoinEntriesForDisplay } from 'utils/brandSort';
 import { onHandleSymbol } from './utils';
 import { handlePopupContainer } from 'utils/utils';
 import { getNetworkNameByKey } from 'utils/wallet';
@@ -449,7 +450,7 @@ const DepositComponent = ({
 									onSelect={(e) => onHandleSelect(e)}
 									getPopupContainer={handlePopupContainer}
 								>
-									{Object.entries(coins).map(
+									{sortCoinEntriesForDisplay(coins).map(
 										([_, { symbol, fullname, icon_id }]) => (
 											<Option
 												key={`${fullname} (${symbol.toUpperCase()})`}

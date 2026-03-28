@@ -285,7 +285,7 @@ const Final = ({
 		ldo: 'Lido DAO (LDO)',
 		snx: 'Synthetix (SNX)',
 		yfi: 'Yearn Finance (YFI)',
-		xht: 'HollaEx (XHT)',
+		xht: 'AZIX (XHT)',
 	};
 
 	const columns = [

@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaEx",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Нээлттэй Крипто Эксченж",
 	"LOGOUT_CONFIRM_TEXT": "Та гарахдаа итгэлтэй байна уу",
 	"SIGN_OUT_TEXT": "Гарах",
@@ -34,7 +34,7 @@
 		"TEXT": "Танд тусламж хэрэгтэй болон асуух асуулт байвал {0}, эсвэл и-мэйл илгээнэ үү."
 	},
 	"HELP_TELEGRAM_TEXT": "API заавар үзэх:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.hollaex.com",
+	"HELP_TELEGRAM_LINK": "https://azix.world",
 	"NEED_HELP_TEXT": "Тусламж хэрэгтэй юу?",
 	"HELP_TEXT": "тусламж",
 	"SUCCESS_TEXT": "Амжилттай",
@@ -2808,5 +2808,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Хэт олон хүсэлт",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Хөөх! Удаашраарай, та нэг дор хэт их зүйлийг хийж байна",
 		"NETWORK_ERROR_MESSAGE": "Сүлжээний алдаа"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

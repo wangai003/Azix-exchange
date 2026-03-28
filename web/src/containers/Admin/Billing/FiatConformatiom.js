@@ -33,7 +33,7 @@ const FiatConfirmation = ({ exchange, onCancel, handleViewPlan }) => {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							HollaEx exchange setup docs
+							AZIX setup docs
 						</a>
 						.
 					</div>
@@ -45,7 +45,7 @@ const FiatConfirmation = ({ exchange, onCancel, handleViewPlan }) => {
 						A sales representative will be in touch within 24-48 hours.
 					</div>
 					<div className="main-info">
-						In the mean time feel free to join the HollaEx crypto exchange
+						In the mean time feel free to join the AZIX digital asset platform
 						community on{' '}
 						<a
 							href="https://discord.gg/2FqvS6TbRm"
@@ -62,7 +62,7 @@ const FiatConfirmation = ({ exchange, onCancel, handleViewPlan }) => {
 							rel="noopener noreferrer"
 							className="text-underline"
 						>
-							HollaEx documentations
+							AZIX documentation
 						</a>
 					</div>
 				</div>

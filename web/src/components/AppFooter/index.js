@@ -157,11 +157,11 @@ const AppFooter = ({
 				<div className="pt-2">
 					{!links.hide_referral_badge && (
 						<a
-							href={links.referral_link || 'https://hollaex.com'}
+							href={links.referral_link || 'https://azix.world'}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<span>{links.referral_label || 'Powered by HollaEx'}</span>
+							<span>{links.referral_label || 'Powered by AZIX'}</span>
 						</a>
 					)}
 				</div>

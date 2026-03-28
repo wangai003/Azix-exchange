@@ -146,7 +146,7 @@ const PairSelection = ({
 	return (
 		<div className="market-add-container">
 			<div className="first-title">
-				{activeTab === '0' ? 'HollaEx markets' : 'Other markets'}
+				{activeTab === '0' ? 'AZIX markets' : 'Other markets'}
 			</div>
 			<div className="title">Select a market</div>
 			<div>

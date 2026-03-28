@@ -112,7 +112,7 @@ const Otcdeskpopup = ({
 	const [chainlink, setChainlink] = useState(false);
 	const [customlink, setCustomlink] = useState(false);
 	const [formula, setFormula] = useState('');
-	const [hedgeApi, setHedgeApi] = useState('hollaex');
+	const [hedgeApi, setHedgeApi] = useState('azix');
 	const [selelctedPlatform, setSelectedPlatform] = useState('binance');
 	const [selectedExchange, setSelectedExchange] = useState('binance');
 	const [exchangeMarkets, setExchangeMarkets] = useState([]);
@@ -143,7 +143,7 @@ const Otcdeskpopup = ({
 	const [marketLoading, setMarketLoading] = useState(false);
 	const kitPlan = _toLower(kit?.info?.plan);
 	const selectableExchanges = [
-		'hollaex',
+		'azix',
 		'binance',
 		'oracle',
 		kitPlan !== 'crypto' && 'coinbase',
@@ -246,7 +246,7 @@ const Otcdeskpopup = ({
 		setFormula('');
 		setFormulaVariable();
 		setCustomlink(false);
-		setHedgeApi('hollaex');
+		setHedgeApi('azix');
 		setApi({});
 		setSpreadMul({});
 		setSelectedPlatform('binance');
@@ -506,7 +506,7 @@ const Otcdeskpopup = ({
 
 	const renderExchangeOptions = (hasOracle = true) => (
 		<>
-			<Option value="hollaex">Hollaex Pro</Option>
+			<Option value="azix">Hollaex Pro</Option>
 			<Option value="binance">Binance</Option>
 			<Option value="coinbase">Coinbase</Option>
 			<Option value="bitfinex">Bitfinex</Option>

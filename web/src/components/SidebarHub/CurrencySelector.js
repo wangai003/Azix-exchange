@@ -1,11 +1,12 @@
 import React from 'react';
 import classnames from 'classnames';
 import { connect } from 'react-redux';
+import { sortCoinEntriesForDisplay } from 'utils/brandSort';
 
 const CurrencySelector = ({ activeCurrency, changeCurrency, coins }) => {
 	return (
 		<div className="d-flex currency-selector">
-			{Object.entries(coins).map(([currency, values], index) => {
+			{sortCoinEntriesForDisplay(coins).map(([currency, values], index) => {
 				const active = activeCurrency === currency;
 				return (
 					<div

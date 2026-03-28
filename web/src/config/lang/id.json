@@ -1,5 +1,5 @@
 {
-	"APP_TITLE": "HollaeX",
+	"APP_TITLE": "AZIX",
 	"APP_SUB_TITLE": "Open Crypto Exchange",
 	"LOGOUT_CONFIRM_TEXT": "Apakah Anda yakin akan logout?",
 	"ADD_TRADING_PAIR": "Tambah Trading Pair",
@@ -23,7 +23,7 @@
 	"CONTACT_US_TEXT": "Hubungi kami",
 	"HELPFUL_RESOURCES_TEXT": "Sumber Bermanfaat",
 	"HELP_TELEGRAM_TEXT": "Cek dokumen API terbuka:",
-	"HELP_TELEGRAM_LINK": "https://apidocs.HollaeX.com",
+	"HELP_TELEGRAM_LINK": "https://apidocs.AZIX.com",
 	"NEED_HELP_TEXT": "Perlu bantuan?",
 	"HELP_TEXT": "help",
 	"SUCCESS_TEXT": "Sukses",
@@ -38,8 +38,8 @@
 	"VIEW_INFO": "Lihat halaman info",
 	"APPLY_HERE": "Apply Here",
 	"HOME": {
-		"SECTION_1_TITLE": "Selamat datang di HollaeX Exchange Kit!",
-		"SECTION_1_TEXT_1": "Buatlah pertukaran aset digital Anda yang dapat diperpanjang dengan HollaeX Kit dan jadilah bagian dari keuangan masa depan.",
+		"SECTION_1_TITLE": "Selamat datang di AZIX Exchange Kit!",
+		"SECTION_1_TEXT_1": "Buatlah pertukaran aset digital Anda yang dapat diperpanjang dengan AZIX Kit dan jadilah bagian dari keuangan masa depan.",
 		"SECTION_1_TEXT_2": "Kami berusaha keras untuk memajukan teknologi keuangan melalui akses yang dapat diusahakan dan sederhana ke teknologi perdagangan.",
 		"SECTION_1_BUTTON_1": "Belajar lebih lanjut",
 		"SECTION_3_TITLE": "Fitur",
@@ -48,7 +48,7 @@
 		"SECTION_3_CARD_2_TITLE": "INTEGRASI BANK",
 		"SECTION_3_CARD_2_TEXT": "Plugin dengan modul yang dapat disesuaikan tersedia untuk integrasi bank. Kami sudah memahami keuangan tradisional dan dapat membantu Anda untuk membuat bursa lokal",
 		"SECTION_3_CARD_3_TITLE": "TINGKAT KEAMANAN TINGGI",
-		"SECTION_3_CARD_3_TEXT": "HollaeX menggunakan praktik keamanan terbaik dan algoritma yang paling aman dan dapat dipercaya untuk menjaga keamanan dana. Keamanan adalah prioritas utama kami dan kami sangat memperhatikannya.",
+		"SECTION_3_CARD_3_TEXT": "AZIX menggunakan praktik keamanan terbaik dan algoritma yang paling aman dan dapat dipercaya untuk menjaga keamanan dana. Keamanan adalah prioritas utama kami dan kami sangat memperhatikannya.",
 		"SECTION_3_CARD_4_TITLE": "PELAPORAN TERDEPAN",
 		"SECTION_3_CARD_4_TEXT": "Panel admin dengan email yang dapat disesuaikan dan pelaporan untuk memberitahukan dukungan dan administrator tentang status sistem dan transaksi.",
 		"SECTION_3_CARD_5_TITLE": "DUKUNGAN",
@@ -112,7 +112,7 @@
 			"SECTION_4_LINK_4": "Terms of Use",
 			"SECTION_5_TITLE": "RESOURCES",
 			"SECTION_5_LINK_1": "Whitepaper",
-			"SECTION_5_LINK_2": "HollaeX Token (XHT) ",
+			"SECTION_5_LINK_2": "AZIX Token (XHT) ",
 			"SECTION_5_LINK_3": "GitHub",
 			"SECTION_5_LINK_4": "FAQ",
 			"SECTION_6_TITLE": "SOCIAL",
@@ -1145,10 +1145,10 @@
 		"TRADER_ACCOUNT_XHT_TEXT": "Akun Anda sedang dalam periode pra-penjualan XHT, artinya Anda dapat mendapatkan XHT seharga $0,10 per XHT. Semua deposit akan dikonversi ke XHT setelah transaksi selesai.",
 		"TRADER_ACCOUNT_TITLE": "Akun - Periode Pra-penjualan",
 		"HAP_ACCOUNT": "Akun HAP",
-		"HAP_ACCOUNT_TXT": "Akun Anda adalah akun terverifikasi dengan program afiliasi HollaeX. Anda dapat mendapatkan bonus sebesar 10% untuk setiap orang yang membeli XHT dan diundang oleh Anda.",
+		"HAP_ACCOUNT_TXT": "Akun Anda adalah akun terverifikasi dengan program afiliasi AZIX. Anda dapat mendapatkan bonus sebesar 10% untuk setiap orang yang membeli XHT dan diundang oleh Anda.",
 		"EMAIL_VERIFICATION": "Verifikasi Email",
 		"DOCUMENTS": "Documen",
-		"HAP_TEXT": "Program Afiliasi HollaeX (HAP) {0}",
+		"HAP_TEXT": "Program Afiliasi AZIX (HAP) {0}",
 		"LOCK_AN_EXCHANGE": "Mengunci Bursa {0}",
 		"WALLET_SUBSCRIPTION_USERS": "Pengguna langganan Vault {0}",
 		"TRADE_OVER_XHT": "Perdagangan senilai melebihi {0} USDT",
@@ -1749,7 +1749,7 @@
 		"BUY": "Beli {0} {1}"
 	},
 	"SUMMARY_MARKETS": {
-		"HOLLAEX": "Ingin mendaftarkan aset digital Anda? Mulai pasar Anda sendiri dengan HollaEx Anda {0} {1}",
+		"HOLLAEX": "Ingin mendaftarkan aset digital Anda? Mulai pasar Anda sendiri dengan AZIX Anda {0} {1}",
 		"WHITE_LABEL": "label putih",
 		"SOLUTION": "larutan",
 		"VISIT_COIN_INFO_PAGE": "Kunjungi laman info koin {0}",
@@ -1852,7 +1852,7 @@
 	"WITHDRAWALS_FORM_METHOD": "metode",
 	"WITHDRAWALS_FORM_ADDRESS_EXCHANGE": "Bertukar email pengguna",
 	"WITHDRAWALS_FORM_EXCHANGE_PLACEHOLDER": "Masukkan email pengguna di bursa ini",
-	"WITHDRAWALS_FORM_MAIL_INFO": "Masukkan email akun HollaEx pengguna yang ada di bursa ini dan transfer gratis.",
+	"WITHDRAWALS_FORM_MAIL_INFO": "Masukkan email akun AZIX pengguna yang ada di bursa ini dan transfer gratis.",
 	"DUST": {
 		"TITLE": "Kemoceng dompet",
 		"LINK": "Kemoceng dompet",
@@ -2953,5 +2953,7 @@
 		"TOO_MANY_REQUEST_ERROR": "Terlalu banyak permintaan",
 		"TOO_MANY_REQUEST_ERROR_DESC": "Wah! Pelan-pelan saja, kamu melakukan terlalu banyak hal sekaligus",
 		"NETWORK_ERROR_MESSAGE": "Kesalahan Jaringan"
-	}
+	},
+	"AKOFA_FULLNAME": "AKOFA Coin",
+	"AKOFA": "AKOFA"
 }

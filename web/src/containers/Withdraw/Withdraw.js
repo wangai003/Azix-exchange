@@ -9,6 +9,7 @@ import math from 'mathjs';
 
 import { Coin, EditWrapper, Image } from 'components';
 import STRINGS from 'config/localizedStrings';
+import { sortCoinEntriesForDisplay } from 'utils/brandSort';
 import {
 	CaretDownOutlined,
 	CheckOutlined,
@@ -1025,7 +1026,7 @@ const RenderWithdraw = ({
 													}}
 													getPopupContainer={handlePopupContainer}
 												>
-													{Object.entries(coins).map(
+													{sortCoinEntriesForDisplay(coins).map(
 														([_, { symbol, fullname, icon_id }]) => (
 															<Option
 																key={`${fullname} (${symbol.toUpperCase()})`}

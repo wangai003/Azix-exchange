@@ -183,7 +183,7 @@ class CreateAsset extends Component {
 			(val) =>
 				!coinKeys.includes(val.symbol) &&
 				val.verified &&
-				_toLower(val.issuer) === 'hollaex'
+				_toLower(val.issuer) === 'azix'
 		);
 		if (activeKey === '1') {
 			coins = this.props.coins.filter(
@@ -197,7 +197,7 @@ class CreateAsset extends Component {
 				(val) =>
 					!coinKeys.includes(val.symbol) &&
 					val.verified &&
-					_toLower(val.issuer) !== 'hollaex' &&
+					_toLower(val.issuer) !== 'azix' &&
 					_toLower(val.type) !== 'fiat'
 			);
 		}
@@ -448,7 +448,7 @@ class CreateAsset extends Component {
 				(val) =>
 					!coinKeys.includes(val.symbol) &&
 					val.verified &&
-					_toLower(val.issuer) === 'hollaex'
+					_toLower(val.issuer) === 'azix'
 			);
 			coinData = [...hollaexCoins];
 		} else if (this.state.activeTab === '1') {
@@ -463,7 +463,7 @@ class CreateAsset extends Component {
 				(val) =>
 					!coinKeys.includes(val.symbol) &&
 					val.verified &&
-					_toLower(val.issuer) !== 'hollaex' &&
+					_toLower(val.issuer) !== 'azix' &&
 					_toLower(val.type) !== 'fiat'
 			);
 		}

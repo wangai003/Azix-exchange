@@ -1031,3 +1031,66 @@ $trade-tab--arrow-size: 0.4rem;
 		}
 	}
 }
+
+.home_container {
+	background: radial-gradient(
+			circle at top right,
+			rgba(212, 175, 55, 0.12),
+			transparent 24%
+		),
+		linear-gradient(180deg, #0b0d10 0%, #11161a 45%, #0c1014 100%);
+	.section_1-content {
+		align-items: center;
+		gap: 3rem;
+		padding: 4rem 0 2rem;
+	}
+	.main-section-wrapper,
+	.home-page_section-wrapper {
+		background: transparent;
+	}
+	.title-description {
+		max-width: 38rem;
+	}
+	.home-title {
+		color: #f5f5f3;
+		font-size: 4rem;
+		line-height: 1.08;
+		font-family: $raleway-extrabold--font-family;
+	}
+	.text-section {
+		color: rgba(245, 245, 243, 0.82);
+		font-size: 1.16rem;
+	}
+	.comments,
+	.signup-field {
+		background: rgba(23, 28, 33, 0.92) !important;
+		border: 1px solid rgba(212, 175, 55, 0.16) !important;
+		border-radius: 999px !important;
+		color: #f5f5f3 !important;
+	}
+	.signup-btn,
+	.start-trade-btn {
+		background: linear-gradient(135deg, #d4af37, #e5c250) !important;
+		color: #000 !important;
+		border-radius: 999px !important;
+		box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
+	}
+	.start-trade-btn:hover,
+	.signup-btn:hover {
+		transform: translateY(-1px);
+	}
+	.home-page__market-wrapper,
+	.card-section-wrapper,
+	.create-account-wrapper,
+	.mini-quick-trade-calculator-wrapper,
+	.question-answer-wrapper {
+		background: linear-gradient(
+			180deg,
+			rgba(21, 26, 31, 0.95),
+			rgba(15, 19, 24, 0.96)
+		);
+		border: 1px solid rgba(212, 175, 55, 0.1);
+		border-radius: 1.5rem;
+		box-shadow: 0 22px 48px rgba(0, 0, 0, 0.24);
+	}
+}

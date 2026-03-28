@@ -14,7 +14,7 @@
 		"array-move": "3.0.1",
 		"awesome-phonenumber": "2.64.0",
 		"axios": "0.30.2",
-		"classnames": "2.2.6",
+		"classnames": "^2.3.1",
 		"color": "3.1.3",
 		"core-js": "3.6.5",
 		"country-data": "0.0.31",
@@ -94,6 +94,7 @@
 		"@craco/craco": "5.8.0",
 		"@google-cloud/translate": "7.2.2",
 		"cpy-cli": "3.1.1",
+		"cross-env": "^10.1.0",
 		"glob": "7.1.7",
 		"husky": "4.3.0",
 		"json-beautify": "1.1.1",
@@ -101,10 +102,10 @@
 		"lodash.chunk": "4.2.0",
 		"lodash.flatten": "4.4.0",
 		"lodash.isempty": "4.4.0",
-		"sass": "1.69.0",
 		"prettier": "2.1.2",
 		"react-scripts": "3.4.3",
 		"rimraf": "3.0.2",
+		"sass": "1.69.0",
 		"surge": "0.21.6"
 	},
 	"overrides": {

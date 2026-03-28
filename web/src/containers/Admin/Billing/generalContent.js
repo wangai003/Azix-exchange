@@ -887,15 +887,15 @@ const GeneralContent = ({
 													purchased separately upon request.
 												</div>
 												<div>
-													*A donation towards the HollaEx network is required
-													for new custom coin and trading pair activation (DIY
-													boost includes 1 free token & market).
+													*A donation towards the AZIX network is required for
+													new custom coin and trading pair activation (DIY boost
+													includes 1 free token & market).
 												</div>
 											</div>
 										) : (
 											<div>
-												*A donation towards the HollaEx network is required for
-												new custom coin and trading pair activation
+												*A donation towards the AZIX network is required for new
+												custom coin and trading pair activation
 											</div>
 										)}
 										<div>

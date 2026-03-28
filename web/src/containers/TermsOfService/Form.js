@@ -21,7 +21,7 @@ const Form = ({ formFields, handleSubmit, error, submitting, valid }) => {
 						className="download_pdf-svg"
 					/>
 					<a
-						href="https://hollaex.com/docs/agreement.pdf"
+						href="https://azix.world"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

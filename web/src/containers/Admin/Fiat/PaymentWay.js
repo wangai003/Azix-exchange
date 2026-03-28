@@ -131,7 +131,7 @@ export const PaymentWay = withConfig(
 										</div>
 										<div>
 											Plugins require that you get in touch with{' '}
-											<span className="txtanchor">support@hollaex.com</span>
+											<span className="txtanchor">support@azix.world</span>
 										</div>
 									</div>
 								</div>

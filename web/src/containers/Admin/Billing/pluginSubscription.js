@@ -34,7 +34,7 @@ const PluginSubscription = ({
 						</div>
 						<div className="d-flex mt-2 gray-text footer-text">
 							<span className="d-flex">
-								{author === 'HollaEx' ? (
+								{author === 'AZIX' ? (
 									<Tooltip
 										placement="rightBottom"
 										title={`Verified plugin by ${author}`}

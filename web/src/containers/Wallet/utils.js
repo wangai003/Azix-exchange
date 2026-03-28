@@ -13,6 +13,7 @@ import { WALLET_SORT } from 'actions/appActions';
 import { Image } from 'hollaex-web-lib';
 import { networkList, renderNetworkWithLabel } from 'containers/Withdraw/utils';
 import { unique } from 'utils/data';
+import { sortCoinEntriesForDisplay } from 'utils/brandSort';
 
 const getCoins = (state) => state.app.coins;
 const getBalances = (state) => state.user.balance;
@@ -74,13 +75,15 @@ export const getAllAvailableMarkets = (key, quicktrade) => {
 };
 
 export const selectAssetOptions = createSelector([getCoins], (coins) => {
-	const assets = Object.entries(coins).map(([key, { symbol, fullname }]) => {
-		return {
-			key,
-			symbol,
-			fullname,
-		};
-	});
+	const assets = sortCoinEntriesForDisplay(coins).map(
+		([key, { symbol, fullname }]) => {
+			return {
+				key,
+				symbol,
+				fullname,
+			};
+		}
+	);
 
 	return assets;
 });
@@ -90,7 +93,7 @@ const unsortedAssetsSelector = createSelector(
 	(coins, balances, wsPriceData, usdtToDisplayRate) => {
 		const assets = {};
 
-		Object.entries(coins).forEach(([key, coin]) => {
+		sortCoinEntriesForDisplay(coins).forEach(([key, coin]) => {
 			if (balances.hasOwnProperty(`${key}_balance`)) {
 				const wsPrice = wsPriceData[key];
 				const balance = balances[`${key}_balance`];

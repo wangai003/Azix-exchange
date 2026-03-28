@@ -107,8 +107,8 @@ const AddPairTab = ({
 	const StepList = [
 		{
 			key: 'hollaexPairs',
-			name: 'HollaEx markets',
-			description: 'Markets offered by HollaEx',
+			name: 'AZIX markets',
+			description: 'Markets offered by AZIX',
 			content: renderContent(),
 		},
 		{

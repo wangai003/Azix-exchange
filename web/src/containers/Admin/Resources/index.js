@@ -53,13 +53,13 @@ class Resources extends Component {
 							{item.title === 'Other Useful Resources' ? (
 								<div className="sub-link">
 									<p>
-										HollaEx Site:
-										<a href="https://hollaex.com" title="site">
-											https://hollaex.com
+										AZIX Site:
+										<a href="https://azix.world" title="site">
+											https://azix.world
 										</a>
 									</p>
 									<p>
-										HollaEx Kit:
+										AZIX Interface:
 										<a
 											href="https://github.com/bitholla/hollaex-kit"
 											title="site"
@@ -68,7 +68,7 @@ class Resources extends Component {
 										</a>
 									</p>
 									<p>
-										HollaEx CLI (Command Line Interface):
+										AZIX CLI (Command Line Interface):
 										<a
 											href="https://github.com/bitholla/hollaex-cli"
 											title="site"
@@ -77,7 +77,7 @@ class Resources extends Component {
 										</a>
 									</p>
 									<p>
-										HollaEx Node Library:
+										AZIX Node Library:
 										<a
 											href="https://www.npmjs.com/package/hollaex-node-lib"
 											title="site"

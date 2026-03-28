@@ -702,7 +702,7 @@ const OtcDeskContainer = ({
 			}
 		}
 		if (name === 'accountVal') {
-			const accountName = value || 'hollaex';
+			const accountName = value || 'azix';
 
 			tempPreviewData.account = {
 				[accountName]: {
@@ -714,7 +714,7 @@ const OtcDeskContainer = ({
 		if (name === 'apikey') {
 			const accountName = tempPreviewData?.accountVal
 				? tempPreviewData?.accountVal
-				: 'hollaex';
+				: 'azix';
 
 			tempPreviewData.account = {
 				[accountName]: {
@@ -726,7 +726,7 @@ const OtcDeskContainer = ({
 		if (name === 'seckey') {
 			const accountName = tempPreviewData?.accountVal
 				? tempPreviewData?.accountVal
-				: 'hollaex';
+				: 'azix';
 
 			tempPreviewData.account = {
 				[accountName]: {

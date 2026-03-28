@@ -254,7 +254,7 @@ const PluginDetails = ({
 								</div>
 								<p className="tooltip-container">
 									Author:
-									{author === 'HollaEx' ? (
+									{author === 'AZIX' ? (
 										<Tooltip
 											placement="rightBottom"
 											title={`Verified plugin by ${author}`}
@@ -624,7 +624,7 @@ const PluginDetails = ({
 									</div>
 									<p className="tooltip-container">
 										Author:
-										{author === 'HollaEx' ? (
+										{author === 'AZIX' ? (
 											<Tooltip
 												placement="rightBottom"
 												title={`Verified plugin by ${author}`}
