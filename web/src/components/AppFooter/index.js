@@ -6,35 +6,50 @@ import { Image } from 'components';
 import withEdit from 'components/EditProvider/withEdit';
 import STRINGS from 'config/localizedStrings';
 
-const generateSectionsText = (links = {}, ICONS) => {
-	let sectionsText = Object.keys(links)
-		.filter(
-			(sectionKey) =>
-				typeof links[sectionKey] === 'object' && links[sectionKey].header
-		)
-		.map((key) => {
-			const section = links[key];
-			let heading = Object.keys(section.header)[0];
-			return {
-				TITLE: section.header[heading],
-				LINKS: Object.keys(section.content).map((contentKey) => ({
-					text: contentKey,
-					link: section.content[contentKey],
-				})),
-			};
-		});
-
-	sectionsText = sectionsText.filter((item) => !!item);
-	return sectionsText.map(({ TITLE, LINKS }) => {
-		let obj = {
-			TITLE,
-			LINKS: LINKS.filter((link) => {
-				return !!link;
-			}),
-		};
-		return obj;
-	});
-};
+const AZIX_FOOTER_SECTIONS = [
+	{
+		TITLE: 'Exchange',
+		LINKS: [
+			{ text: 'Login', link: 'https://azix.world/login' },
+			{ text: 'Sign Up', link: 'https://azix.world/signup' },
+			{ text: 'Markets', link: 'https://azix.world/markets' },
+			{ text: 'Marketplace', link: 'https://azix.world/marketplace' },
+		],
+	},
+	{
+		TITLE: 'About',
+		LINKS: [
+			{ text: 'Website', link: 'https://azix.world' },
+			{ text: 'Contact Us', link: 'https://azix.world/contact' },
+			{ text: 'Terms of Use', link: 'https://azix.world/terms' },
+			{ text: 'Privacy Policy', link: 'https://azix.world/privacy' },
+		],
+	},
+	{
+		TITLE: 'Developers',
+		LINKS: [
+			{ text: 'GitHub', link: 'https://github.com/wangai003' },
+			{ text: 'API Docs', link: 'https://azix.world/api-docs' },
+		],
+	},
+	{
+		TITLE: 'Resources',
+		LINKS: [
+			{ text: 'FAQ', link: 'https://azix.world/faq' },
+			{ text: 'Blog', link: 'https://azix.world/blog' },
+			{ text: 'Support', link: 'https://azix.world/support' },
+		],
+	},
+	{
+		TITLE: 'Social',
+		LINKS: [
+			{ text: 'Twitter / X', link: 'https://x.com/azixworld' },
+			{ text: 'Telegram', link: 'https://t.me/azixworld' },
+			{ text: 'LinkedIn', link: 'https://linkedin.com/company/azixworld' },
+			{ text: 'Instagram', link: 'https://instagram.com/azixworld' },
+		],
+	},
+];
 
 const AppFooter = ({
 	className,
@@ -80,9 +95,8 @@ const AppFooter = ({
 								'flex-column': isMobile,
 							})}
 						>
-							{generateSectionsText(constants.links, ICONS)
-								.filter(({ LINKS }) => LINKS.length)
-								.map(({ TITLE, LINKS }, index) => (
+							{AZIX_FOOTER_SECTIONS.filter(({ LINKS }) => LINKS.length).map(
+								({ TITLE, LINKS }, index) => (
 									<div
 										key={index}
 										className={classnames(
@@ -129,7 +143,8 @@ const AppFooter = ({
 											))}
 										</div>
 									</div>
-								))}
+								)
+							)}
 						</div>
 						<div className="footer_separter">
 							<div className="footer-content">
@@ -168,7 +183,7 @@ const AppFooter = ({
 				<div className="d-flex pt-2">
 					<div className="pr-2">
 						<a
-							href={links.terms || '#'}
+							href="https://azix.world/terms"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -180,7 +195,7 @@ const AppFooter = ({
 					<span>|</span>
 					<div className="pl-2">
 						<a
-							href={links.privacy || '#'}
+							href="https://azix.world/privacy"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
