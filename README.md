@@ -1,45 +1,84 @@
-# HollaEx Kit [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/pulls)
-HollaEx Kit is an open source white label crypto software suite with a range of features from exchange and trading to user management and onboarding as well as wallet system. In order to run the HollaEx Kit, you need to run the Server as the back-end and Web as your front-end user interface. HollaEx Kit runs as a stand alone node and for trading and blockchain functionalities require to connect to HollaEx Network. By default the node connects to the public HollaEx Network.
+# AZIX Exchange
+
+**African Zone for International Exchange** — a private equity crypto exchange built for Africa and beyond.
+
+AZIX Exchange is a full-stack crypto trading platform providing exchange and trading, user management, onboarding, and a wallet system. It runs as a standalone node with a React frontend and a Node.js/Express backend.
+
+> **Website:** [azix.world](https://azix.world)
+> **GitHub:** [github.com/wangai003/Azix-exchange](https://github.com/wangai003/Azix-exchange)
+
+---
 
 ## Get Started
 
-HollaEx Kit provides simple (but powerful) CLI tool to help exchange operators setup and operate the exchange. Get started by install HollaEx CLI and following the [documentation](https://docs.hollaex.com) to start your own exchange.
+```bash
+git clone https://github.com/wangai003/Azix-exchange.git
+cd Azix-exchange
+```
+
+### Frontend (Web)
+
+```bash
+cd web
+npm install
+npm start
+```
+
+> Requires Node v20. Set `NODE_OPTIONS=--openssl-legacy-provider` if you see OpenSSL errors.
+
+### Backend (Server)
+
+```bash
+cd server
+npm install
+npm start
+```
+
+> Requires PostgreSQL and Redis running locally. See `server/config/` for environment variables.
+
+---
+
+## Project Structure
 
 ```
-git clone https://github.com/hollaex/hollaex-kit.git
-
-bash install.sh
+Azix-exchange/
+├── web/        # React frontend (CRA)
+├── server/     # Express + Swagger backend
+├── plugins/    # Plugin development workspace
+└── test/       # Playwright + Cypress test suites
 ```
-Read more on our [Docs](https://docs.hollaex.com)!
+
+---
 
 ## Developers
 
-Checkout [Web](https://github.com/hollaex/hollaex-kit/tree/master/web) for the front-end UI/UX code.
+- [web/](web/) — Frontend UI/UX source code
+- [server/](server/) — Backend API, WebSocket, and database
+- [plugins/](plugins/) — Custom plugin development
+- [server/utils/hollaex-network-lib/](server/utils/hollaex-network-lib/) — Network communication library
+- [server/utils/hollaex-tools-lib/](server/utils/hollaex-tools-lib/) — Server-side utility functions
+- [test/](test/) — End-to-end test suite (Playwright)
 
-Check out [Server](https://github.com/hollaex/hollaex-kit/tree/master/server) for back-end and server side operations and endpoints.
+---
 
-Check out [Plugins](https://github.com/hollaex/hollaex-kit/tree/2.0-develop/server#plugins) for developing seamless and flexible custom services that can be added to the HollaEx Kit.
+## Brand
 
-Check out [HollaEx CLI](https://github.com/hollaex/hollaex-cli) (Command Line Interface) for interacting and deploying your exchange.
+| | |
+|---|---|
+| Primary color | Gold `#C9A84C` |
+| Background | Black `#0A0C0A` |
+| Accent | Green `#2D7A3A` |
 
-Check out [HollaEx Network Library](https://github.com/hollaex/hollaex-kit/tree/master/server/utils/hollaex-network-lib) for tools and functions used to communicate with HollaEx Network.
+---
 
-Check out [HollaEx Tools Library](https://github.com/hollaex/hollaex-kit/tree/master/server/utils/hollaex-tools-lib) for developers as a suite of all useful functions in the HollaEx Kit.
+## Community & Support
 
-## Community
-Join us on the [Forum](https://forum.hollaex.com), [Discord](https://discord.gg/RkRHU8RbyM) and [Twitter](http://www.twitter.com/hollaex).
+- Website: [azix.world](https://azix.world)
+- Twitter / X: [@azixworld](https://x.com/azixworld)
+- Telegram: [t.me/azixworld](https://t.me/azixworld)
+- Instagram: [@azixworld](https://instagram.com/azixworld)
+- LinkedIn: [linkedin.com/company/azixworld](https://linkedin.com/company/azixworld)
 
+---
 
-<a href="https://github.com/hollaex/hollaex-kit/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=hollaex/hollaex-kit" />
-</a>
-
-
-## Useful Links
-
-- Exchange Dashboard: https://dash.hollaex.com
-- HollaEx Whitepaper: https://whitepaper.hollaex.com
-- HollaEx Live Exchange: https://pro.hollaex.com/trade/xht-usdt
-- Discord Community: https://discord.gg/RkRHU8RbyM
-- Forum: https://forum.hollaex.com
-- Docs: https://docs.hollaex.com
+*AZIX Exchange — African Zone for International Exchange*

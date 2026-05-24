@@ -1,6 +1,6 @@
-# hollaex-node-lib
+# AZIX Network Library
 
-Nodejs library for operators of HollaEx Kit enabled exchanges to connect to the HollaEx Network.
+Node.js library for connecting the AZIX Exchange server to the upstream trading network.
 
 ## Usage
 
@@ -9,11 +9,11 @@ const Network = require('hollaex-network-lib');
 
 const client = new Network({
 	apiKey: '<MY_API_KEY>',
-	apiSecret: '<MY_API_SECRET>'
+	apiSecret: '<MY_API_SECRET>',
 	activation_code: '<MY_ACTIVATION_CODE>'
 });
 ```
-You must pass your `apiKey`, `apiSecret`, and `activation_code` generated for your HollaEx-Enabled exchange. If you know your exchange's ID, pass the field `exchange_id`.
+Pass your `apiKey`, `apiSecret`, and `activation_code` generated for your exchange. If you know your exchange's numeric ID, also pass `exchange_id`.
 
 You can also pass the field `apiExpiresAfter` which is the length of time in seconds each request is valid for. The default value is `60`.
 

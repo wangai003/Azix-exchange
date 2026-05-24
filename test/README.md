@@ -1,10 +1,10 @@
-# HollaEx Kit Test Suite
+# AZIX Exchange — Test Suite
 
-This directory contains end-to-end tests for the HollaEx Kit application using Playwright.
+End-to-end tests for the AZIX Exchange application using Playwright.
 
 ## Overview
 
-The test suite validates page navigation and functionality across the HollaEx platform, including wallet management, trading, security settings, and more.
+The test suite validates page navigation and functionality across the platform, including wallet management, trading, security settings, and more.
 
 ## Test Structure
 
@@ -21,7 +21,7 @@ test/
 
 ## Prerequisites
 
-- Node.js (v20 or higher)
+- Node.js v20 or higher
 - npm or yarn
 
 ## Setup
@@ -37,149 +37,101 @@ test/
    ```
 
 3. Configure test credentials:
-   - Ensure `tests/utils/test-data.js` file exists and contains the required test credentials
+   - Ensure `tests/utils/test-data.js` exists and contains the required credentials
    - The file should include user credentials, API endpoints, and test configuration
-   - You can override default values using environment variables if needed
+   - You can override defaults using environment variables
 
 ## Running Tests
 
-### Run all tests:
 ```bash
+# Run all tests
 npm test
-```
 
-### Run tests in headed mode (visible browser):
-```bash
+# Run in headed mode (visible browser)
 npm run test:headed
-```
 
-### Run specific test file:
-```bash
+# Run a specific file
 npx playwright test tests/page-navigation/page-navigation.spec.js
-```
 
-### Run tests with UI mode:
-```bash
+# UI mode
 npx playwright test --ui
 ```
 
 ## Test Configuration
 
-- **Base URL**: `https://sandbox.hollaex.com`
-- **Browser**: Chromium (Desktop Chrome)
-- **Workers**: 1 (to avoid HTTP 429 errors)
-- **Retries**: 2 on CI, 0 locally
-- **Authentication**: Global setup authenticates once and reuses session state
+| Setting | Value |
+|---|---|
+| Base URL | `https://azix.world` (or your local dev server) |
+| Browser | Chromium (Desktop Chrome) |
+| Workers | 1 (prevents HTTP 429 rate-limit errors) |
+| Retries | 2 on CI, 0 locally |
+| Auth | Global setup — authenticates once, reuses session state |
 
 ## Test Categories
 
-### Wallet Pages
-- Wallet main page
-- Deposit page
-- Withdrawal page
-- Address book
-- Volume page
-- Wallet history
+### Wallet
+- Main wallet page, deposit, withdrawal, address book, volume, history
 
-### History Pages
-- Trades history
-- Order history
-- Deposits history
-- Withdrawals history
+### History
+- Trades, orders, deposits, withdrawals
 
-### Security Pages
-- 2FA settings
-- Password change
-- API Keys management
-- Active sessions
-- Login history
+### Security
+- 2FA, password change, API keys, active sessions, login history
 
-### Verification Pages
-- Email verification
-- Phone verification
-- Identity verification
-- Payment verification
+### Verification
+- Email, phone, identity, payment
 
-### Settings Pages
-- Notification settings
-- Interface settings
-- Language settings
-- Audio cues
-- Account settings
+### Settings
+- Notifications, interface, language, audio cues, account
 
-### Stake Pages
-- Stake main page
-- Staking details
-- CeFi/DeFi staking
+### Staking
+- Stake overview, staking details, CeFi/DeFi
 
-### P2P Pages
-- P2P deals
-- P2P orders
-- P2P profile
-- Post deal
-- My deals
+### P2P
+- Deals, orders, profile, post deal, my deals
 
-### Apps Page
-- Apps listing
-- My apps
+### Apps
+- App listing, my apps
 
 ### Core Pages
-- Summary
-- Account
-- Markets
-- Trade (including chart functionality)
-- Prices
+- Summary, account, markets, trade (with chart), prices
 
-### Top Bar Tests
-- Navigation hover functionality
-- Market selection
-- Dark/light mode toggle
+### Top Bar
+- Navigation hover, market selection, dark/light mode toggle
 
-## Test Utilities
+## Utilities
 
-The test suite includes helper utilities in `tests/utils/`:
-
-- **test-data.js**: Test configuration file that must contain test credentials, user accounts, API endpoints, and other test data. This file is required for tests to run.
-- **login-helper.js**: Authentication helpers
-- **helpers.js**: General test utilities
-- **session-helper.js**: Session management
+| File | Purpose |
+|---|---|
+| `tests/utils/test-data.js` | Credentials, API endpoints, test config (required) |
+| `tests/utils/login-helper.js` | Authentication helpers |
+| `tests/utils/helpers.js` | General test utilities |
+| `tests/utils/session-helper.js` | Session management |
 
 ## Global Setup
 
-The `global-setup.js` file handles authentication before tests run, saving the session state to avoid repeated logins. The authentication state is stored in `.auth/admin.json`.
+`global-setup.js` authenticates once before the full suite runs and saves session state to `.auth/admin.json`.
 
 ## Test Reports
 
-Test results are generated in multiple formats:
-- **HTML Report**: `playwright-report/index.html`
-- **JSON Report**: `test-results/results.json`
-- **JUnit Report**: `test-results/results.xml`
-
-View the HTML report:
 ```bash
+# View HTML report
 npx playwright show-report
 ```
 
+Reports are generated in:
+- `playwright-report/index.html`
+- `test-results/results.json`
+- `test-results/results.xml`
+
 ## Troubleshooting
 
-### Authentication Issues
-- Clear the authentication state: Delete `.auth/admin.json`
-- Verify that `tests/utils/test-data.js` exists and contains valid test credentials
-- Check that the credentials in `test-data.js` match your test environment
+**Authentication issues** — Delete `.auth/admin.json` to clear cached session state and re-authenticate.
 
-### Timeout Issues
-- Increase timeout values in `playwright.config.js`
-- Check network connectivity to the sandbox environment
+**Timeouts** — Increase timeout values in `playwright.config.js` or check network connectivity.
 
-### Flaky Tests
-- Tests are configured to retry on CI
-- Check for network issues or slow page loads
-- Review screenshots and videos in `test-results/` directory
+**Flaky tests** — Retries are enabled on CI. Check `test-results/` for screenshots and videos captured on failure.
 
-## Notes
+---
 
-- Tests run against the sandbox environment by default
-- Authentication is performed once via global setup for efficiency
-- Screenshots and videos are captured on test failures
-- Tests use a single worker to prevent rate limiting
-
+*AZIX Exchange — [azix.world](https://azix.world) · [github.com/wangai003](https://github.com/wangai003)*

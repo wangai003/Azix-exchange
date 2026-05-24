@@ -1,35 +1,21 @@
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
+# AZIX Tools Library
 
-  <h3 align="center">HollaEx Tools Library</h3>
+Server-side utility functions for the AZIX Exchange backend. Provides helpers for users, orders, wallets, security, tiers, and database operations.
 
-  <p align="center">
-    Tools Library for developing HollaEx Kit enabled Exchanges
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-  </p>
-</p>
+> Part of [github.com/wangai003/Azix-exchange](https://github.com/wangai003/Azix-exchange)
 
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
-This Tools Library will only work with the [HollaEx Kit](https://github.com/hollaex/hollaex-kit).
+This library is bundled with the AZIX Exchange server and requires the server environment to function correctly.
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/hollaex/hollaex-tools-lib.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install hollaex-tools-lib
-   ```
+```sh
+npm install
+```
 
 
 
