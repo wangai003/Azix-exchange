@@ -246,7 +246,7 @@ class AppBar extends Component {
 					'ml-3'
 				)}
 			>
-				<div className="d-flex h-100">
+				<div className="d-flex h-100 align-items-center">
 					<Link
 						to={DEFAULT_URL}
 						className={classnames({ 'disabled-link': isEditMode }, 'h-100')}
@@ -257,6 +257,7 @@ class AppBar extends Component {
 							wrapperClassName="app_bar-icon-logo h-100"
 						/>
 					</Link>
+					<span className="azix-nav-wordmark">AZIX</span>
 					<EditWrapper iconId="EXCHANGE_LOGO" position={[-5, 5]} />
 				</div>
 			</div>
@@ -462,7 +463,7 @@ class AppBar extends Component {
 					renderRemoveEmptyTag(selectedTopbarAnnouncement?.message),
 					isMobile ? 35 : 70
 				)}
-				<EditWrapper stringId="HOLLAEX_TOKEN.VIEW">
+				<EditWrapper stringId="REFERRAL_LINK.VIEW">
 					<span
 						className="view-more-btn blue-link text-decoration-underline"
 						onClick={() => this.onHandleRouteAnnouncement('topbar view more')}

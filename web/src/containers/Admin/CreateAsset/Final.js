@@ -673,7 +673,7 @@ const Final = ({
 											Learn how to configure asset parameters.{' '}
 											<a
 												className="link-text underline-text"
-												href="https://docs.hollaex.com/how-tos/assets-and-trading-pairs/configure-asset-parameters"
+												href="https://docs.azixexchange.com/how-tos/assets-and-trading-pairs/configure-asset-parameters"
 												target="_blank"
 												rel="noopener noreferrer"
 											>
@@ -843,7 +843,7 @@ const Final = ({
 													</div>
 													<div className="ml-5 button-wrapper">
 														<a
-															href="https://dash.hollaex.com/billing"
+															href="https://dash.azixexchange.com/billing"
 															target="_blank"
 															rel="noopener noreferrer"
 														>
@@ -1055,7 +1055,7 @@ const Final = ({
 										className="link-text underline-text ml-1"
 										target="_blank"
 										rel="noopener noreferrer"
-										href="https://docs.hollaex.com/how-tos/assets-and-trading-pairs/add-new-coins-and-pairs#add-a-new-coin-already-supported-by-hollaex:~:text=asset%20will%20be-,marked%20as%20pending,-in%20the%20Assets"
+										href="https://docs.azixexchange.com/how-tos/assets-and-trading-pairs/add-new-coins-and-pairs"
 									>
 										View More
 									</a>

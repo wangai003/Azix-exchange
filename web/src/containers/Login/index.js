@@ -351,10 +351,7 @@ class Login extends Component {
 						underline={true}
 						className="w-100 holla-logo login-text"
 						imageWrapperClassName="auth_logo-wrapper"
-						subtitle={STRINGS.formatString(
-							STRINGS['LOGIN.LOGIN_TO'],
-							constants.api_name || 'AZIX'
-						)}
+						subtitle={STRINGS.formatString(STRINGS['LOGIN.LOGIN_TO'], 'AZIX')}
 						actionProps={{
 							stringId: 'LOGIN.CANT_LOGIN',
 							text: STRINGS['LOGIN.CANT_LOGIN'],

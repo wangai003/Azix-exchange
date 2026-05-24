@@ -1,4 +1,4 @@
-# Dev mode HollaEx Kit Docker-Copmose
+# Dev mode AZIX Exchange Docker-Compose
 version: '3'
 services:
   hollaex-kit-redis:

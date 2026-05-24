@@ -3,6 +3,14 @@ import { isMobile } from 'react-device-detect';
 export const MENU_ITEMS = {
 	top: [
 		{
+			id: 'marketplace',
+			path: '/marketplace',
+			icon_id: 'TAB_SUMMARY',
+			string_id: 'ACCOUNTS.TAB_MARKETPLACE',
+			hide_from_appbar: false,
+			hide_from_bottom_nav: false,
+		},
+		{
 			path: '/summary',
 			activePaths: ['/summary', '/account'],
 			icon_id: 'TAB_SUMMARY',

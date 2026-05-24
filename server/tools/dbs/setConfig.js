@@ -54,7 +54,7 @@ const kit = {
 	},
 	email_verification_required: false,
 	native_currency: NATIVE_CURRENCY || 'usdt',
-	logo_image: LOGO_IMAGE || 'https://dash.testnet.bitholla.com/assets/img/hex-pattern-icon-black-01.svg',
+	logo_image: LOGO_IMAGE || 'https://www.azixexchange.com/assets/images/azix-logo.png',
 	injected_values: [],
 	injected_html: {},
 	valid_languages: VALID_LANGUAGES || 'en,fa,ko,ar,fr',

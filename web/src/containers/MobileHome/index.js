@@ -27,7 +27,7 @@ class Home extends Component {
 						<div className="w-100">
 							<div className="mt-3 mb-5">
 								<ButtonLink
-									link={'/trade/xht-usdt'}
+									link={'/trade/akf-usdt'}
 									type="button"
 									className="market-button"
 									label={STRINGS["VIEW_MARKET"].toUpperCase()}
@@ -52,7 +52,7 @@ class Home extends Component {
 						<div className="w-100">
 							<div className="mt-3 mb-3">
 								<ButtonLink
-									link={'/trade/xht-usdt'}
+									link={'/trade/akf-usdt'}
 									type="button"
 									label={STRINGS["GO_TRADE"].toUpperCase()}
 								/>
@@ -77,7 +77,7 @@ class Home extends Component {
 							</div>
 							<div className="text-center mt-5">
 								{STRINGS["NEED_HELP_TEXT"]}
-								<a href="https://info.hollaex.com" target="_blank" className="blue-link" rel="noopener noreferrer">
+								<a href="https://info.azixexchange.com" target="_blank" className="blue-link" rel="noopener noreferrer">
 									&nbsp;{STRINGS["VIEW_INFO"]}
 								</a>
 							</div>

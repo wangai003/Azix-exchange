@@ -26,11 +26,11 @@ const MoveToDash = ({ path }) => {
 			/>
 			<div>
 				<a
-					href={`https://dash.hollaex.com/${data}`}
+					href={`https://dash.azixexchange.com/${data}`}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<Button type="primary">Go to Holla Dash</Button>
+					<Button type="primary">Go to AZIX Dash</Button>
 				</a>
 			</div>
 		</div>

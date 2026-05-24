@@ -146,6 +146,10 @@ const AddTradeTabs = Loadable({
 	loader: () => import('./containers/TradeTabs'),
 	loading: LoadingComponent,
 });
+const FundMarketplace = Loadable({
+	loader: () => import('./containers/FundMarketplace'),
+	loading: LoadingComponent,
+});
 const Stake = Loadable({
 	loader: () => import('./containers/Stake'),
 	loading: LoadingComponent,
@@ -590,12 +594,20 @@ export const generateRoutes = (routes = []) => {
 					component={ChartEmbed}
 				/>
 				{isMobile ? (
-					<Route
-						path="/home"
-						name="Home"
-						component={MobileHome}
-						onEnter={requireAuth}
-					/>
+					<>
+						<Route
+							path="/home"
+							name="Home"
+							component={MobileHome}
+							onEnter={requireAuth}
+						/>
+						<Route
+							path="/marketplace"
+							name="Marketplace"
+							component={FundMarketplace}
+							onEnter={requireAuth}
+						/>
+					</>
 				) : null}
 				<Route
 					path="change-password-confirm/:code"

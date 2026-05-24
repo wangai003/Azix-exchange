@@ -10,7 +10,7 @@ import { MarketsSelector } from 'containers/Trade/utils';
 import { SettingOutlined, CloseOutlined } from '@ant-design/icons';
 
 const quickTradeTypes = {
-	network: 'HollaEx Network Swap',
+	network: 'AZIX Network Swap',
 	broker: 'OTC Desk',
 	pro: 'Orderbook',
 };
@@ -88,7 +88,7 @@ const QuickTradeTab = ({
 						</div>
 						<div className="main-subHeading">
 							the active assets on your exchange. Each Quick Trade market can be
-							configured to source prices and liquidity from either HollaEx's
+							configured to source prices and liquidity from either the AZIX
 							Network Swap, a
 						</div>
 						<div className="main-subHeading">
@@ -311,7 +311,7 @@ const QuickTradeTab = ({
 								value={'network'}
 							>
 								<span style={{ color: !disableNetwork ? 'grey' : 'white' }}>
-									HollaEx Network Swap
+									AZIX Network Swap
 								</span>
 							</Radio>
 							<Radio

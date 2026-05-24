@@ -464,7 +464,7 @@ const InterfaceForm = ({
 							Learn more about{' '}
 							<Link
 								className="underline-text pointer"
-								href="https://docs.hollaex.com/how-tos/smart-chain-trading"
+								href="https://docs.azixexchange.com/how-tos/smart-chain-trading"
 								target="_blank"
 							>
 								Chain Trading.
@@ -908,7 +908,7 @@ const InterfaceForm = ({
 									</div>
 									<div className="ml-5 button-wrapper">
 										<a
-											href="https://dash.hollaex.com/billing"
+											href="https://dash.azixexchange.com/billing"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
@@ -960,7 +960,7 @@ const InterfaceForm = ({
 									</div>
 									<div className="ml-5 button-wrapper">
 										<a
-											href="https://dash.hollaex.com/billing"
+											href="https://dash.azixexchange.com/billing"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
@@ -1012,7 +1012,7 @@ const InterfaceForm = ({
 									</div>
 									<div className="ml-5 button-wrapper">
 										<a
-											href="https://dash.hollaex.com/billing"
+											href="https://dash.azixexchange.com/billing"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
@@ -1064,7 +1064,7 @@ const InterfaceForm = ({
 									</div>
 									<div className="ml-5 button-wrapper">
 										<a
-											href="https://dash.hollaex.com/billing"
+											href="https://dash.azixexchange.com/billing"
 											target="_blank"
 											rel="noopener noreferrer"
 										>

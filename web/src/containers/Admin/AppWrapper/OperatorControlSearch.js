@@ -185,7 +185,7 @@ const OperatorControlSearch = ({
 				'logo upload',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+				'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 			subContent: [
 				{
 					subTitle: 'Exchange Name',
@@ -195,7 +195,7 @@ const OperatorControlSearch = ({
 					sectionId: 'exchange-name',
 					isActiveTab: user?.configs?.includes('api_name'),
 					docLink:
-						'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+						'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 				},
 				{
 					subTitle: 'Exchange Logo',
@@ -204,7 +204,7 @@ const OperatorControlSearch = ({
 						'Upload your main logo to appear in the navigation bar and emails',
 					sectionId: 'exchange-logo',
 					docLink:
-						'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+						'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 					isActiveTab: user?.configs?.includes('defaults'),
 				},
 				{
@@ -214,7 +214,7 @@ const OperatorControlSearch = ({
 						'The animated graphic shown while pages or dashboards load.',
 					sectionId: 'loader',
 					docLink:
-						'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+						'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 					isActiveTab: user?.configs?.includes('defaults'),
 				},
 				{
@@ -223,7 +223,7 @@ const OperatorControlSearch = ({
 					description: 'The small icon shown in browser tabs and bookmarks',
 					sectionId: 'exchange-favicon',
 					docLink:
-						'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+						'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 					isActiveTab: user?.configs?.includes('defaults'),
 				},
 				{
@@ -232,7 +232,7 @@ const OperatorControlSearch = ({
 					description: 'Configure the content of the first page users see.',
 					sectionId: 'landing-page',
 					docLink:
-						'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+						'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 					isActiveTab: user?.configs?.includes('defaults'),
 				},
 				{
@@ -242,7 +242,7 @@ const OperatorControlSearch = ({
 						'The background image displayed on login and registration screens',
 					sectionId: 'onboarding-background-image',
 					docLink:
-						'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
+						'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#branding',
 					isActiveTab: user?.configs?.includes('defaults'),
 				},
 			],
@@ -273,7 +273,7 @@ const OperatorControlSearch = ({
 				'footer text',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#footer',
+				'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/operator-controls-visuals#footer',
 			subContent: [
 				{
 					subTitle: 'Exchange Description',
@@ -332,7 +332,7 @@ const OperatorControlSearch = ({
 				'secure',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/general#security',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/general#security',
 			subContent: [
 				{
 					subTitle: 'Geofencing',
@@ -409,14 +409,15 @@ const OperatorControlSearch = ({
 				'additional apps',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/general#features',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/general#features',
 			subContent: [
 				{
 					subTitle: 'Announcement',
 					isActive: features?.announcement,
 					description: 'Notify users with announcement posts or alert popups.',
 					searchContent: ['alert', 'popup', 'notifications', 'messages'],
-					docLink: 'https://docs.hollaex.com/plugins/use-plugins/announcements',
+					docLink:
+						'https://docs.azixexchange.com/plugins/use-plugins/announcements',
 					path: '/admin/general?features',
 					sectionId: 'announcement',
 				},
@@ -435,7 +436,7 @@ const OperatorControlSearch = ({
 						'limit order',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#features:~:text=on%20your%20exchange.-,Pro%20Trade,-%3A%20Common%20trading%20feature',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#features:~:text=on%20your%20exchange.-,Pro%20Trade,-%3A%20Common%20trading%20feature',
 					sectionId: 'pro-trade',
 				},
 				{
@@ -445,7 +446,7 @@ const OperatorControlSearch = ({
 					path: '/admin/general?features',
 					searchContent: ['convert', 'swap', 'simple buy', 'simple sell'],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#features:~:text=using%20the%20orderbook.-,Quick%20Trade,-%3A%20Provides%20a%20simpler',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#features:~:text=using%20the%20orderbook.-,Quick%20Trade,-%3A%20Provides%20a%20simpler',
 					sectionId: 'quick-trade',
 				},
 				{
@@ -471,7 +472,7 @@ const OperatorControlSearch = ({
 						'defi staking',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#features:~:text=via%20this%20page.-,Staking,-%3A%20You%20can%20add',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#features:~:text=via%20this%20page.-,Staking,-%3A%20You%20can%20add',
 					sectionId: 'defi-stake',
 				},
 				{
@@ -488,7 +489,7 @@ const OperatorControlSearch = ({
 						'cefi staking',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#features:~:text=via%20this%20page.-,Staking,-%3A%20You%20can%20add',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#features:~:text=via%20this%20page.-,Staking,-%3A%20You%20can%20add',
 					sectionId: 'cefi-stake',
 				},
 				{
@@ -518,7 +519,7 @@ const OperatorControlSearch = ({
 						'p2p trading',
 						'peer trade',
 					],
-					docLink: 'https://docs.hollaex.com/how-tos/p2p',
+					docLink: 'https://docs.azixexchange.com/how-tos/p2p',
 					sectionId: 'p2p',
 				},
 				{
@@ -542,7 +543,7 @@ const OperatorControlSearch = ({
 						'Allow users to convert any asset to another asset seamlessly.',
 					path: '/admin/general?features',
 					searchContent: ['convert asset', 'asset swap', 'any to any'],
-					docLink: 'https://docs.hollaex.com/how-tos/smart-chain-trading',
+					docLink: 'https://docs.azixexchange.com/how-tos/smart-chain-trading',
 					sectionId: 'chain-trade',
 				},
 				{
@@ -553,7 +554,7 @@ const OperatorControlSearch = ({
 					path: '/admin/general?features',
 					searchContent: ['onramp', 'offramp', 'bank transfer'],
 					docLink:
-						'https://docs.hollaex.com/how-tos/fiat-controls/initial-setup#enabling-fiat-controls',
+						'https://docs.azixexchange.com/how-tos/fiat-controls/initial-setup#enabling-fiat-controls',
 					sectionId: 'fiat-controls',
 				},
 				{
@@ -563,7 +564,7 @@ const OperatorControlSearch = ({
 					path: '/admin/general?features',
 					searchContent: ['messaging', 'text', 'emoji'],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#:~:text=DIY%20Boost%20plans).-,Chat%20system,-%3A%20By%20enabling%20this',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#:~:text=DIY%20Boost%20plans).-,Chat%20system,-%3A%20By%20enabling%20this',
 					sectionId: 'chat-system',
 				},
 				{
@@ -574,7 +575,7 @@ const OperatorControlSearch = ({
 					path: '/admin/general?features',
 					searchContent: ['home landing', 'homepage', 'first page'],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#:~:text=socialize%20through%20chat.-,Homepage,-%3A%20You%20can%20add',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#:~:text=socialize%20through%20chat.-,Homepage,-%3A%20You%20can%20add',
 					sectionId: 'home-landing-page',
 				},
 				{
@@ -585,7 +586,7 @@ const OperatorControlSearch = ({
 					path: '/admin/general?features',
 					searchContent: ['applications', 'exchange apps', 'add apps'],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/general#:~:text=to%20your%20users.-,Apps,-%3A%20Enable%20additional%20functionality',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/general#:~:text=to%20your%20users.-,Apps,-%3A%20Enable%20additional%20functionality',
 					sectionId: 'apps',
 				},
 			],
@@ -610,7 +611,7 @@ const OperatorControlSearch = ({
 				'new user',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/general#onboarding',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/general#onboarding',
 			subContent: [
 				{
 					subTitle: 'Allow new sign ups',
@@ -655,7 +656,7 @@ const OperatorControlSearch = ({
 				'email setup',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/general#email',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/general#email',
 			subContent: [
 				{
 					subTitle: 'Email Configuration',
@@ -698,7 +699,7 @@ const OperatorControlSearch = ({
 				'default language',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/general#localization',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/general#localization',
 			subContent: [
 				{
 					subTitle: 'Country',
@@ -767,7 +768,7 @@ const OperatorControlSearch = ({
 				'contact support',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/general#help-info',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/general#help-info',
 			subContent: [
 				{
 					subTitle: 'Helpdesk link',
@@ -822,7 +823,7 @@ const OperatorControlSearch = ({
 				'search by name',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/users#search-users',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/users#search-users',
 		},
 		{
 			title: 'Add new user',
@@ -865,7 +866,7 @@ const OperatorControlSearch = ({
 				'user onboarding',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/users#searching-and-filtering',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/users#searching-and-filtering',
 		},
 		{
 			title: `user profile (user ID: ${user?.id})`,
@@ -904,7 +905,7 @@ const OperatorControlSearch = ({
 						'audit user',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#about',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#about',
 					innerContent: [
 						{
 							innerTitle: 'Delete user',
@@ -932,7 +933,7 @@ const OperatorControlSearch = ({
 								'trading fee discount',
 							],
 							docLink:
-								'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#about:~:text=Email%20verification%2C%202FA',
+								'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#about:~:text=Email%20verification%2C%202FA',
 							path: `/admin/user?id=${user?.id}&tab=about`,
 						},
 						{
@@ -947,7 +948,7 @@ const OperatorControlSearch = ({
 								'email verified',
 							],
 							docLink:
-								'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#email-verification',
+								'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#email-verification',
 							path: `/admin/user?id=${user?.id}&tab=about`,
 							sectionId: 'user-email-verified',
 						},
@@ -965,7 +966,7 @@ const OperatorControlSearch = ({
 								'authentication',
 							],
 							docLink:
-								'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#two-factor-authentication-2fa',
+								'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#two-factor-authentication-2fa',
 							path: `/admin/user?id=${user?.id}&tab=about`,
 							sectionId: 'user-2fa-disabled',
 						},
@@ -982,7 +983,7 @@ const OperatorControlSearch = ({
 								'block user',
 							],
 							docLink:
-								'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#about:~:text=%E2%80%A2-,Freeze%20account,-%3A%20This%20prevents',
+								'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#about:~:text=%E2%80%A2-,Freeze%20account,-%3A%20This%20prevents',
 							path: `/admin/user?id=${user?.id}&tab=about`,
 						},
 						{
@@ -998,7 +999,7 @@ const OperatorControlSearch = ({
 								'flagged',
 							],
 							docLink:
-								'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#about:~:text=%E2%80%A2-,Flag%20user,-%3A%20Flagging%20user',
+								'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#about:~:text=%E2%80%A2-,Flag%20user,-%3A%20Flagging%20user',
 							path: `/admin/user?id=${user?.id}&tab=about`,
 						},
 						{
@@ -1022,7 +1023,7 @@ const OperatorControlSearch = ({
 							onHandleOpenPopup: () => setIsEditEmail(true),
 							searchContent: ['change email', 'edit email'],
 							docLink:
-								'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#about',
+								'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#about',
 							path: `/admin/user?id=${user?.id}&tab=about`,
 						},
 					],
@@ -1039,7 +1040,7 @@ const OperatorControlSearch = ({
 						'add bank',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#bank',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#bank',
 				},
 				{
 					subTitle: 'Payment method',
@@ -1071,7 +1072,7 @@ const OperatorControlSearch = ({
 						'search wallet',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#user-balance',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#user-balance',
 				},
 				{
 					subTitle: 'Orders',
@@ -1084,7 +1085,7 @@ const OperatorControlSearch = ({
 						'trade orders',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#orders',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#orders',
 					innerContent: [
 						{
 							innerTitle: 'Bids',
@@ -1121,7 +1122,7 @@ const OperatorControlSearch = ({
 						'completed trades',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#trade-history',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#trade-history',
 				},
 				{
 					subTitle: 'Deposit',
@@ -1134,7 +1135,7 @@ const OperatorControlSearch = ({
 						'user deposits',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#deposits',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#deposits',
 				},
 				{
 					subTitle: 'Withdrawal',
@@ -1148,7 +1149,7 @@ const OperatorControlSearch = ({
 						'user withdrawals',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#withdrawal',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#withdrawal',
 				},
 				{
 					subTitle: 'Stakes',
@@ -1173,7 +1174,7 @@ const OperatorControlSearch = ({
 						'referral data',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#referral',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#referral',
 					innerContent: [
 						{
 							innerTitle: 'Create a Referral Code',
@@ -1198,7 +1199,7 @@ const OperatorControlSearch = ({
 						'configure meta',
 					],
 					docLink:
-						'https://docs.hollaex.com/how-tos/operator-control-panel/user-profile#meta',
+						'https://docs.azixexchange.com/how-tos/operator-control-panel/user-profile#meta',
 				},
 			],
 		},
@@ -1233,7 +1234,8 @@ const OperatorControlSearch = ({
 				'blockchain',
 				'chain',
 			],
-			docLink: 'https://docs.hollaex.com/how-tos/operator-control-panel/assets',
+			docLink:
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets',
 			subContent: [
 				{
 					subTitle: 'Create or add a new coin',
@@ -1257,7 +1259,7 @@ const OperatorControlSearch = ({
 				'asset distribution',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#summary',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#summary',
 		},
 		{
 			title: 'Exchange Wallet User Addresses',
@@ -1272,7 +1274,7 @@ const OperatorControlSearch = ({
 				'address search',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#wallet',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#wallet',
 		},
 		{
 			title: 'Exchange balances',
@@ -1289,7 +1291,7 @@ const OperatorControlSearch = ({
 				'user wallet',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#balances',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#balances',
 		},
 		{
 			title: 'Orders',
@@ -1304,7 +1306,7 @@ const OperatorControlSearch = ({
 				'order history',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#orders',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#orders',
 			subContent: [
 				{
 					subTitle: 'Bids',
@@ -1357,7 +1359,7 @@ const OperatorControlSearch = ({
 			isActiveTab: user?.permissions?.includes('/admin/deposits:get'),
 			searchContent: ['user deposits', 'deposit status', 'deposit history'],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#deposits',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#deposits',
 		},
 		{
 			title: 'Withdrawals',
@@ -1370,7 +1372,7 @@ const OperatorControlSearch = ({
 				'withdrawal history',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#withdrawals',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#withdrawals',
 		},
 		{
 			title: 'Earnings (Fee settlement)',
@@ -1386,7 +1388,7 @@ const OperatorControlSearch = ({
 				'profit',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#earnings',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#earnings',
 		},
 		{
 			title: 'Transfers',
@@ -1396,7 +1398,7 @@ const OperatorControlSearch = ({
 			isActiveTab: user?.permissions?.includes('/admin/transfer:get'),
 			searchContent: ['asset transfers', 'move funds', 'transfer funds'],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#transfers',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#transfers',
 		},
 		{
 			title: 'Duster',
@@ -1411,7 +1413,7 @@ const OperatorControlSearch = ({
 				'balance cleanup',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#duster',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#duster',
 		},
 		{
 			title: 'Limits',
@@ -1421,7 +1423,7 @@ const OperatorControlSearch = ({
 				'Set and review limits on deposits, withdrawals, and trading for users and assets.',
 			searchContent: ['deposit limit', 'withdrawal limit', 'trading limit'],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#limits',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#limits',
 			subContent: [
 				{
 					subTitle: 'Create Independent Limit',
@@ -1446,7 +1448,7 @@ const OperatorControlSearch = ({
 			isActiveTab: user?.permissions?.includes('/admin/kit:get'),
 			searchContent: ['fee adjustment', 'trading fee', 'asset fee', 'markup'],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/assets#fee-markup',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/assets#fee-markup',
 		},
 	];
 
@@ -1464,13 +1466,13 @@ const OperatorControlSearch = ({
 				'leverage',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/markets',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/markets',
 			subContent: [
 				{
 					subTitle: 'Add Market',
 					path: '/admin/trade?public-markets',
 					description:
-						'HollaEx markets (Markets offered by HollaEx) and/or Other markets (Markets offered by other providers/exchanges within HollaEx network)',
+						'AZIX markets (Markets offered by AZIX) and/or Other markets (Markets offered by other providers/exchanges within the AZIX network)',
 					searchContent: ['price'],
 					onHandleOpenPopup: () => setIsDisplayAddMarket(true),
 				},
@@ -1496,7 +1498,7 @@ const OperatorControlSearch = ({
 				'trading orders',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/markets#orders',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/markets#orders',
 			subContent: [
 				{
 					subTitle: 'Bids',
@@ -1532,7 +1534,7 @@ const OperatorControlSearch = ({
 				'price',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/markets#otc-desk',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/markets#otc-desk',
 		},
 		{
 			title: 'P2P',
@@ -1547,7 +1549,7 @@ const OperatorControlSearch = ({
 				'p2p markets',
 				'p2p configuration',
 			],
-			docLink: 'https://docs.hollaex.com/how-tos/p2p',
+			docLink: 'https://docs.azixexchange.com/how-tos/p2p',
 			subContent: [
 				{
 					subTitle: 'P2P public deals',
@@ -1607,7 +1609,7 @@ const OperatorControlSearch = ({
 				'liquidity connection',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/markets#quick-trade',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/markets#quick-trade',
 		},
 	];
 
@@ -1628,7 +1630,7 @@ const OperatorControlSearch = ({
 				'on-ramp',
 				'off-ramp',
 			],
-			docLink: 'https://docs.hollaex.com/how-tos/fiat-controls',
+			docLink: 'https://docs.azixexchange.com/how-tos/fiat-controls',
 		},
 		{
 			title: 'Payment accounts',
@@ -1644,7 +1646,7 @@ const OperatorControlSearch = ({
 				'user payment info',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/fiat-controls/initial-setup#adding-payment-account',
+				'https://docs.azixexchange.com/how-tos/fiat-controls/initial-setup#adding-payment-account',
 		},
 		{
 			title: 'On-ramp',
@@ -1661,7 +1663,7 @@ const OperatorControlSearch = ({
 				'deposit settings',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/fiat-controls/users-making-fiat-deposit',
+				'https://docs.azixexchange.com/how-tos/fiat-controls/users-making-fiat-deposit',
 		},
 		{
 			title: 'Off-ramp',
@@ -1678,7 +1680,7 @@ const OperatorControlSearch = ({
 				'withdrawal settings',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/fiat-controls/user-making-fiat-withdrawal',
+				'https://docs.azixexchange.com/how-tos/fiat-controls/user-making-fiat-withdrawal',
 		},
 		{
 			title: 'Fiat fees & customizations',
@@ -1697,7 +1699,7 @@ const OperatorControlSearch = ({
 				'fiat customization',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/fiat-controls/editing-deposit-and-withdrawal-fees',
+				'https://docs.azixexchange.com/how-tos/fiat-controls/editing-deposit-and-withdrawal-fees',
 		},
 	];
 
@@ -1717,7 +1719,7 @@ const OperatorControlSearch = ({
 				'developers',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/plugins#installed-plugins',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/plugins#installed-plugins',
 			subContent: [
 				{
 					subTitle: 'Add Third Party Plugins',
@@ -1802,7 +1804,7 @@ const OperatorControlSearch = ({
 				'exchange graphics',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/enter-edit-mode#all-graphics',
+				'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/enter-edit-mode#all-graphics',
 			onHandleOpenPopup: () => setIsGraphicsEditMode(true),
 		},
 		{
@@ -1824,7 +1826,7 @@ const OperatorControlSearch = ({
 				'light mode',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/enter-edit-mode#themes',
+				'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/enter-edit-mode#themes',
 			onHandleOpenPopup: () => setIsThemesEditMode(true),
 		},
 		{
@@ -1845,7 +1847,7 @@ const OperatorControlSearch = ({
 				'customize text',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/customize-exchange/browser-tools/enter-edit-mode',
+				'https://docs.azixexchange.com/how-tos/customize-exchange/browser-tools/enter-edit-mode',
 			onHandleOpenPopup: () => setIsStringsEditMode(true),
 		},
 	];
@@ -1864,7 +1866,8 @@ const OperatorControlSearch = ({
 				'user permissions',
 				'invite',
 			],
-			docLink: 'https://docs.hollaex.com/how-tos/operator-control-panel/roles',
+			docLink:
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/roles',
 		},
 		{
 			title: 'Manage Role',
@@ -1895,7 +1898,7 @@ const OperatorControlSearch = ({
 				'session log',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/sessions',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/sessions',
 		},
 		{
 			title: 'Login Logs',
@@ -1909,7 +1912,7 @@ const OperatorControlSearch = ({
 				'user login history',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/sessions#logins-tab',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/sessions#logins-tab',
 		},
 	];
 
@@ -1928,7 +1931,7 @@ const OperatorControlSearch = ({
 				'billing history',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/billing',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/billing',
 		},
 	];
 
@@ -1946,7 +1949,7 @@ const OperatorControlSearch = ({
 				'fee scheduley',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/trading-fees-and-account-tiers',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/trading-fees-and-account-tiers',
 		},
 		{
 			title: 'Account Tiers',
@@ -1960,7 +1963,7 @@ const OperatorControlSearch = ({
 				'upgrade criteria',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/trading-fees-and-account-tiers#account-tiers',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/trading-fees-and-account-tiers#account-tiers',
 		},
 	];
 
@@ -1980,7 +1983,7 @@ const OperatorControlSearch = ({
 				'cefi staking',
 				'stake',
 			],
-			docLink: 'https://docs.hollaex.com/how-tos/staking',
+			docLink: 'https://docs.azixexchange.com/how-tos/staking',
 		},
 		{
 			title: `User’s Stakes`,
@@ -2009,7 +2012,8 @@ const OperatorControlSearch = ({
 				'user alerts',
 				'post notice',
 			],
-			docLink: 'https://docs.hollaex.com/plugins/use-plugins/announcements',
+			docLink:
+				'https://docs.azixexchange.com/plugins/use-plugins/announcements',
 			subContent: [
 				{
 					subTitle: 'Display Locations',
@@ -2029,7 +2033,8 @@ const OperatorControlSearch = ({
 				'Monitor or participate in user chat channels on the platform.',
 			isActiveTab: getFilteredAdminPaths('/admin/chat'),
 			searchContent: ['chat', 'user chat', 'messaging', 'chat channels'],
-			docLink: 'https://docs.hollaex.com/how-tos/operator-control-panel/chat',
+			docLink:
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/chat',
 		},
 	];
 
@@ -2047,7 +2052,7 @@ const OperatorControlSearch = ({
 				'system logs',
 			],
 			docLink:
-				'https://docs.hollaex.com/how-tos/operator-control-panel/admin-logs',
+				'https://docs.azixexchange.com/how-tos/operator-control-panel/admin-logs',
 		},
 	];
 
@@ -2065,7 +2070,7 @@ const OperatorControlSearch = ({
 				'add app',
 				'app marketplace',
 			],
-			docLink: 'https://docs.hollaex.com/?q=apps',
+			docLink: 'https://docs.azixexchange.com/?q=apps',
 		},
 	];
 

@@ -95,13 +95,13 @@ const PluginList = ({
 					</div>
 					<div>
 						<Link
-							href="https://docs.hollaex.com/plugins/develop-plugins"
+							href="https://docs.azixexchange.com/plugins/develop-plugins"
 							target="blank"
 						>
 							<span className="pr-2 link-text">PLUGIN DEVELOPMENT DOC</span>
 							<img
 								src={STATIC_ICONS.OPEN_HOLLAEX_DOC_APP_CREATION}
-								alt="open-hollaex-doc-app-creation-link"
+								alt="open-azix-doc-app-creation-link"
 								className="pb-3"
 							/>
 						</Link>

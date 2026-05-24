@@ -2254,7 +2254,7 @@ class GeneralContent extends Component {
 								<span>
 									Note, in order to generate API keys it is required to add a{' '}
 									<a
-										href="http://www.hollaex.com/blog/what-is-ip-white-listing"
+										href="https://docs.azixexchange.com/security/ip-whitelisting"
 										target={'_blank'}
 										rel="noopener noreferrer"
 									>

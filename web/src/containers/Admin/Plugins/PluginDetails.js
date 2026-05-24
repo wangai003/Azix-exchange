@@ -491,8 +491,8 @@ const PluginDetails = ({
 							<div className="ml-2 font-weight-bold">
 								{STRINGS['TERMS_OF_SERVICES.TO_GET_ACCESS']}
 								<BlueLink
-									href="mailto:sales@hollaex.com"
-									text={'sales@hollaex.com'}
+									href="mailto:sales@azixexchange.com"
+									text={'sales@azixexchange.com'}
 								/>
 							</div>
 						) : null}

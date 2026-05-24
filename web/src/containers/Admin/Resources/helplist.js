@@ -6,7 +6,7 @@ export const HelpList = {
 			title: 'Docs & Resources',
 			subtitle: '',
 			description: '',
-			link: 'https://docs.hollaex.com/',
+			link: 'https://docs.azixexchange.com/',
 			img: STATIC_ICONS.RESOURCE_OTHER_RESOURCES,
 		},
 		{
@@ -18,10 +18,10 @@ export const HelpList = {
 		},
 		{
 			title: 'FAQ',
-			subtitle: 'Visit the AZIX Forums to get the fastest answers',
+			subtitle: 'Visit the AZIX Support Hub for fast answers',
 			description:
 				'Get a detailed and fast response at the AZIX support hub. Find specific and in-depth guides on exchange setup and crypto wallets tech.',
-			link: 'https://www.hollaex.com/faq-and-help#hollaex-faq-section',
+			link: 'https://www.azixexchange.com/faq',
 			img: STATIC_ICONS.RESOURCE_FAQ,
 		},
 		{
@@ -36,29 +36,29 @@ export const HelpList = {
 			title: 'AZIX Exchange',
 			subtitle: 'See a live example of the AZIX Interface in Action',
 			description:
-				'Official AZIX Exchange is the home the AZIX Token and a live example of the AZIX Interface in action',
-			link: 'https://pro.hollaex.com/trade/xht-usdt',
+				'Official AZIX Exchange — the home of the Akofa (AKF) token and pan-African digital finance.',
+			link: 'https://www.azixexchange.com/trade/akf-usdt',
 			img: STATIC_ICONS.RESOURCE_PRO_EXCHANGE,
 		},
 		{
 			title: 'Status',
 			subtitle: '',
 			description: '',
-			link: 'https://status.hollaex.com/',
+			link: 'https://status.azixexchange.com/',
 			img: STATIC_ICONS.RESOURCE_STATUS,
 		},
 		{
 			title: 'Articles',
 			subtitle: '',
 			description: '',
-			link: 'https://www.hollaex.com/blog',
+			link: 'https://www.azixexchange.com/blog',
 			img: STATIC_ICONS.RESOURCE_ARTICLES,
 		},
 		{
 			title: 'API Documentation',
 			subtitle: '',
 			description: '',
-			link: 'https://apidocs.hollaex.com',
+			link: 'https://apidocs.azixexchange.com',
 			img: STATIC_ICONS.RESOURCE_EXPLORER,
 		},
 	],

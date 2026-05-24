@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { HOLLAEX_NETWORK_API_URL } from 'config';
+import { AZIX_NETWORK_API_URL as HOLLAEX_NETWORK_API_URL } from 'config';
 import querystring from 'query-string';
 import { requestAuthenticated, requestDashAuthenticated } from 'utils';
 import moment from 'moment';

@@ -12,7 +12,8 @@ class GetSocketState extends Component {
 			JSON.stringify(this.props.orderbooks) !==
 				JSON.stringify(prevProps.orderbooks) ||
 			JSON.stringify(this.props.pairsTrades) !==
-				JSON.stringify(prevProps.pairsTrades)
+				JSON.stringify(prevProps.pairsTrades) ||
+			JSON.stringify(this.props.pairs) !== JSON.stringify(prevProps.pairs)
 		) {
 			this.checkConnection();
 		}
@@ -20,8 +21,9 @@ class GetSocketState extends Component {
 
 	checkConnection = () => {
 		if (!this.props.isDataReady) {
-			const { pairsTrades } = this.props;
-			const isReady = !!Object.keys(pairsTrades).length;
+			const { pairsTrades, pairs } = this.props;
+			const isReady =
+				!!Object.keys(pairsTrades).length || !!Object.keys(pairs).length;
 			this.props.socketDataCallback(isReady);
 		}
 	};
@@ -35,6 +37,7 @@ const mapStateToProps = (store) => ({
 	pair: store.app.pair,
 	orderbooks: store.orderbook.pairsOrderbooks,
 	pairsTrades: store.orderbook.pairsTrades,
+	pairs: store.app.pairs,
 });
 
 export default connect(mapStateToProps)(GetSocketState);

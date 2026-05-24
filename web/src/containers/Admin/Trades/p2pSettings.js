@@ -258,7 +258,7 @@ const P2PSettings = ({
 				</div>
 				<div className="ml-5 button-wrapper">
 					<a
-						href="https://dash.hollaex.com/billing"
+						href="https://dash.azixexchange.com/billing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -281,7 +281,7 @@ const P2PSettings = ({
 					<span>
 						<a
 							className="underline-text pointer"
-							href="https://docs.hollaex.com/how-tos/p2p"
+							href="https://docs.azixexchange.com/how-tos/p2p"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -978,7 +978,7 @@ const P2PSettings = ({
 								system's plan:
 							</div>
 							<Link
-								href="https://www.hollaex.com/pricing"
+								href="https://www.azixexchange.com/pricing"
 								target="_blank"
 								className="underline-text pointer"
 							>

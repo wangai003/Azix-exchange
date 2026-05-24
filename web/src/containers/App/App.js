@@ -1046,7 +1046,7 @@ class App extends Component {
 										)}
 									<Dialog
 										isOpen={dialogIsOpen && !isHome}
-										label="hollaex-modal"
+										label="azix-modal"
 										className={classnames(
 											'app-dialog',
 											{

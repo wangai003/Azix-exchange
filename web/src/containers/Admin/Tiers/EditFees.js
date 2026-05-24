@@ -916,7 +916,7 @@ class EditFees extends Component {
 		const marketTypeOptions = [
 			{ value: 'pro', label: 'Orderbook' },
 			{ value: 'broker', label: 'OTC - Quick Trade (Convert)' },
-			{ value: 'network', label: 'HollaEx Network Swap (Convert)' },
+			{ value: 'network', label: 'AZIX Network Swap (Convert)' },
 		];
 
 		const { nextColumnCount, prevColumnCount } = this.state;

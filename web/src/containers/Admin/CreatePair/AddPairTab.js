@@ -106,7 +106,7 @@ const AddPairTab = ({
 
 	const StepList = [
 		{
-			key: 'hollaexPairs',
+			key: 'azixPairs',
 			name: 'AZIX markets',
 			description: 'Markets offered by AZIX',
 			content: renderContent(),

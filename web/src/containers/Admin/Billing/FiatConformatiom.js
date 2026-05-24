@@ -29,7 +29,7 @@ const FiatConfirmation = ({ exchange, onCancel, handleViewPlan }) => {
 						switching from cloud to a DIY exchange and follow the steps within
 						the{' '}
 						<a
-							href="http://docs.hollaex.com/"
+							href="https://docs.azixexchange.com/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -57,7 +57,7 @@ const FiatConfirmation = ({ exchange, onCancel, handleViewPlan }) => {
 						</a>{' '}
 						or read more about the exchange setup in the{' '}
 						<a
-							href="http://docs.hollaex.com/"
+							href="https://docs.azixexchange.com/"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-underline"

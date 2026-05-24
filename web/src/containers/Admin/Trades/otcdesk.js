@@ -924,7 +924,7 @@ const OtcDeskContainer = ({
 							amounts per transaction.{' '}
 							<a
 								target="_blank"
-								href="https://docs.hollaex.com/how-tos/otc-broker"
+								href="https://docs.azixexchange.com/how-tos/otc-broker"
 								rel="noopener noreferrer"
 							>
 								Learn more.

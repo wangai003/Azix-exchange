@@ -45,7 +45,7 @@ const PlanStructure = ({
 				</div>
 				<div className="info-link-content">
 					<a
-						href="https://www.hollaex.com/pricing"
+						href="https://www.azixexchange.com/pricing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

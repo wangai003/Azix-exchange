@@ -122,7 +122,7 @@ const Step1 = ({
 
 	const StepList = [
 		{
-			key: 'hollaexAssets',
+			key: 'azixAssets',
 			name: 'AZIX Assets',
 			description: 'Assets offered by AZIX',
 			content: renderContent(),

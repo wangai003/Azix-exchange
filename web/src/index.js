@@ -93,12 +93,7 @@ import {
 } from 'utils/plugin';
 import { drawFavIcon } from 'helpers/vanilla';
 import { setupManifest } from 'helpers/manifest';
-import {
-	hideBooting,
-	showBooting,
-	setLoadingImage,
-	setLoadingStyle,
-} from 'helpers/boot';
+import { hideBooting, setLoadingImage, setLoadingStyle } from 'helpers/boot';
 import {
 	filterPinnedAssets,
 	handleUpgrade,
@@ -120,9 +115,13 @@ const getConfigs = async () => {
 
 	localStorage.removeItem('initialized');
 	const kitData = await getKitData();
-	if (isLoggedIn) {
-		const announcement = await getAnnouncementDetails();
-		store.dispatch(setAppAnnouncements(announcement?.data));
+	if (isLoggedIn()) {
+		try {
+			const announcement = await getAnnouncementDetails();
+			store.dispatch(setAppAnnouncements(announcement?.data));
+		} catch (err) {
+			console.error('Announcements unavailable:', err?.message);
+		}
 	}
 
 	const {
@@ -192,33 +191,42 @@ const getConfigs = async () => {
 		localStorage.setItem(key, JSON.stringify(remoteConfigs[key]));
 	});
 
-	const { data: constants = {} } = await requestConstant();
+	let constants = {};
+	try {
+		const { data: constantsData = {} } = await requestConstant();
+		constants = constantsData || {};
+	} catch (err) {
+		console.error(
+			'Constants unavailable, continuing with empty constants:',
+			err?.message
+		);
+	}
 	const { coins: coin_icons = {} } = constants;
 	const {
 		app: { pair },
 	} = store.getState();
 
-	if (!pair) {
+	if (!pair && constants.pairs && Object.keys(constants.pairs).length) {
 		const initialPair = Object.keys(constants.pairs)[0];
 		store.dispatch(changePair(initialPair));
 	}
 
-	store.dispatch(setCurrencies(constants.coins));
+	store.dispatch(setCurrencies(constants.coins || {}));
 	store.dispatch(setUserPayments(kitData.user_payments));
 	store.dispatch(setOnramp(kitData.onramp));
 	store.dispatch(setOfframp(kitData.offramp));
-	store.dispatch(setPairs(constants.pairs));
-	store.dispatch(setPairsData(constants.pairs));
-	store.dispatch(setContracts(getContracts(constants.coins)));
+	store.dispatch(setPairs(constants.pairs || {}));
+	store.dispatch(setPairsData(constants.pairs || {}));
+	store.dispatch(setContracts(getContracts(constants.coins || {})));
 	store.dispatch(setAllContracts(constants));
-	store.dispatch(setBroker(constants.broker));
-	store.dispatch(setQuickTrade(constants.quicktrade));
-	store.dispatch(setTransactionLimits(constants.transactionLimits));
+	store.dispatch(setBroker(constants.broker || []));
+	store.dispatch(setQuickTrade(constants.quicktrade || []));
+	store.dispatch(setTransactionLimits(constants.transactionLimits || {}));
 	// store.dispatch(setPricesAndAsset({}, constants.coins));
 	store.dispatch(setExchangeTimeZone(timezone));
 
 	const orderLimits = {};
-	Object.keys(constants.pairs).forEach((pair) => {
+	Object.keys(constants.pairs || {}).forEach((pair) => {
 		orderLimits[pair] = {
 			PRICE: {
 				MIN: constants.pairs[pair].min_price,
@@ -289,9 +297,11 @@ const getConfigs = async () => {
 		store.dispatch(setWebViews(allPlugins));
 		store.dispatch(setHelpdeskInfo(allPlugins));
 	} catch (err) {
-		console.error(err);
-		showBooting();
-		throw err;
+		console.error(
+			'Plugins unavailable, continuing without plugins:',
+			err?.message
+		);
+		store.dispatch(setPlugins([]));
 	}
 
 	const {
@@ -403,7 +413,7 @@ const initialize = async () => {
 	} catch (err) {
 		console.error('Initialization failed!\n', err);
 		setTimeout(initialize, 3000);
-		if (!navigator.onLine || getErrorCount >= 3 || err?.response?.status) {
+		if (!navigator.onLine || getErrorCount >= 3) {
 			renderInitialError(err);
 		} else {
 			store.dispatch(setErrorCount(getErrorCount + 1));

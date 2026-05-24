@@ -3,10 +3,10 @@ const swaggerJSDoc = require('swagger-jsdoc');
 const definition = {
 	swagger: '2.0',
 	info: {
-		title: 'HollaEx Kit',
+		title: 'AZIX Exchange API',
 		version: '2.17.5'
 	},
-	host: 'api.hollaex.com',
+	host: 'api.azixexchange.com',
 	basePath: '/v2',
 	schemes: ['http', 'https'],
 	consumes: ['application/json'],

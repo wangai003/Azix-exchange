@@ -1,14 +1,61 @@
 const languages = [
+	// ── African languages (prioritised for AZIX) ──────────────────
 	{
 		value: 'en',
 		label: 'English',
 		icon: '/assets/flags/uk.png',
 	},
 	{
+		value: 'sw',
+		label: 'Kiswahili',
+		icon: '/assets/flags/ke.svg',
+	},
+	{
+		value: 'ha',
+		label: 'Hausa',
+		icon: '/assets/flags/ng.svg',
+	},
+	{
+		value: 'yo',
+		label: 'Yorùbá',
+		icon: '/assets/flags/ng.svg',
+	},
+	{
+		value: 'am',
+		label: 'አማርኛ',
+		icon: '/assets/flags/et.svg',
+	},
+	{
+		value: 'zu',
+		label: 'isiZulu',
+		icon: '/assets/flags/za.svg',
+	},
+	{
+		value: 'af',
+		label: 'Afrikaans',
+		icon: '/assets/flags/za.svg',
+	},
+	{
+		value: 'so',
+		label: 'Soomaali',
+		icon: '/assets/flags/so.svg',
+	},
+	{
 		value: 'fr',
 		label: 'Français',
 		icon: '/assets/flags/fr.png',
 	},
+	{
+		value: 'ar',
+		label: 'العربية',
+		icon: '/assets/flags/uae.png',
+	},
+	{
+		value: 'pt',
+		label: 'Português',
+		icon: '/assets/flags/br.png',
+	},
+	// ── Other supported languages ─────────────────────────────────
 	{
 		value: 'es',
 		label: 'Español',
@@ -23,11 +70,6 @@ const languages = [
 		value: 'it',
 		label: 'Italiano',
 		icon: '/assets/flags/it.png',
-	},
-	{
-		value: 'pt',
-		label: 'Português',
-		icon: '/assets/flags/br.png',
 	},
 	{
 		value: 'nl',
@@ -73,11 +115,6 @@ const languages = [
 		value: 'fa',
 		label: 'فارسی',
 		icon: '/assets/flags/ir.png',
-	},
-	{
-		value: 'ar',
-		label: 'العربية',
-		icon: '/assets/flags/uae.png',
 	},
 	{
 		value: 'mn',

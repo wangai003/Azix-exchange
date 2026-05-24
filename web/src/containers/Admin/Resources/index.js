@@ -59,21 +59,15 @@ class Resources extends Component {
 										</a>
 									</p>
 									<p>
-										AZIX Interface:
-										<a
-											href="https://github.com/bitholla/hollaex-kit"
-											title="site"
-										>
-											https://github.com/bitholla/hollaex-kit
+										AZIX Developer Docs:
+										<a href="https://docs.azixexchange.com" title="site">
+											https://docs.azixexchange.com
 										</a>
 									</p>
 									<p>
-										AZIX CLI (Command Line Interface):
-										<a
-											href="https://github.com/bitholla/hollaex-cli"
-											title="site"
-										>
-											https://github.com/bitholla/hollaex-cli
+										AZIX API Reference:
+										<a href="https://api.azixexchange.com" title="site">
+											https://api.azixexchange.com
 										</a>
 									</p>
 									<p>
@@ -82,7 +76,7 @@ class Resources extends Component {
 											href="https://www.npmjs.com/package/hollaex-node-lib"
 											title="site"
 										>
-											https://www.npmjs.com/package/hollaex-node-lib
+											npm: hollaex-node-lib
 										</a>
 									</p>
 								</div>

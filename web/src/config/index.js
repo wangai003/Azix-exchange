@@ -1,21 +1,21 @@
 const PRODUCTION_ENDPOINT =
-	process.env.REACT_APP_SERVER_ENDPOINT || 'https://api.hollaex.com';
+	process.env.REACT_APP_SERVER_ENDPOINT || 'https://api.azixexchange.com';
 
 const DEVELOPMENT_ENDPOINT =
 	process.env.REACT_APP_DEVELOPMENT_ENDPOINT ||
+	process.env.REACT_APP_SERVER_ENDPOINT ||
 	'https://api.sandbox.hollaex.com';
 
 const PRODUCTION_NETWORK_ENDPOINT =
-	process.env.REACT_APP_SERVER_NETWORK_ENDPOINT ||
-	'https://api.hollaex.network';
+	process.env.REACT_APP_SERVER_NETWORK_ENDPOINT || 'https://api.azix.network';
 
 const DEVELOPMENT_NETWORK_ENDPOINT =
 	process.env.REACT_APP_DEVELOPMENT_NETWORK_ENDPOINT ||
-	'https://api.testnet.hollaex.network';
+	'https://api.testnet.azix.network';
 
 const API_PATH = '/v2';
 
-export const HOLLAEX_NETWORK_API_URL = `${PRODUCTION_NETWORK_ENDPOINT}${API_PATH}`;
+export const AZIX_NETWORK_API_URL = `${PRODUCTION_NETWORK_ENDPOINT}${API_PATH}`;
 
 const generateEndpoint = (endpoint, path, networkEndpoint) => ({
 	API_URL: `${endpoint}${path}`,

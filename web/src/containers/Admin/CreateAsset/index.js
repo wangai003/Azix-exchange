@@ -444,13 +444,13 @@ class CreateAsset extends Component {
 		let coinData = [];
 		const coinKeys = this.props?.assetsCoins?.map((data) => data?.symbol);
 		if (this.state.activeTab === '0') {
-			let hollaexCoins = this.props.coins.filter(
+			let azixCoins = this.props.coins.filter(
 				(val) =>
 					!coinKeys.includes(val.symbol) &&
 					val.verified &&
 					_toLower(val.issuer) === 'azix'
 			);
-			coinData = [...hollaexCoins];
+			coinData = [...azixCoins];
 		} else if (this.state.activeTab === '1') {
 			coinData = this.props.coins.filter(
 				(val) =>

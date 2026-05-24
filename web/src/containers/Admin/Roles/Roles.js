@@ -80,7 +80,7 @@ const Role = ({
 							className="enterprise-text pointer"
 							target="_blank"
 							rel="noopener noreferrer"
-							href="https://www.hollaex.com/pricing"
+							href="https://www.azixexchange.com/pricing"
 						>
 							Enterprise
 						</a>{' '}

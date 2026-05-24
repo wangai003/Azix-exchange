@@ -112,7 +112,7 @@ const Assets = ({
 						Don't see your asset?{' '}
 						<span
 							className="step-link"
-							onClick={() => open('https://dash.hollaex.com/financial')}
+							onClick={() => open('https://dash.azixexchange.com/financial')}
 						>
 							Create or add your asset here.
 						</span>
@@ -133,7 +133,7 @@ const Assets = ({
 						Don't see your pair?{' '}
 						<span
 							className="step-link"
-							onClick={() => open('https://dash.hollaex.com/trade')}
+							onClick={() => open('https://dash.azixexchange.com/trade')}
 						>
 							Create or add your pair here.
 						</span>

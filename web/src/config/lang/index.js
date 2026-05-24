@@ -16,6 +16,14 @@ import ur from './ur.json';
 import it from './it.json';
 import ru from './ru.json';
 import nl from './nl.json';
+// African languages
+import sw from './sw.json';
+import ha from './ha.json';
+import yo from './yo.json';
+import am from './am.json';
+import zu from './zu.json';
+import af from './af.json';
+import so from './so.json';
 
 export default {
 	en,
@@ -36,4 +44,11 @@ export default {
 	it,
 	ru,
 	nl,
+	sw,
+	ha,
+	yo,
+	am,
+	zu,
+	af,
+	so,
 };

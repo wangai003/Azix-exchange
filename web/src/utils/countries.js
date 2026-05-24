@@ -27,12 +27,75 @@ const convertCountry = (value = {}) => {
 const filterCountries = (country) =>
 	(country.status === 'assigned' && country.alpha2) || country.alpha2 === 'XK';
 
+// African countries prioritised for AZIX exchange
+const AFRICA_FIRST = [
+	'GH',
+	'NG',
+	'KE',
+	'ZA',
+	'ET',
+	'TZ',
+	'UG',
+	'RW',
+	'SN',
+	'CM',
+	'CI',
+	'EG',
+	'MA',
+	'ZM',
+	'ZW',
+	'MZ',
+	'AO',
+	'SD',
+	'TN',
+	'DZ',
+	'LY',
+	'MG',
+	'BJ',
+	'BF',
+	'ML',
+	'NE',
+	'GM',
+	'SL',
+	'LR',
+	'GN',
+	'MW',
+	'LS',
+	'BW',
+	'NA',
+	'SO',
+	'DJ',
+	'ER',
+	'SS',
+	'TD',
+	'CF',
+	'GQ',
+	'GA',
+	'CG',
+	'CD',
+	'ST',
+	'CV',
+	'KM',
+	'MU',
+	'SC',
+];
+
+const sortAfricaFirst = (a, b) => {
+	const ai = AFRICA_FIRST.indexOf(a.value);
+	const bi = AFRICA_FIRST.indexOf(b.value);
+	if (ai !== -1 && bi !== -1) return ai - bi;
+	if (ai !== -1) return -1;
+	if (bi !== -1) return 1;
+	return a.name.localeCompare(b.name);
+};
+
 export const initialCountry = convertCountry(countries[DEFAULT_COUNTRY]);
 export const NATIONAL_COUNTRY_VALUE = initialCountry.value;
 
 export const COUNTRIES = countries.all
 	.filter(filterCountries)
-	.map(convertCountry);
+	.map(convertCountry)
+	.sort(sortAfricaFirst);
 
 export default COUNTRIES;
 

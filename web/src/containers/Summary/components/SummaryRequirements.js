@@ -91,7 +91,7 @@ export const getRequirements = (user, level, balance = {}, coins) => {
 					STRINGS['SUMMARY.LOCK_AN_EXCHANGE'],
 					<a
 						className="blue-link pointer"
-						href="https://info.hollaex.com/hc/en-us/articles/360040097453-How-can-I-stake-collateralize-HollaEx-Token-XHT"
+						href="https://docs.azixexchange.com/staking"
 						target="blank"
 					>
 						{`(${STRINGS['TRADE_POSTS.LEARN_MORE']})`}
@@ -104,7 +104,7 @@ export const getRequirements = (user, level, balance = {}, coins) => {
 					STRINGS['SUMMARY.WALLET_SUBSCRIPTION_USERS'],
 					<a
 						className="blue-link pointer"
-						href="https://info.hollaex.com/hc/en-us/articles/360041341013-Vault-subscription"
+						href="https://docs.azixexchange.com/vault"
 						target="blank"
 					>
 						{`(${STRINGS['TRADE_POSTS.LEARN_MORE']})`}

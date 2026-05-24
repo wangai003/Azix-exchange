@@ -279,7 +279,7 @@ exports.COMMUNICATOR_AUTHORIZED_KIT_CONFIG = [
 
 exports.APM_ENABLED = toBool(process.env.APM_ENABLED) || false; // apm is used for sending logs etc
 exports.API_HOST = process.env.API_HOST || 'localhost';
-exports.DOMAIN = process.env.DOMAIN || (process.env.NODE_ENV === 'production' ? 'https://hollaex.com' : 'http://localhost:3000');
+exports.DOMAIN = process.env.DOMAIN || (process.env.NODE_ENV === 'production' ? 'https://www.azixexchange.com' : 'http://localhost:3000');
 exports.NODE_ENV = process.env.NODE_ENV;
 exports.HOLLAEX_NETWORK_ENDPOINT = process.env.NETWORK_URL || (process.env.NETWORK === 'testnet' ? 'https://api.testnet.hollaex.network' : 'https://api.hollaex.network');
 exports.HOLLAEX_NETWORK_BASE_URL = '/v2';
@@ -450,7 +450,7 @@ exports.TOKEN_TYPES = {
 };
 exports.HMAC_TOKEN_EXPIRY = 5 * 12 * 30 * 24 * 60 * 60 * 1000; // 5 years
 exports.SECRET = process.env.SECRET || 'shhhh';
-exports.ISSUER = process.env.ISSUER || 'hollaex.com';
+exports.ISSUER = process.env.ISSUER || 'azixexchange.com';
 exports.CAPTCHA_ENDPOINT = 'https://www.google.com/recaptcha/api/siteverify';
 exports.SECRET_MASK = '************************';
 exports.SALT_ROUNDS = 10;

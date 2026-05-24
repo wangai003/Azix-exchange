@@ -11,7 +11,7 @@ const getElasticRumConfig = () => {
 	const serverUrl =
 		process.env.REACT_APP_ELASTIC_APM_SERVER_URL || 'http://localhost:8200';
 	const serviceName =
-		process.env.REACT_APP_ELASTIC_APM_SERVICE_NAME || 'hollaex-web';
+		process.env.REACT_APP_ELASTIC_APM_SERVICE_NAME || 'azix-web';
 	const serviceVersion =
 		process.env.REACT_APP_ELASTIC_APM_SERVICE_VERSION || '1.0.0';
 	const environment =
@@ -41,7 +41,7 @@ const getElasticRumConfig = () => {
 			user: null, // Will be set dynamically
 		},
 		labels: {
-			app: getExchangeName || 'hollaex-web',
+			app: getExchangeName || 'azix-web',
 			platform: 'web',
 		},
 		transactionSampleRate: isProduction ? 0.1 : 1.0, // 10% in production, 100% in development
@@ -79,7 +79,7 @@ export const initializeElasticRum = () => {
 
 			// Add custom context
 			apm.setCustomContext({
-				app: getExchangeName || 'hollaex-exchange',
+				app: getExchangeName || 'azix-exchange',
 				version: config?.serviceVersion,
 				environment: config?.environment,
 			});

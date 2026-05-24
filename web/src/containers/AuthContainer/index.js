@@ -123,7 +123,7 @@ class AuthContainer extends Component {
 					</div>
 					<Dialog
 						isOpen={dialogIsOpen}
-						label="hollaex-modal"
+						label="azix-modal"
 						className="app-dialog"
 						onCloseDialog={this.onCloseDialog}
 						shouldCloseOnOverlayClick={false}

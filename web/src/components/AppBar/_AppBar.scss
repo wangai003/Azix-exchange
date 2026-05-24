@@ -51,6 +51,18 @@ $app-menu-width: calc(100vw - 40rem);
 	}
 }
 
+.azix-nav-wordmark {
+	color: $link;
+	font-size: 1rem;
+	font-weight: 800;
+	letter-spacing: 0.18rem;
+	padding-left: 0.75rem;
+	margin-left: 0.5rem;
+	border-left: 2px solid $link;
+	line-height: 1;
+	pointer-events: none;
+}
+
 .app_bar {
 	position: relative;
 	width: 100%;
@@ -59,7 +71,7 @@ $app-menu-width: calc(100vw - 40rem);
 	font-size: $navigation_bar-font_size;
 	font-weight: bold;
 	background-color: $app-bar-background-color;
-	border-bottom: 1px solid $dark-app-line-divider;
+	border-bottom: 2px solid $link;
 
 	&.no-borders {
 		border-bottom: none;
@@ -641,7 +653,7 @@ $app-menu-width: calc(100vw - 40rem);
 	min-height: $navigation_bar-height-lg;
 	color: $base_top-bar-navigation_text;
 	background-color: $app-bar-background-color;
-	border-bottom: 1px solid $dark-app-line-divider;
+	border-bottom: 2px solid $link;
 
 	.app_bar-icon-logo {
 		height: 4rem;

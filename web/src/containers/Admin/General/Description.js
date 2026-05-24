@@ -125,7 +125,7 @@ class Description extends Component {
 							</div>
 							<div className="ml-5 button-wrapper">
 								<a
-									href="https://dash.hollaex.com/billing"
+									href="https://dash.azixexchange.com/billing"
 									target="_blank"
 									rel="noopener noreferrer"
 								>

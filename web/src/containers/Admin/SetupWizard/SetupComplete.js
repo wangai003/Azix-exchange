@@ -28,13 +28,13 @@ const Carousel_items = [
 		icon: STATIC_ICONS.SETUP_SECTION_QUICK_TRADE,
 		title: 'Trade matching engine',
 		description:
-			'Match up various crypto assets and create new trading pairs. Allow the HollaEx engine to rapidly organize all orders and match all trades.',
+			'Match up various crypto assets and create new trading pairs. Allow the AZIX engine to rapidly organize all orders and match all trades.',
 	},
 	{
 		icon: STATIC_ICONS.SETUP_SECTION_LIQUIDITY,
 		title: 'Crypto liquidity',
 		description:
-			'No more dry orderbooks. Tap into the HollaEx network crypto liquidity pool and provide your users fair pricing for major crypto assets globally.',
+			'No more dry orderbooks. Tap into the AZIX network crypto liquidity pool and provide your users fair pricing for major crypto assets globally.',
 	},
 	{
 		icon: STATIC_ICONS.SETUP_SECTION_BACKOFFICE,

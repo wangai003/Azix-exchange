@@ -31,7 +31,7 @@ class MobileChart extends Component {
 			// constants,
 		} = this.props;
 		const { chartHeight } = this.state;
-		// const pairValue = pair || 'xht-usdt';
+		// const pairValue = pair || 'akf-usdt';
 		return (
 			<div
 				className={classnames(

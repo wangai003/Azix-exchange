@@ -811,7 +811,7 @@ class Verification extends Component {
 				{this.renderPageContent(tabProps)}
 				<Dialog
 					isOpen={dialogIsOpen}
-					label="hollaex--verification-modal"
+					label="azix--verification-modal"
 					onCloseDialog={this.onCloseDialog}
 					shouldCloseOnOverlayClick={dialogType !== 'complete'}
 					showCloseText={false}

@@ -104,7 +104,7 @@ export const TIMESTAMP_FORMAT_FA = STRINGS['TIMESTAMP_FORMAT']
 	.join('/');
 
 // Default trading pairs (it is set from the server so it is not important to set these properly)
-export const DEFAULT_TRADING_PAIRS = ['xht-usdt'];
+export const DEFAULT_TRADING_PAIRS = ['akf-usdt'];
 
 export const TOKEN_KEY = `${ENV}_${NETWORK}_TOKEN`;
 export const DASH_TOKEN_KEY = `${ENV}_${NETWORK}_DASH_TOKEN`;
@@ -235,8 +235,8 @@ export const DEFAULT_URL = '/';
 export const MIN_LEVEL_FOR_TOKENS = 1;
 
 const THEME_COLOR = localStorage.getItem('theme');
-export const THEMES = ['dark', 'white', 'golden'];
-export const THEME_DEFAULT = THEME_COLOR ? THEME_COLOR : 'golden';
+export const THEMES = ['dark', 'white', 'golden', 'azix'];
+export const THEME_DEFAULT = THEME_COLOR ? THEME_COLOR : 'azix';
 export const CHAT_STATUS_KEY = 'chat:minimized';
 
 export const DEFAULT_COUNTRY = process.env.REACT_APP_DEFAULT_COUNTRY
@@ -249,12 +249,12 @@ export const BASE_CURRENCY = local_base_currnecy
 	? local_base_currnecy.toLowerCase()
 	: 'usdt';
 
-export const API_DOCS_URL = 'https://docs.hollaex.com/';
-export const EXCHANGE_URL = 'https://dash.hollaex.com/';
+export const API_DOCS_URL = 'https://docs.azixexchange.com/';
+export const EXCHANGE_URL = 'https://dash.azixexchange.com/';
 export const EXCHANGE_EXPIRY_DAYS = 15;
 export const EXCHANGE_EXPIRY_SECONDS = EXCHANGE_EXPIRY_DAYS * 86400;
 export const REQUEST_VAULT_SUPPORTED_COINS =
-	'https://www.hollaex.com/coin-and-market-listing';
+	'https://www.azixexchange.com/coin-and-market-listing';
 
 export const MAX_NUMBER_BANKS = 3;
 
@@ -278,7 +278,7 @@ export const DEFAULT_CUSTOM_PAYMENT_CUSTOM = [
 ];
 
 export const DEFAULT_PINNED_COINS = [
-	'xht',
+	'akf',
 	'btc',
 	'eth',
 	'usdt',

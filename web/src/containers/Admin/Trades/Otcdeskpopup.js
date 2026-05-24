@@ -94,7 +94,7 @@ const Otcdeskpopup = ({
 					const { ticker, increment_price } = item;
 					data = {
 						...data,
-						exchange: 'HollaEx Pro',
+						exchange: 'AZIX Exchange',
 						pair: `${element.pair_base.toUpperCase()}/${element.pair_2.toUpperCase()}`,
 						price: `${formatToCurrency(
 							ticker.close,
@@ -133,7 +133,7 @@ const Otcdeskpopup = ({
 	const [spin, setSpin] = useState(false);
 	const [formulaVariable, setFormulaVariable] = useState();
 	const [marketLink, setMatketLink] = useState(
-		`https://api.hollaex.com/v2/ticker?symbol=${
+		`https://api.azixexchange.com/v2/ticker?symbol=${
 			pairs && pairs[0] && pairs[0].name
 		}`
 	);
@@ -259,7 +259,7 @@ const Otcdeskpopup = ({
 		setDisplayUniswap(false);
 		setHedgeSymbol();
 		setMatketLink(
-			`https://api.hollaex.com/v2/ticker?symbol=${
+			`https://api.azixexchange.com/v2/ticker?symbol=${
 				pairs && pairs[0] && pairs[0].name
 			}`
 		);
@@ -463,7 +463,7 @@ const Otcdeskpopup = ({
 		setChainlink(false);
 		SetMarketPop(false);
 		setMatketLink(
-			`https://api.hollaex.com/v2/ticker?symbol=${
+			`https://api.azixexchange.com/v2/ticker?symbol=${
 				pairs && pairs[0] && pairs[0].name
 			}`
 		);
@@ -662,7 +662,7 @@ const Otcdeskpopup = ({
 								</div>
 								<a
 									target="_blank"
-									href="https://docs.hollaex.com/how-tos/otc-broker"
+									href="https://docs.azixexchange.com/how-tos/otc-broker"
 									rel="noopener noreferrer"
 								>
 									Read More.
@@ -933,7 +933,7 @@ const Otcdeskpopup = ({
 												<span style={{ fontWeight: '600' }}>
 													{selectedExchange && selectedMarket
 														? formulaVariable
-														: 'hollaex_xht-usdt'}{' '}
+														: 'azix_akf-usdt'}{' '}
 												</span>{' '}
 												(price)
 											</label>
@@ -959,7 +959,7 @@ const Otcdeskpopup = ({
 													? `${selectedExchange}_${selectedMarket
 															.replace('/', '-')
 															.toLowerCase()}`
-													: 'hollaex_xht-usdt'}
+													: 'azix_akf-usdt'}
 												*12/5*9+9.4*2
 											</div>
 
@@ -1151,7 +1151,7 @@ const Otcdeskpopup = ({
 											<div>Select price source:</div>
 											<div className="mt-2 error">
 												<ExclamationCircleFilled /> Coming soon for upgraded
-												HollaEx operators.
+												AZIX operators.
 											</div>
 										</div> */}
 										{(isValidFormula(formula) || !formula) && (
@@ -2023,7 +2023,7 @@ const Otcdeskpopup = ({
 												about
 												<Link
 													className="ml-1 anchor"
-													href="https://docs.hollaex.com/"
+													href="https://docs.azixexchange.com/"
 													target="_blank"
 												>
 													hedging here.

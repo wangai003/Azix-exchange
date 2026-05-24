@@ -211,11 +211,16 @@ class Signup extends Component {
 		const turnstileSiteKey = constants?.cloudflare_turnstile?.site_key;
 		const turnstileEnabled = !!turnstileSiteKey && turnstileSiteKey !== 'null';
 
+		const azixLinks = {
+			...constants.links,
+			terms: 'https://www.azixexchange.com/terms',
+			privacy: 'https://www.azixexchange.com/privacy',
+		};
 		const formFields = {
 			...generateFormFields(
 				STRINGS,
 				activeTheme,
-				constants.links,
+				azixLinks,
 				isReferral,
 				signupEmail,
 				emailDetail
@@ -252,7 +257,7 @@ class Signup extends Component {
 						imageWrapperClassName="auth_logo-wrapper"
 						subtitle={STRINGS.formatString(
 							STRINGS['SIGN_UP.SIGNUP_TO'],
-							constants.api_name || 'AZIX'
+							'AZIX'
 						)}
 						actionProps={{
 							text: STRINGS['HELP_TEXT'],
