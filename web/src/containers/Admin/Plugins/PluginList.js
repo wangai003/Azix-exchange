@@ -79,7 +79,7 @@ const PluginList = ({
 					<div className="d-flex">
 						<div>
 							<img
-								src={STATIC_ICONS.HOLLAEX_EXCHANGE_STORE_PLUGIN_APPS}
+								src={STATIC_ICONS.AZIX_EXCHANGE_STORE_PLUGIN_APPS}
 								alt="Plugin"
 								className="plugin-icon"
 							/>
@@ -100,7 +100,7 @@ const PluginList = ({
 						>
 							<span className="pr-2 link-text">PLUGIN DEVELOPMENT DOC</span>
 							<img
-								src={STATIC_ICONS.OPEN_HOLLAEX_DOC_APP_CREATION}
+								src={STATIC_ICONS.OPEN_AZIX_DOC_APP_CREATION}
 								alt="open-azix-doc-app-creation-link"
 								className="pb-3"
 							/>

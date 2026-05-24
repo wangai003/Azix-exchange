@@ -506,7 +506,7 @@ const Otcdeskpopup = ({
 
 	const renderExchangeOptions = (hasOracle = true) => (
 		<>
-			<Option value="azix">Hollaex Pro</Option>
+			<Option value="azix">AZIX Pro</Option>
 			<Option value="binance">Binance</Option>
 			<Option value="coinbase">Coinbase</Option>
 			<Option value="bitfinex">Bitfinex</Option>
@@ -515,7 +515,7 @@ const Otcdeskpopup = ({
 			<Option value="bitmart">Bitmart</Option>
 			<Option value="gateio">Gate.io</Option>
 			<Option value="okx">OKX</Option>
-			{hasOracle && <Option value="oracle">Hollaex Oracle</Option>}
+			{hasOracle && <Option value="oracle">AZIX Oracle</Option>}
 			{/* {_toLower(kit?.info?.plan) !== 'crypto' && <Option value="uniswap">Uniswap</Option>} */}
 		</>
 	);

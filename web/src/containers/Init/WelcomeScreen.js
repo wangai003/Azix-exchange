@@ -9,7 +9,7 @@ const WelcomeScreen = ({ onChangeStep }) => {
 		<div className="welcome-screen">
 			<div className="content">
 				<img
-					src={STATIC_ICONS.HOLLAEX_INIT_LOGO}
+					src={STATIC_ICONS.AZIX_INIT_LOGO}
 					alt="AZIX logo"
 					className="logo"
 				/>

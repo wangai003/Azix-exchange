@@ -1052,7 +1052,7 @@ table th {
   padding: unset !important;
   margin-top: unset !important;
 }
-.auth-wrapper .auth-container .auth_wrapper .icon_title-svg .hollaEX_logo_gray {
+.auth-wrapper .auth-container .auth_wrapper .icon_title-svg .azix-logo-gray {
   fill: var(--labels_secondary-inactive-label-text-graphics);
 }
 .auth-wrapper .auth-container .login-wrapper,
@@ -12682,189 +12682,189 @@ table th {
     height: 100%;
   }
 }
-.hollaex-token-wrapper {
+.azix-token-wrapper {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
 }
-.hollaex-token-wrapper .trade_tabs-link {
+.azix-token-wrapper .trade_tabs-link {
   color: var(--specials_buttons-links-and-highlights);
   margin: 0.5rem 0;
   padding: 0 0.5rem;
   text-transform: capitalize;
 }
-.hollaex-token-wrapper .trade_tabs-link:hover {
+.azix-token-wrapper .trade_tabs-link:hover {
   opacity: 0.5;
 }
-.hollaex-token-wrapper .link-separator {
+.azix-token-wrapper .link-separator {
   border-right: 1px solid var(--calculated_secondary-border);
 }
-.hollaex-token-wrapper .mt-8 {
+.azix-token-wrapper .mt-8 {
   margin-top: 8rem;
 }
-.hollaex-token-wrapper .pb-6 {
+.azix-token-wrapper .pb-6 {
   padding-bottom: 6rem;
 }
-.hollaex-token-wrapper .icon_title-wrapper {
+.azix-token-wrapper .icon_title-wrapper {
   margin-top: 0 !important;
 }
-.hollaex-token-wrapper .sub-header-icon {
+.azix-token-wrapper .sub-header-icon {
   height: 20px;
   width: 20px;
   margin: 1px 3px;
 }
-.hollaex-token-wrapper .token-wrapper {
+.azix-token-wrapper .token-wrapper {
   width: 65%;
   height: 100%;
 }
-.hollaex-token-wrapper .token-wrapper .asset-icon {
+.azix-token-wrapper .token-wrapper .asset-icon {
   position: relative;
   top: 5px;
 }
-.hollaex-token-wrapper .token-wrapper .link {
+.azix-token-wrapper .token-wrapper .link {
   color: var(--specials_buttons-links-and-highlights);
   text-decoration: underline;
   cursor: pointer;
 }
-.hollaex-token-wrapper .token-wrapper .header-container {
+.azix-token-wrapper .token-wrapper .header-container {
   width: 100%;
   font-size: 16px;
 }
-.hollaex-token-wrapper .token-wrapper .header-container .link-wrapper {
+.azix-token-wrapper .token-wrapper .header-container .link-wrapper {
   font-size: 14px;
 }
-.hollaex-token-wrapper .token-wrapper .header-container .title {
+.azix-token-wrapper .token-wrapper .header-container .title {
   font-size: 24px;
   color: var(--labels_secondary-inactive-label-text-graphics);
 }
-.hollaex-token-wrapper .token-wrapper .header-container .title .favourite-text {
+.azix-token-wrapper .token-wrapper .header-container .title .favourite-text {
   font-size: 12px;
   color: #707070;
   padding-right: 10px;
   opacity: 0;
 }
-.hollaex-token-wrapper .token-wrapper .header-container .title .star-icon:hover .favourite-text {
+.azix-token-wrapper .token-wrapper .header-container .title .star-icon:hover .favourite-text {
   opacity: 1;
 }
-.hollaex-token-wrapper .token-wrapper .header-container .title .favourite-text-2 {
+.azix-token-wrapper .token-wrapper .header-container .title .favourite-text-2 {
   font-size: 12px;
   color: var(--labels_secondary-inactive-label-text-graphics);
   padding-right: 10px;
 }
-.hollaex-token-wrapper .token-wrapper .balance-wrapper .icon_title-wrapper .icon_title-svg svg {
+.azix-token-wrapper .token-wrapper .balance-wrapper .icon_title-wrapper .icon_title-svg svg {
   width: 5rem !important;
   height: 2rem !important;
   margin-top: 0rem !important;
 }
-.hollaex-token-wrapper .token-wrapper .balance-wrapper .hollaex-token-wrapper .icon_title-wrapper .icon_title-svg svg {
+.azix-token-wrapper .token-wrapper .balance-wrapper .azix-token-wrapper .icon_title-wrapper .icon_title-svg svg {
   margin-top: 0rem !important;
 }
-.hollaex-token-wrapper .token-wrapper .balance-wrapper .icon_title-wrapper .icon_title-svg {
+.azix-token-wrapper .token-wrapper .balance-wrapper .icon_title-wrapper .icon_title-svg {
   height: 0rem !important;
 }
-.hollaex-token-wrapper .token-wrapper .balance-wrapper .image-Wrapper .balance-link:hover {
+.azix-token-wrapper .token-wrapper .balance-wrapper .image-Wrapper .balance-link:hover {
   cursor: pointer;
   opacity: 0.6;
 }
-.hollaex-token-wrapper .token-wrapper .balance-wrapper .image-Wrapper .action_notification-svg {
+.azix-token-wrapper .token-wrapper .balance-wrapper .image-Wrapper .action_notification-svg {
   margin-right: 1rem;
 }
-.hollaex-token-wrapper .token-wrapper .ant-btn {
+.azix-token-wrapper .token-wrapper .ant-btn {
   background: var(--base_background);
   color: var(--labels_secondary-inactive-label-text-graphics);
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container {
+.azix-token-wrapper .token-wrapper .azix-container {
   border: 1px solid var(--calculated_super-pale_label-text-graphics);
   display: flex;
   justify-content: space-between;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container {
+.azix-token-wrapper .token-wrapper .azix-container .info-container {
   width: 100%;
   background-color: var(--calculated_quick_trade-bg);
   padding: 3rem;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .info-link-wrapper {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .info-link-wrapper {
   gap: 1%;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .info-link-wrapper .trade_tabs-link {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .info-link-wrapper .trade_tabs-link {
   padding: unset;
   padding: 0 0.5rem;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .info-link-wrapper > span:first-child {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .info-link-wrapper > span:first-child {
   padding: unset;
   padding-right: 0.5rem;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .header-text {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .header-text {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .sub-text {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .sub-text {
   font-size: 14px;
   width: 100%;
   margin-top: 1rem;
   color: var(--labels_secondary-inactive-label-text-graphics);
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .sub-text a {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .sub-text a {
   text-decoration: underline;
   color: var(--specials_buttons-links-and-highlights);
   cursor: pointer;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .button-container {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .button-container {
   margin-top: 3rem;
   display: flex;
   align-items: center;
   gap: 2%;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .button-container .edit-wrapper__container {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .button-container .edit-wrapper__container {
   width: 100%;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .button-container .edit-wrapper__container div {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .button-container .edit-wrapper__container div {
   width: 100%;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .button-container .edit-wrapper__container .edit-wrapper__icons-container {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .button-container .edit-wrapper__container .edit-wrapper__icons-container {
   width: 5%;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .button-container .button-2 {
+.azix-token-wrapper .token-wrapper .azix-container .info-container .button-container .button-2 {
   margin: 0 10px 0 10px;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper {
   padding: 1rem 1rem 1rem 2rem;
   font-family: "Open Sans";
   background-color: var(--base_background);
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .coin-bg {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .coin-bg {
   opacity: 0.2;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content {
   min-height: 450px;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .header-text {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .header-text {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .sub-text {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .sub-text {
   font-size: 14px;
   width: 100%;
   margin-top: 1rem;
   color: var(--labels_secondary-inactive-label-text-graphics);
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .pb-30 {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .pb-30 {
   padding-bottom: 30px;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .pb-35 {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .pb-35 {
   padding-bottom: 35px;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .pl-6 {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .pl-6 {
   padding-left: 6rem;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .chart .fade-area {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .chart .fade-area {
   position: relative;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .chart .fade-area::before {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .chart .fade-area::before {
   content: "";
   position: absolute;
   height: 100px;
@@ -12872,35 +12872,35 @@ table th {
   background-image: linear-gradient(to right, var(--base_background), rgba(0, 0, 0, 0));
   z-index: -1;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .trade_tabs-container {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .trade_tabs-container {
   margin: 0 !important;
   width: auto !important;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .f-size-16 {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .f-size-16 {
   font-size: 16px;
   color: var(--labels_secondary-inactive-label-text-graphics);
   font-weight: bold;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .f-size-22 {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .f-size-22 {
   font-size: 22px;
   font-weight: bold;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .fullname {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .fullname {
   color: var(--labels_secondary-inactive-label-text-graphics);
   font-size: 1rem;
   white-space: nowrap;
 }
-.hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .sub-title {
+.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .sub-title {
   color: var(--labels_secondary-inactive-label-text-graphics);
   font: normal normal 300 11px/15px "Open Sans";
   letter-spacing: 2.2px;
   opacity: 1;
   white-space: nowrap;
 }
-.hollaex-token-wrapper .paircoins-color {
+.azix-token-wrapper .paircoins-color {
   color: var(--labels_secondary-inactive-label-text-graphics);
 }
-.hollaex-token-wrapper .white-text {
+.azix-token-wrapper .white-text {
   color: var(--labels_important-active-labels-text-graphics);
 }
 
@@ -12916,62 +12916,62 @@ table th {
   font-size: 18px;
 }
 
-.layout-mobile .hollaex-token-wrapper {
+.layout-mobile .azix-token-wrapper {
   overflow-y: scroll;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container {
   display: block;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .info-container {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .info-container {
   width: 100%;
   padding: 5% 10%;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .sub-text {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .info-container .sub-text {
   margin-bottom: 10rem;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .trade-link-wrapper {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .info-container .trade-link-wrapper {
   font-size: 12px;
   width: 100%;
   justify-content: space-between !important;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .trade-link-wrapper .stake-variable {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .info-container .trade-link-wrapper .stake-variable {
   position: relative;
   top: 2px;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .info-container .trade-link-wrapper .stake-variable svg path {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .info-container .trade-link-wrapper .stake-variable svg path {
   fill: var(--specials_buttons-links-and-highlights) !important;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .market-button-container {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .market-button-container {
   position: fixed;
   width: 100%;
   bottom: 6rem;
   background-color: var(--base_background);
   padding: 2% 4%;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .market-button-container div {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .market-button-container div {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .hollaex-container .market-button-container div .market-btn {
+.layout-mobile .azix-token-wrapper .token-wrapper .azix-container .market-button-container div .market-btn {
   width: 100%;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .header-container .title .title-child-container {
+.layout-mobile .azix-token-wrapper .token-wrapper .header-container .title .title-child-container {
   display: block !important;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .header-container .title .title-child-container .favourite-content {
+.layout-mobile .azix-token-wrapper .token-wrapper .header-container .title .title-child-container .favourite-content {
   padding-left: 0px !important;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .header-container .balance-wrapper {
+.layout-mobile .azix-token-wrapper .token-wrapper .header-container .balance-wrapper {
   display: block !important;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .header-container .balance-wrapper .link {
+.layout-mobile .azix-token-wrapper .token-wrapper .header-container .balance-wrapper .link {
   text-align: left;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .header-container .balance-wrapper .link-wrapper {
+.layout-mobile .azix-token-wrapper .token-wrapper .header-container .balance-wrapper .link-wrapper {
   margin-bottom: 2%;
 }
-.layout-mobile .hollaex-token-wrapper .token-wrapper .header-container .balance-wrapper .image-Wrapper {
+.layout-mobile .azix-token-wrapper .token-wrapper .header-container .balance-wrapper .image-Wrapper {
   margin: 3% 0;
 }
 
@@ -13005,26 +13005,26 @@ table th {
   }
 }
 @media (max-width: 1400px) {
-  .hollaex-token-wrapper .token-wrapper {
+  .azix-token-wrapper .token-wrapper {
     width: 80%;
   }
 }
 @media (max-width: 1200px) {
-  .hollaex-token-wrapper .token-wrapper {
+  .azix-token-wrapper .token-wrapper {
     width: 100%;
   }
-  .hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper {
+  .azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper {
     padding: 40px 45px 30px 45px;
   }
-  .hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .trade_tabs-container {
+  .azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .trade_tabs-container {
     font-size: 2rem;
   }
 }
 @media (max-width: 768px) {
-  .hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper {
+  .azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper {
     padding: 40px 35px 30px 35px;
   }
-  .hollaex-token-wrapper .token-wrapper .hollaex-container .trade-details-wrapper .trade-details-content .trade_tabs-container {
+  .azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper .trade-details-content .trade_tabs-container {
     font-size: 1.5rem !important;
   }
 }
@@ -27708,7 +27708,7 @@ table th {
   width: 7rem;
   height: 100% !important;
 }
-.app_footer-container .footer-row-content .footer_separter svg .hollaEX_logo_gray {
+.app_footer-container .footer-row-content .footer_separter svg .azix-logo-gray {
   fill: var(--calculated_base_footer_text);
 }
 .app_footer-container .footer-row-content .footer_separter .blue-link {
@@ -27842,7 +27842,7 @@ table th {
   width: 6.5rem;
   margin-left: 7rem !important;
 }
-.layout-mobile .app_footer-container .footer-row-content .footer-links-section .footer_separter svg .hollaEX_logo_gray {
+.layout-mobile .app_footer-container .footer-row-content .footer-links-section .footer_separter svg .azix-logo-gray {
   fill: var(--calculated_base_footer_text);
 }
 .layout-mobile .app_footer-container .footer-row-content .footer-links-section .footer_separter .blue-link {
@@ -28261,7 +28261,7 @@ table th {
   margin: 10% 0 0 0;
 }
 
-.hollaex-token-wrapper {
+.azix-token-wrapper {
   font-family: "Open Sans" !important;
 }
 

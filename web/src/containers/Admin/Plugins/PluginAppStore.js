@@ -18,7 +18,7 @@ const PluginAppStore = ({ onChangeNextType, router }) => {
 					<div className="exchange-plugin-content-wrapper w-100">
 						<div className="text-center">
 							<img
-								src={STATIC_ICONS.HOLLAEX_NETWORK_WHITE}
+								src={STATIC_ICONS.AZIX_NETWORK_WHITE}
 								alt=""
 								className="exchange-plugin-image"
 							/>

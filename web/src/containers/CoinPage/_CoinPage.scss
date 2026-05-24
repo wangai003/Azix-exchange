@@ -1,6 +1,6 @@
 @import '../QuickTrade/components/Details';
 
-.hollaex-token-wrapper {
+.azix-token-wrapper {
 	height: 100%;
 	display: flex;
 	justify-content: center;
@@ -94,7 +94,7 @@
 				margin-top: 0rem !important;
 			}
 
-			.hollaex-token-wrapper .icon_title-wrapper .icon_title-svg svg {
+			.azix-token-wrapper .icon_title-wrapper .icon_title-svg svg {
 				margin-top: 0rem !important;
 			}
 
@@ -119,7 +119,7 @@
 			color: $colors-black;
 		}
 
-		.hollaex-container {
+		.azix-container {
 			border: 1px solid $colors-super-pale-black;
 			display: flex;
 			justify-content: space-between;
@@ -296,10 +296,10 @@
 }
 
 .layout-mobile {
-	.hollaex-token-wrapper {
+	.azix-token-wrapper {
 		overflow-y: scroll;
 	}
-	.hollaex-token-wrapper .token-wrapper .hollaex-container {
+	.azix-token-wrapper .token-wrapper .azix-container {
 		display: block;
 
 		.info-container {
@@ -341,7 +341,7 @@
 		}
 	}
 
-	.hollaex-token-wrapper .token-wrapper {
+	.azix-token-wrapper .token-wrapper {
 		.header-container {
 			.title {
 				.title-child-container {
@@ -403,16 +403,16 @@
 }
 
 @media (max-width: 1400px) {
-	.hollaex-token-wrapper .token-wrapper {
+	.azix-token-wrapper .token-wrapper {
 		width: 80%;
 	}
 }
 
 @media (max-width: 1200px) {
-	.hollaex-token-wrapper .token-wrapper {
+	.azix-token-wrapper .token-wrapper {
 		width: 100%;
 
-		.hollaex-container .trade-details-wrapper {
+		.azix-container .trade-details-wrapper {
 			padding: 40px 45px 30px 45px;
 
 			.trade-details-content .trade_tabs-container {
@@ -423,10 +423,7 @@
 }
 
 @media (max-width: 768px) {
-	.hollaex-token-wrapper
-		.token-wrapper
-		.hollaex-container
-		.trade-details-wrapper {
+	.azix-token-wrapper .token-wrapper .azix-container .trade-details-wrapper {
 		padding: 40px 35px 30px 35px;
 
 		.trade-details-content .trade_tabs-container {

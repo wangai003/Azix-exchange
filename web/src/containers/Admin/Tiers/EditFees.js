@@ -86,7 +86,7 @@ const getColumns = (
 	const marketTitle = {
 		ORDERBOOK: 'pro',
 		'OTC - QUICK TRADE (CONVERT)': 'broker',
-		'HOLLAEX NETWORK SWAP (CONVERT)': 'network',
+		'AZIX NETWORK SWAP (CONVERT)': 'network',
 	};
 
 	const columns = [
@@ -618,7 +618,7 @@ class EditFees extends Component {
 		const groupOrder = [
 			{ key: 'pro', label: 'ORDERBOOK' },
 			{ key: 'broker', label: 'OTC - QUICK TRADE (CONVERT)' },
-			{ key: 'network', label: 'HOLLAEX NETWORK SWAP (CONVERT)' },
+			{ key: 'network', label: 'AZIX NETWORK SWAP (CONVERT)' },
 		];
 		const groupedMarkets = {};
 		(markets || []).forEach((market) => {

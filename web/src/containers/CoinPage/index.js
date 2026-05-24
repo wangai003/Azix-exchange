@@ -159,7 +159,7 @@ const CoinPage = ({
 	];
 
 	return (
-		<div className="hollaex-token-wrapper">
+		<div className="azix-token-wrapper">
 			<div className="token-wrapper mt-8">
 				<div className={isMobile ? 'd-flex pb-30 ml-4' : 'd-flex pb-30'}>
 					<div className={isMobile ? 'asset-icon' : ''}>
@@ -239,7 +239,7 @@ const CoinPage = ({
 						</div>
 					</div>
 				</div>
-				<div className={`hollaex-container`}>
+				<div className={`azix-container`}>
 					<div className="info-container">
 						<Fragment>
 							{topLinks.filter(({ link }) => !!link).length !== 0 && (

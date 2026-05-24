@@ -315,7 +315,7 @@ class MyPlugins extends Component {
 						apps from Exchange Plugin App Store, or create your own.{' '}
 						<div className="pt-4 pointer" onClick={this.onHandleRedirect}>
 							<img
-								src={STATIC_ICONS.HOLLAEX_EXCHANGE_STORE_PLUGIN_APPS}
+								src={STATIC_ICONS.AZIX_EXCHANGE_STORE_PLUGIN_APPS}
 								alt="Plugin"
 								className="store-icon"
 							/>
