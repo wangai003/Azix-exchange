@@ -105,7 +105,7 @@ const CARD_LIST = [
 ];
 
 const Dashboard = ({ constants = {}, setEditMode = () => {} }) => {
-	let showLabel = constants.api_name || '';
+	let showLabel = constants.api_name || 'AZIX';
 
 	const [isDisplaySearch, setIsDisplaySearch] = useState(false);
 	const [search, setSearch] = useState('');

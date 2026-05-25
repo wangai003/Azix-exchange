@@ -219,7 +219,7 @@
 	margin: 0.2rem 3rem 0.2rem 3rem;
 }
 .admin-content-wrapper {
-	background-color: #202980;
+	background-color: var(--admin_panel_content_background);
 	margin-top: 1rem;
 }
 .link-icon {
@@ -263,7 +263,7 @@
 	background-color: #dadada;
 }
 .bg-orange {
-	background-color: #e66b00;
+	background-color: #d4af37;
 }
 .bg-yellow {
 	background-color: #ffff00;
@@ -544,7 +544,7 @@
 	.operator-control-search-cards
 	.highlighted-text {
 	font-weight: 500;
-	background-color: #e66b00;
+	background-color: #d4af37;
 	padding: 2px 5px;
 }
 
@@ -582,7 +582,7 @@
 	.ant-modal-body
 	.operator-control-search-wrapper
 	.green-text {
-	color: #288500;
+	color: #2d7a3a;
 }
 
 .operator-control-search-popup
@@ -709,7 +709,7 @@
 }
 
 .highlight-section {
-	background-color: #e66b00;
+	background-color: #d4af37;
 }
 
 .admin-users-stake-wrapper
@@ -778,7 +778,7 @@
 	.stake-filter-container
 	.apply-btn {
 	flex: 1;
-	background-color: #288500;
+	background-color: #2d7a3a;
 	color: #ffffff;
 	height: 3rem;
 	margin-right: 5px;

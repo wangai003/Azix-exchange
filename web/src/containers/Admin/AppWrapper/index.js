@@ -456,7 +456,7 @@ class AppWrapper extends React.Component {
 		const { constants: { logo_image } = {} } = this.props;
 		let showLabel = label;
 		if (routeKey === 'main') {
-			showLabel = this.props.constants.api_name || '';
+			showLabel = this.props.constants.api_name || 'AZIX';
 			return (
 				<Item key={index} className="custom-side-menu">
 					<Link to={path} className="no-link" key={index}>
@@ -802,7 +802,7 @@ class AppWrapper extends React.Component {
 								Back to Website
 							</div>
 						</Link>
-						<div className="admin-top-header">Operator Control Panel</div>
+						<div className="admin-top-header">AZIX Operator Control Panel</div>
 						<div className="mr-2 time-wrapper d-flex align-items-center">
 							<div
 								className="pointer"

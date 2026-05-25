@@ -8,62 +8,115 @@
 	--admin_panel_table_tbody_hover: #20262d;
 	--admin_panel_row_expand_icon: #171c21;
 	--admin_panel_main_font: #f5f5f5;
-	--admin_panel_secondary_font: #d4af37;
-	--admin_panel_accent_font: #d4af37;
+	--admin_panel_secondary_font: #c9a84c;
+	--admin_panel_accent_font: #c9a84c;
 	--admin_panel_modal_background: #171c21;
-	--admin_panel_modal_border: #0f6b3e;
+	--admin_panel_modal_border: #2d7a3a;
 	--admin_panel_card_background: #12161a;
 	--admin_panel_input: #0f1317;
 	--admin_panel_input_border: #2d343d;
-	--admin_panel_input_focus: #d4af37;
-	--admin_panel_button_primary: #d4af37;
-	--admin_panel_button_secondary: #444444;
-	--admin_panel_button_hover: #e6c14d;
-	--admin_panel_success: #0f6b3e;
-	--admin_panel_warning: #d4af37;
+	--admin_panel_input_focus: #c9a84c;
+	--admin_panel_button_primary: #c9a84c;
+	--admin_panel_button_secondary: #2d343d;
+	--admin_panel_button_hover: #dfc06a;
+	--admin_panel_success: #2d7a3a;
+	--admin_panel_warning: #c9a84c;
 	--admin_panel_error: #c0392b;
-	--admin_panel_info: #c2a84a;
+	--admin_panel_info: #c9a84c;
 	--admin_panel_border: #2a3139;
-	--admin_panel_border_hover: #d4af37;
+	--admin_panel_border_hover: #c9a84c;
 }
+
+/* Primary buttons — AZIX gold */
 .ant-btn-primary {
-	background-color: #d4af37 !important;
-	border-color: #d4af37 !important;
-	color: #080808 !important;
+	background-color: #c9a84c !important;
+	border-color: #c9a84c !important;
+	color: #0a0c0a !important;
 	font-weight: 600;
 }
 .ant-btn-primary:hover,
 .ant-btn-primary:focus {
-	background-color: #e6c14d !important;
-	border-color: #e6c14d !important;
-	color: #080808 !important;
+	background-color: #dfc06a !important;
+	border-color: #dfc06a !important;
+	color: #0a0c0a !important;
 }
 .ant-btn-primary:active {
-	background-color: #b8922a !important;
-	border-color: #b8922a !important;
+	background-color: #a8882e !important;
+	border-color: #a8882e !important;
 }
+
+/* Default buttons */
 .ant-btn {
-	border-color: #414952;
+	border-color: #2d343d;
 	color: #f5f5f5;
 }
 .ant-btn:hover {
-	border-color: #d4af37;
-	color: #d4af37;
+	border-color: #c9a84c;
+	color: #c9a84c;
 }
+
+/* Inputs */
 .ant-input:focus,
 .ant-input-focused,
 .ant-select-focused .ant-select-selector {
-	border-color: #d4af37 !important;
-	box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15) !important;
+	border-color: #c9a84c !important;
+	box-shadow: 0 0 0 2px rgba(201, 168, 76, 0.15) !important;
 }
 .ant-input:hover {
-	border-color: #d4af37 !important;
+	border-color: #c9a84c !important;
 }
+
+/* Table header — gold text on dark bg, green bottom border */
 .ant-table-thead > tr > th {
 	background-color: #12161a !important;
-	color: #d4af37 !important;
-	border-bottom-color: #0f6b3e !important;
+	color: #c9a84c !important;
+	border-bottom-color: #2d7a3a !important;
 }
 .ant-table-tbody > tr:hover > td {
 	background: #20262d !important;
+}
+
+/* Tabs */
+.ant-tabs-ink-bar {
+	background-color: #c9a84c !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+	color: #c9a84c !important;
+}
+.ant-tabs-tab:hover {
+	color: #c9a84c !important;
+}
+
+/* Checkbox & Radio */
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-radio-checked .ant-radio-inner {
+	background-color: #c9a84c !important;
+	border-color: #c9a84c !important;
+}
+
+/* Switch */
+.ant-switch-checked {
+	background-color: #2d7a3a !important;
+}
+
+/* Select dropdown */
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+	background-color: rgba(201, 168, 76, 0.12) !important;
+	color: #c9a84c !important;
+}
+
+/* Pagination */
+.ant-pagination-item-active {
+	border-color: #c9a84c !important;
+}
+.ant-pagination-item-active a {
+	color: #c9a84c !important;
+}
+
+/* Links */
+.ant-layout-content a {
+	color: #c9a84c;
+}
+.ant-layout-content a:hover {
+	color: #dfc06a;
 }
