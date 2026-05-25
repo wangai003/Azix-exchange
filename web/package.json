@@ -126,7 +126,7 @@
 		"dev:plugin": "REACT_APP_PLUGIN_DEV_MODE=true REACT_APP_PLUGIN=$npm_config_plugin npm run start",
 		"build": "craco --max_old_space_size=4096 build",
 		"pre-build": "npm run remove-build && npm install",
-		"build:demo": "REACT_APP_SERVER_ENDPOINT=https://api.sandbox.hollaex.com npm run build",
+		"build:demo": "REACT_APP_SERVER_ENDPOINT=https://api.azixexchange.com npm run build",
 		"publish:demo": "surge build",
 		"check-build": "npm run pre-build && npm run build:demo && npm run copy-cname && npm run publish:demo",
 		"test": "react-scripts test --env=jsdom",
@@ -137,13 +137,13 @@
 		"lang:auto": "REACT_APP_LANG=$npm_config_lang node ./translationRunner.js --auto-translate --ignore-equals",
 		"lang:all": "node ./translationRunner.js --translate-all --ignore-equals"
 	},
-	"description": "Cryptocurrency exchange platfrom",
+	"description": "AZIX Exchange — African Zone for International Exchange",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitholla/hollaex.git"
+		"url": "git+https://github.com/wangai003/Azix-exchange.git"
 	},
-	"homepage": "https://hollaex.com",
+	"homepage": "https://azix.world",
 	"husky": {
 		"hooks": {
 			"pre-commit": "lint-staged"
@@ -154,8 +154,8 @@
 			"npm run prettify"
 		]
 	},
-	"author": "bitHolla Inc",
-	"license": "All rights reserved to bitHolla Inc.",
+	"author": "AZIX Exchange",
+	"license": "All rights reserved to AZIX Exchange.",
 	"browserslist": [
 		">0.2%",
 		"not dead",
