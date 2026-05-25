@@ -139,7 +139,7 @@ class Earnings extends Component {
 
 	renderMember = (level) => {
 		if (level === 'member') {
-			return '(Holla member)';
+			return '(AZIX member)';
 		} else {
 			return '(non member)';
 		}

@@ -18,7 +18,7 @@ const MoveToDash = ({ path }) => {
 	return (
 		<div className="Trade-wrapper">
 			<div className="content">
-				To view this page you must go back to Holla Dash
+				To view this page you must go back to AZIX Dash
 			</div>
 			<ReactSVG
 				src={STATIC_ICONS.ADMIN_MISSING_GO_BACK}

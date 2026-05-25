@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { AZIX_NETWORK_API_URL as HOLLAEX_NETWORK_API_URL } from 'config';
+import { AZIX_NETWORK_API_URL } from 'config';
 import querystring from 'query-string';
 import { requestAuthenticated, requestDashAuthenticated } from 'utils';
 import moment from 'moment';
@@ -95,7 +95,7 @@ export const getCoinInfo = (dataParams) =>
 		`/coin/info?${querystring.stringify(dataParams)}`,
 		{},
 		null,
-		HOLLAEX_NETWORK_API_URL
+		AZIX_NETWORK_API_URL
 	);
 
 export const updateExchange = (values) => {

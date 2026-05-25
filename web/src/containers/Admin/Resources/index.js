@@ -73,10 +73,10 @@ class Resources extends Component {
 									<p>
 										AZIX Node Library:
 										<a
-											href="https://www.npmjs.com/package/hollaex-node-lib"
+											href="https://github.com/wangai003/Azix-exchange"
 											title="site"
 										>
-											npm: hollaex-node-lib
+											github.com/wangai003/Azix-exchange
 										</a>
 									</p>
 								</div>
